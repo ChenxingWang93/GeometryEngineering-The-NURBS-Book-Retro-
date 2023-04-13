@@ -24,3 +24,8 @@
 |20|坐标变换、坐标变换复合||
 |21|投影变换、四元数、多视点几何|TransformationBasics, Transformation, Projection, Quaternion, Multi-view geometry|
 |22|几何建模、计算机辅助几何设计、总结|3DModeling, CAGD, Summary|
+
+### Online C++ &coding resources
+- [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
+- [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
+- [C++ online tutorial](https://www.intap.net/~drw/cpp/index.htm)
