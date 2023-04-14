@@ -29,3 +29,12 @@
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
 - [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
 - [C++ online tutorial](https://www.intap.net/~drw/cpp/index.htm)
+- [Programming in C++](https://www.cprogramming.com/tutorial.html)
+- [](https://www.learncpp.com/)
+- [Codeguru](https://www.codeguru.com/)
+- [vckbase](http://www.vckbase.com/)
+### OpenGL
+- [LearnOpenGl](https://learnopengl-cn.readthedocs.io/zh/latest/)
+- [LearnOpenGl 英文版](https://learnopengl-cn.github.io/)
+- [OpenGl](http://www.opengl.org/)
+- [OpenGl](http://www.opengl.org/)
