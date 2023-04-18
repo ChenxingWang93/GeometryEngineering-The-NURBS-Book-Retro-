@@ -34,7 +34,7 @@
 - [Codeguru](https://www.codeguru.com/)
 - [vckbase](http://www.vckbase.com/)
 ### OpenGL
-- [LearnOpenGl](https://learnopengl-cn.readthedocs.io/zh/latest/)
-- [LearnOpenGl 英文版](https://learnopengl-cn.github.io/)
-- [OpenGl](http://www.opengl.org/)
-- [OpenGl](http://www.opengl.org/)
+- [LearnOpenGL](https://learnopengl-cn.readthedocs.io/zh/latest/)
+- [LearnOpenGL 英文版](https://learnopengl-cn.github.io/)
+- [OpenGL](http://www.opengl.org/)
+- [OpenGL](http://www.opengl.org/)
