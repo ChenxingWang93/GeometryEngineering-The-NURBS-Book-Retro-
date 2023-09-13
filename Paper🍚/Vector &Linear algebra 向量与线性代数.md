@@ -6,5 +6,5 @@ scanned handwritten text✍️
 - [x] vector normalization
 - [x] vector addition
 - [x] cartesian coordinates
-- [ ] vector multiplication
-- [ ] 
+- [x] vector multiplication
+- [x] dot(scalar) product 
