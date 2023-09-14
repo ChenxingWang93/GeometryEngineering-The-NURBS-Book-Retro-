@@ -12,6 +12,7 @@ scanned handwritten text✍️
 
 ![4511694587091_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/32898032-e2e3-495e-b89f-9ecb79d04465)
 
+#### 
 - [x] dot(scalar) product 点积
 - [x] dot product in cartesian coordinates 在笛卡尔坐标中的点积
 - [x] dot product for projection 给投影的点积
@@ -23,3 +24,6 @@ scanned handwritten text✍️
 - [x] cross product: cartesian formula 差积：笛卡尔方程
 
 ![4561694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c3b43b1b-d492-45ad-ac71-77903c7c6b0f)
+
+####
+- [x] 
