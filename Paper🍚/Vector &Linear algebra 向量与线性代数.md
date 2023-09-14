@@ -32,4 +32,9 @@ scanned handwritten text✍️
 - [ ] matrix - matrix multiplication 矩阵 - 矩阵 乘法
 
 ![4531694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/2c8ee456-e6ce-4a5a-bf7b-7c0cdcf67c57)
+- [ ] matrix - vector multiplication 矩阵 - 标量 乘法
+- [ ] transpose of a matrix 矩阵转置
+- [ ] identity matrix and inverse 单位矩阵🔄逆矩阵
+- [ ] vector multiplication in matrix form 标量乘法 的矩阵形式
+
 
