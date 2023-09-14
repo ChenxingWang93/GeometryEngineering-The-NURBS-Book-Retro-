@@ -22,3 +22,4 @@ scanned handwritten text✍️
 
 - [x] cross product: cartesian formula 差积：笛卡尔方程
 
+![4561694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c3b43b1b-d492-45ad-ac71-77903c7c6b0f)
