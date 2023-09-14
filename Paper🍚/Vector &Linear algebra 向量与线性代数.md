@@ -29,5 +29,4 @@ scanned handwritten text✍️
 - [x] orthonormal bases / coordinate frames 正交基/坐标框架
 - [ ] orthonormal coordinate frames 正交坐标框架
 - [ ] matrices 矩阵 used for presenting transformation 用来表现变换 translation, rotation, shear, scale
-- [ ] matrix - matrix multiplication 矩阵 - 矩阵 乘法
-- [ ] 
+- [ ] matrix - matrix multiplication 矩阵 - 矩阵 乘法 
