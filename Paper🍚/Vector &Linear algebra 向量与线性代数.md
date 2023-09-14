@@ -26,4 +26,8 @@ scanned handwritten text✍️
 ![4561694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c3b43b1b-d492-45ad-ac71-77903c7c6b0f)
 
 ####
-- [x] 
+- [x] orthonormal bases / coordinate frames 正交基/坐标框架
+- [ ] orthonormal coordinate frames 正交坐标框架
+- [ ] matrices 矩阵 used for presenting transformation 用来表现变换 translation, rotation, shear, scale
+- [ ] matrix - matrix multiplication 矩阵 - 矩阵 乘法
+- [ ] 
