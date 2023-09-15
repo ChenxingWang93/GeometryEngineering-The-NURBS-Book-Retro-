@@ -22,5 +22,15 @@
 ![4551694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/04b77f33-9423-40a6-808a-6c0562dfd6ee)
 
 ####
-- [ ]
+- [ ] 
 
+![4571694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ca1ce76e-e98e-4ec6-bd58-7cdc924ae64e)
+
+
+![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
+
+
+![4591694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/24c7b214-2dd9-4c29-be0c-620a1b385a47)
+
+
+![4611694598468_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0b0020bd-46e4-408d-9792-13ae52c1ac6f)
