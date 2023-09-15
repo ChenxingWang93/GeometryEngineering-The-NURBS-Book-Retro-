@@ -29,6 +29,10 @@
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
+#### 
+- [ ] 3d transformations
+- [ ] 观测 transformation
+- [ ] 
 
 ![4591694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/24c7b214-2dd9-4c29-be0c-620a1b385a47)
 
