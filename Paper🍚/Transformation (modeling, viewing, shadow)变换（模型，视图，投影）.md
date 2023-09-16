@@ -29,7 +29,6 @@
      
 - [ ] inverse transform 逆变换
 
-
 ![4571694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ca1ce76e-e98e-4ec6-bd58-7cdc924ae64e)
 
 #### 
@@ -37,7 +36,10 @@
   - [ ] translate then rotate 先移动再旋转
   - [ ] rotate then translate 旋转再移动
 - [ ] transform ordering matters 变换顺序是重要的 ‼️
-- [ ] 
+  - [ ] note that matrices are applied from right to left 矩阵乘法从右向左原则
+  - [ ] matrix multiplication is not commutative 矩阵乘法不满足交换率
+- [ ] sequence of affine transformation A_1, A_2, A_3 仿射变换的顺序
+- [ ] pre - multiply n matrices to obtain a single matrix representing combined transform 预先乘n个单一矩阵得到的一个单一矩阵代表结合变换
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
