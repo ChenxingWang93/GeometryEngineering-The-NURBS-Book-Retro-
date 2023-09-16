@@ -46,6 +46,7 @@
   - [ ] rotation around x- axis 沿 x- 轴 旋转
   - [ ] rotation around y- axis 沿 y- 轴 旋转
   - [ ] rotation around z- axis 沿 z- 轴 旋转
+  - [ ] compose any 3d rotation from R_x, R_y, R_z / so called Euler angles / roll, pitch, yaw
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
