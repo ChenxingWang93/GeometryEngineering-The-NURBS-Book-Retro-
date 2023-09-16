@@ -21,11 +21,23 @@
 
 ![4551694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/04b77f33-9423-40a6-808a-6c0562dfd6ee)
 
-####
-- [ ] 
+#### 
+- [ ] 2d transformations 2维变换
+  - [ ] scale 缩放
+  - [ ] rotation 旋转
+  - [ ] translation 移动
+     
+- [ ] inverse transform 逆变换
+
 
 ![4571694598465_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ca1ce76e-e98e-4ec6-bd58-7cdc924ae64e)
 
+#### 
+- [ ] composite transform 组合变换
+  - [ ] translate then rotate 先移动再旋转
+  - [ ] rotate then translate 旋转再移动
+- [ ] transform ordering matters 变换顺序是重要的 ‼️
+- [ ] 
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
