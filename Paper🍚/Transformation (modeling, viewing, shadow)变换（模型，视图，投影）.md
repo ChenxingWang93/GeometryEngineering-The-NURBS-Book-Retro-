@@ -43,6 +43,9 @@
 - [ ] decomposing complex transforms 解构复杂变换 matrix representation 其矩阵表达式
 - [ ] 3d transformations 三维变换 use homogeneous coordinates 使用同质坐标系
 - [ ] 4 * 4 matrices for affine transformation 仿射变换 使用的 4 * 4 矩阵 / linear transform first? or translation first ? 线性变换优先？还是移动优先？
+  - [ ] rotation around x- axis 沿 x- 轴 旋转
+  - [ ] rotation around y- axis 沿 y- 轴 旋转
+  - [ ] rotation around z- axis 沿 z- 轴 旋转
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
