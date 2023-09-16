@@ -40,13 +40,16 @@
   - [ ] matrix multiplication is not commutative 矩阵乘法不满足交换率
 - [ ] sequence of affine transformation A_1, A_2, A_3 仿射变换的顺序
 - [ ] pre - multiply n matrices to obtain a single matrix representing combined transform 预先乘n个单一矩阵得到的一个单一矩阵代表结合变换
+- [ ] decomposing complex transforms 解构复杂变换 matrix representation 其矩阵表达式
+- [ ] 3d transformations 三维变换 use homogeneous coordinates 使用同质坐标系
+- [ ] 4 * 4 matrices for affine transformation 仿射变换 使用的 4 * 4 矩阵 / linear transform first? or translation first ? 线性变换优先？还是移动优先？
 
 ![4581694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0678a319-733e-4ce8-ba5f-ce1d5a093765)
 
 #### 
 - [ ] 3d transformations
-- [ ] 观测 transformation
-- [ ] 
+- [ ] viewing transformation 观测
+
 
 ![4591694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/24c7b214-2dd9-4c29-be0c-620a1b385a47)
 
