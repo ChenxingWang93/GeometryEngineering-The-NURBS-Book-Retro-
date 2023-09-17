@@ -57,8 +57,14 @@
   - [ ] [proofofrodriguesrotationformula](https://planetmath.org/proofofrodriguesrotationformula)
 - [ ] 3D transformations 3维变换
 - [ ] viewing transformation 观测变换 view / camera transformation 观测 / 相机变换 projection transformation 投影变换 orthographic / perspective
-  - [ ] 
-
+  - [ ] **define the camera first** position 位置, gaze direction 凝视方向, up direction 向上
+  - [ ] transform the camera by M_view
+    - [ ] M_view in math?
+      - [ ] translate e to origin
+      - [ ] rotates g to -Z
+      - [ ] rotates t to Y
+      - [ ] rotates (g * t) To X
+<img width="250" alt="Screenshot 2023-09-17 at 23 52 35" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/91010d9c-e589-42c4-9290-da6bd499a77f">
 
 ![4591694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/24c7b214-2dd9-4c29-be0c-620a1b385a47)
 
