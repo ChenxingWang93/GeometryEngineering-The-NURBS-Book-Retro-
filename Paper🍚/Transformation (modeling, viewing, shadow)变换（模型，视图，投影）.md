@@ -56,7 +56,7 @@
   - [ ] rotate by angle \alpha around axis n 沿着 轴 n 旋转 \alpha 角
   - [ ] [proofofrodriguesrotationformula](https://planetmath.org/proofofrodriguesrotationformula)
 - [ ] 3D transformations 3维变换
-- [ ] viewing transformation 观测变换 view / camera transformation
+- [ ] viewing transformation 观测变换 view / camera transformation 观测 / 相机变换
   - [ ] 
 
 
