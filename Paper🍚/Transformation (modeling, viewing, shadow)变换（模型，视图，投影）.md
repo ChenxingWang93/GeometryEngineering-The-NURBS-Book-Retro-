@@ -55,6 +55,9 @@
 - [ ] rodrigues‘ rotation formula 罗德里格斯旋转公式
   - [ ] rotate by angle \alpha around axis n 沿着 轴 n 旋转 \alpha 角
   - [ ] [proofofrodriguesrotationformula](https://planetmath.org/proofofrodriguesrotationformula)
+- [ ] 3D transformations 3维变换
+- [ ] viewing transformation 观测变换 view / camera transformation
+  - [ ] 
 
 
 ![4591694598466_ pic](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/24c7b214-2dd9-4c29-be0c-620a1b385a47)
