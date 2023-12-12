@@ -30,7 +30,7 @@
 - [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
 - [C++ online tutorial](https://www.intap.net/~drw/cpp/index.htm)
 - [Programming in C++](https://www.cprogramming.com/tutorial.html)
-- [](https://www.learncpp.com/)
+- [Learncpp](https://www.learncpp.com/)
 - [Codeguru](https://www.codeguru.com/)
 - [vckbase](http://www.vckbase.com/)
 ### OpenGL
