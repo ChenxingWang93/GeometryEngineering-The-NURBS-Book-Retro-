@@ -27,7 +27,19 @@
 
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
-- ***Chapter 1:*** Curve &Surface basics
+- ***Chapter ONE:*** Curve &Surface basics
+- ***Chapter TWO:*** B-Spline Basis Functions
+- ***Chapter THREE:*** B-Spline Curves and Surfaces
+- ***Chapter FOUR:*** Rational B-spline Curves and Surfaces
+- ***Chapter FIVE:*** Fundamental Geometric Algorithms
+- ***Chapter SIX:*** Advanced Geometric Algorithms
+- ***Chapter SEVEN:*** Conics and Circles
+- ***Chapter EIGHT:*** Construction of Common Surfaces
+- ***Chapter NINE:*** Curve and Surface Fitting
+- ***Chapter TEN:*** Advanced Surface Construction Techniques
+- ***Chapter ELEVEN:*** Shape Modification Tools
+- ***Chapter TWELVE:*** Standards and Data Exchange
+- ***Chapter THIRTEEN:*** B-spline Programming Concepts
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
