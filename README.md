@@ -37,4 +37,3 @@
 - [LearnOpenGL](https://learnopengl-cn.readthedocs.io/zh/latest/)
 - [LearnOpenGL 英文版](https://learnopengl-cn.github.io/)
 - [OpenGL](http://www.opengl.org/)
-- [OpenGL](http://www.opengl.org/)
