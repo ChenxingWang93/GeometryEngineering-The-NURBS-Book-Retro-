@@ -25,6 +25,10 @@
 |21|投影变换、四元数、多视点几何|TransformationBasics, Transformation, Projection, Quaternion, Multi-view geometry|
 |22|几何建模、计算机辅助几何设计、总结|3DModeling, CAGD, Summary|
 
+[《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
+### TOC 
+- ***Chapter 1:*** Curve &Surface basics
+
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
 - [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
