@@ -28,29 +28,65 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
-  - Implicit & Parametric Forms
-  - Power Basis Form of a Curve
-  - Bezier Curves
-  - Rational Bezier Curves
-  - Tensor Product Surfaces
+  - 1.1Implicit & Parametric Forms
+  - 1.2Power Basis Form of a Curve
+  - 1.3Bezier Curves
+  - 1.4Rational Bezier Curves
+  - 1.5Tensor Product Surfaces
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - Introduction
-  - Definition and Properties of B-spline Basis Functions
-  - Derivatives of B-spline Basis Functions
-  - Further Properties of the Basis Functions
-  - Computational Algorithms 
+  - 2.1Introduction
+  - 2.2Definition and Properties of B-spline Basis Functions
+  - 2.3Derivatives of B-spline Basis Functions
+  - 2.4Further Properties of the Basis Functions
+  - 2.5Computational Algorithms 
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
+  - 3.1Introduction
+  - 3.2The Definition and Properties of B-spline Curves
+  - 3.3The Derivatives of a B-spline Curve
+  - 3.4Definition and Properties of B-spline Surfaces
+  - 3.5Derivatives of a B-spline Surface
+    - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
+  - 4.1Introduction
+  - 4.2Definition and Properties of NURBS Curves
+  - 4.3Derivatives of a NURBS Curve
+  - 4.4Definition and Properties of NURBS Surfaces
+  - 4.5Derivatives of a NURBS Surface
+    - Exercises
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
+  - 5.1Introduction
+  - 5.2Knot Insertion
+  - 5.3Knot Refinement
+  - 5.4Knot Removal
+  - 5.5Degree Elevation
+  - 5.6Degree Reduction
+    - Exercises
 - ***Chapter SIX:*** Advanced Geometric Algorithms ***高级几何算法***
+  - 6.1Point Inversion and Projection for Curves and Surfaces
+  - 6.2Surface Tangent Vector Inversion
+  - 6.3Transformations and Projections of Curves and Surfaces
+  - 6.4Reparameterization of NURBS Curves and Surfaces
+  - 6.5Curve and Surface Reversal
+  - 6.6Conversion Between B-spline and Piecewise Power Basis Forms
+    - Exercises
 - ***Chapter SEVEN:*** Conics and Circles ***圆锥曲线与圆***
+  - 7.1Introduction
+  - 7.2Various Forms for Representing Conics
+  - 7.3The Quadratic Rational Bezier Arc
+  - 7.4
 - ***Chapter EIGHT:*** Construction of Common Surfaces ***共面的构造***
+  - 
 - ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
+  - 
 - ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
+  - 
 - ***Chapter ELEVEN:*** Shape Modification Tools ***形态修改/编辑❓工具🔧***
+  - 
 - ***Chapter TWELVE:*** Standards and Data Exchange ***标准 与 数据交换***
+  - 
 - ***Chapter THIRTEEN:*** B-spline Programming Concepts ***B-样条 编程概念***
+  - 
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
