@@ -74,7 +74,12 @@
   - 7.1Introduction
   - 7.2Various Forms for Representing Conics
   - 7.3The Quadratic Rational Bezier Arc
-  - 7.4
+  - 7.4Infinite Control Points
+  - 7.5Construction of Circles
+  - 7.6Construction of Conics
+  - 7.7Conic Type Classification and Form Conversion
+  - 7.8Higher Order Circles
+    - Exercises 
 - ***Chapter EIGHT:*** Construction of Common Surfaces ***共面的构造***
   - 
 - ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
