@@ -81,7 +81,13 @@
   - 7.8Higher Order Circles
     - Exercises 
 - ***Chapter EIGHT:*** Construction of Common Surfaces ***共面的构造***
-  - 
+  - 8.1Introduction
+  - 8.2Bilinear Surfaces
+  - 8.3The General Cylinder
+  - 8.4The Ruled Surface
+  - 8.5The Surface of Revolution
+  - 8.6Nonuniform Scaling of Surfaces
+  - 8.7A Three-sided Spherical Surface
 - ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
   - 
 - ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
