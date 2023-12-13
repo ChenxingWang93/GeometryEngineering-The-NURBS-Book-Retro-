@@ -98,7 +98,6 @@
   - 
 - ***Chapter THIRTEEN:*** B-spline Programming Concepts ***B-样条 编程概念***
   - 
-
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
 - [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
