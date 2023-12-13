@@ -27,19 +27,19 @@
 
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
-- ***Chapter ONE:*** Curve &Surface basics
-- ***Chapter TWO:*** B-Spline Basis Functions
-- ***Chapter THREE:*** B-Spline Curves and Surfaces
-- ***Chapter FOUR:*** Rational B-spline Curves and Surfaces
-- ***Chapter FIVE:*** Fundamental Geometric Algorithms
-- ***Chapter SIX:*** Advanced Geometric Algorithms
-- ***Chapter SEVEN:*** Conics and Circles
-- ***Chapter EIGHT:*** Construction of Common Surfaces
-- ***Chapter NINE:*** Curve and Surface Fitting
-- ***Chapter TEN:*** Advanced Surface Construction Techniques
-- ***Chapter ELEVEN:*** Shape Modification Tools
-- ***Chapter TWELVE:*** Standards and Data Exchange
-- ***Chapter THIRTEEN:*** B-spline Programming Concepts
+- ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
+- ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
+- ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
+- ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
+- ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
+- ***Chapter SIX:*** Advanced Geometric Algorithms ***高级几何算法***
+- ***Chapter SEVEN:*** Conics and Circles ***圆锥曲线与圆***
+- ***Chapter EIGHT:*** Construction of Common Surfaces ***共面的构造***
+- ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
+- ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
+- ***Chapter ELEVEN:*** Shape Modification Tools ***形态修改/编辑❓工具🔧***
+- ***Chapter TWELVE:*** Standards and Data Exchange ***标准 与 数据交换***
+- ***Chapter THIRTEEN:*** B-spline Programming Concepts ***B-样条 编程概念***
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
