@@ -25,6 +25,7 @@
 |21|投影变换、四元数、多视点几何|TransformationBasics, Transformation, Projection, Quaternion, Multi-view geometry|
 |22|几何建模、计算机辅助几何设计、总结|3DModeling, CAGD, Summary|
 
+
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
@@ -95,15 +96,64 @@
   - 9.2.2Global Curve Interpolation with End Derivatives Specified
   - 9.2.3Cubic Spline Curve Interpolation
   - 9.2.4Global Curve Interpolation with First Derivatives Specified
-  - 
+  - 9.2.5Global Surface Interpolation
+  - 9.3Local Interpolation
+  - 9.3.1Local Curve Interpolation Preliminaries
+  - 9.3.2Local Parabolic Curve Interpolation
+  - 9.3.3Local Rational Quadratic Curve Interpolation
+  - 9.3.4Local Cubic Curve Interpolation
+  - 9.3.5Local Bicubic Surface Interpolation
+  - 9.4Global Approximation
+  - 9.4.1Least Squares Curve Approximation
+  - 9.4.2Weighted and Constrained Least Squares Curve Fitting
+  - 9.4.3Least Squares Surface Approximation
+  - 9.4.4Approximation to Within a Specified Accuracy
+  - 9.5Local Approximation
+  - 9.5.1Local Rational Quadratic Curve Approximation
+  - 9.5.2Local Nonrational Cubic Curve Approximation
+    - Exercises
 - ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
-  - 
+  - 10.1Introduction
+  - 10.2Swung Surfaces
+  - 10.3Skinned Surfaces
+  - 10.4Swept Surfaces
+  - 10.5Interpolation of a Bidirectional Curve Network
+  - 10.6Coons Surfaces
 - ***Chapter ELEVEN:*** Shape Modification Tools ***形态修改/编辑❓工具🔧***
-  - 
+  - 11.1Introduction
+  - 11.2Control Point Repositioning
+  - 11.3Weight Modification
+  - 11.3.1Modification of One Curve Weight
+  - 11.3.2Modification of Two Neighboring Curve Weights
+  - 11.3.3Modification of One Surface Weight
+  - 11.4Shape Operators
+  - 11.4.1Warping
+  - 11.4.2Flattening
+  - 11.4.3Bending
+  - 11.5Constraint-based Curve and Surface Shaping
+  - 11.5.1 Constraint-based Curve Modification
+  - 11.5.2 Constraint-based Surface Modification
 - ***Chapter TWELVE:*** Standards and Data Exchange ***标准 与 数据交换***
-  - 
+  - 12.1Introduction
+  - 12.2Knot Vectors
+  - 12.3Nurbs Within the Standards
+  - 12.3.1IGES
+  - 12.3.2STEP
+  - 12.3.3PHIGS
+  - 12.4Data Exchange to and from a NURBS System
 - ***Chapter THIRTEEN:*** B-spline Programming Concepts ***B-样条 编程概念***
-  - 
+  - 13.1 Introduction
+  - 13.2 Data Types and Portability
+  - 13.3 Data Structures
+  - 13.4 Memory Allocation
+  - 13.5 Error Control
+  - 13.6 Utility Routines
+  - 13.7 Arithmetic Routines
+  - 13.8 Example Programs
+  - 13.9 Additional Structures
+  - 13.10 System Structure
+ 
+
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
 - [C++ language tutorial](https://cplusplus.com/doc/tutorial/)
