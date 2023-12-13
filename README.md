@@ -89,6 +89,12 @@
   - 8.6Nonuniform Scaling of Surfaces
   - 8.7A Three-sided Spherical Surface
 - ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
+  - 9.1Introduction
+  - 9.2Global Interpolation
+  - 9.2.1Global Curve Interpolation to Point Data
+  - 9.2.2Global Curve Interpolation with End Derivatives Specified
+  - 9.2.3Cubic Spline Curve Interpolation
+  - 9.2.4Global Curve Interpolation with First Derivatives Specified
   - 
 - ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
   - 
