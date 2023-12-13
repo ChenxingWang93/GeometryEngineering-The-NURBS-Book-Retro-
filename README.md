@@ -28,7 +28,14 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
+  - Implicit & Parametric Forms
+  - Power Basis Form of a Curve
+  - Bezier Curves
+  - Rational Bezier Curves
+  - Tensor Product Surfaces
+    - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
+  -  
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
