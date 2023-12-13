@@ -35,7 +35,11 @@
   - Tensor Product Surfaces
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  -  
+  - Introduction
+  - Definition and Properties of B-spline Basis Functions
+  - Derivatives of B-spline Basis Functions
+  - Further Properties of the Basis Functions
+  - Computational Algorithms 
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
