@@ -29,7 +29,7 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
-  - 1.1Implicit & Parametric Forms
+  - [1.1Implicit & Parametric Forms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.1/1.Implicit%20%26Parametric%20Form.md)
   - 1.2Power Basis Form of a Curve
   - 1.3Bezier Curves
   - 1.4Rational Bezier Curves
