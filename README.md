@@ -36,7 +36,7 @@
   - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md)
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - 2.1Introduction
+  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md)
   - 2.2Definition and Properties of B-spline Basis Functions
   - 2.3Derivatives of B-spline Basis Functions
   - 2.4Further Properties of the Basis Functions
