@@ -37,7 +37,7 @@
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
   - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md)
-  - 2.2Definition and Properties of B-spline Basis Functions
+  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md)
   - 2.3Derivatives of B-spline Basis Functions
   - 2.4Further Properties of the Basis Functions
   - 2.5Computational Algorithms 
