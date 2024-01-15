@@ -9,3 +9,4 @@ ALGORITHM A1.6
     Horner1(b,n,u0,S);
     }
 ```
+
