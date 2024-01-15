@@ -49,4 +49,8 @@ n = 2.
 
 ```
 1. 变换 C(u) 到 xy 平面 transforming C(u) into a xy plane (C(u) does lie in a unique plane);
-2. 
+2. 设定
+  x = x_{0} + x_{1}u + x_{2}u^2
+  y = y_{0} + y_{1}u + y_{2}u^2, 0<=u<=1,
+  & then eliminating u & u^2 from these equations 得到 2 度隐式等式 a second-degree implicit equation in x &y.
+3. 仔细观察👀 隐式等式的形式 就是一个抛物线
