@@ -1,7 +1,7 @@
 ``` Matlab
 ALGORITHM A1.3
    AllBernstein(n,u,B)
-   {  /* compute all nth-degree Bernstein polynomials. 🧮计算 n-th级 伯恩斯坦多项式 */
+   {  /* compute all nth-degree Bernstein polynomials. 🧮计算 n-th 度 伯恩斯坦多项式 */
       /* Input: n,u */
       /* Output: B (an array, B[0],... B[n]) */
    B[0] = 1.0
@@ -18,8 +18,22 @@ ALGORITHM A1.3
      B[j] = saved;
      }
    }
-```
+``` 
+algorithm a1.3 computes the n+1 degree Bernstein polynomials 计算🧮 n+1 度的 伯恩斯坦多项式 which are nonzero at fixed u 在固定 u 处为 非0⃣️， avoids unnecessary computation of zero terms 避免了对 0 项的 不必要计算
 
+table 1.2 deciped its cubic case.
 ```
-
+0=B_{-2,0}            B_{-1,2}
+            ⬊
+            B_{-1,1}              B_{0,3}
+            ⬈         ⬊
+0=B_{-1,0}            B_{0,2}
+            ⬊         ⬈           ⬊
+            B_{0,1}               B_{1,3}
+            ⬈         ⬊           ⬈
+0=B_{0,0}             B_{1,2}
+            ⬊         ⬈
+            B_{1,1}               B_{2,3}
+            ⬈
+0=B_{1,0}             B_{2,2}
 ```
