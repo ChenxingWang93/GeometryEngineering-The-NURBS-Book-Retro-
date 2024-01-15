@@ -61,13 +61,15 @@ B_{1,0}               B_{2,2}
 
 ```
             z
-             ↑
-             ↑
-             ↑
-             ↑
-            ↙︎ ↘︎
-         ↙︎      ↘︎
-      ↙︎            ↘︎
-   ↙︎                  ↘︎
+            ⩘↑
+           ⧸ ↑
+          ⧸  ↑         Twisted cubic
+         ⧸   ↑       ⩘
+        ⧸   ↙︎ ↘︎     ⧸
+       ⧸  ↙︎⎯    ↘︎ ⧸
+     ◦↙︎⧸      \   /↘︎
+   ↙︎           ⎯     ↘︎
 x                        y
 ```
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/b20df49e-cf22-4da2-b012-1692b4f1a3bc)
