@@ -48,4 +48,5 @@ n = 2.
 ◦ a_{0}            ⩗
 
 ```
-
+1. 变换 C(u) 到 xy 平面 transforming C(u) into a xy plane (C(u) does lie in a unique plane);
+2. 
