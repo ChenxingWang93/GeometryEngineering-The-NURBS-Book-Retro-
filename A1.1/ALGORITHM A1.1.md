@@ -82,3 +82,7 @@ The cubic, 三次
   可以是 环 or a loop(Figure 1.8d)
   
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/59fbf11f-a732-4049-bb11-52c3e2bd65be)
+
+🚩🚩🚩***Ex1.4***
+
+n = 1
