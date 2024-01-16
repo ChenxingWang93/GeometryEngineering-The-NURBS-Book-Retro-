@@ -83,6 +83,10 @@ The cubic, 三次
   
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/59fbf11f-a732-4049-bb11-52c3e2bd65be)
 
-🚩🚩🚩***Ex1.4***
+The basis(blending) functions, 基础 弯曲 函数 {Bi,,(u)}, 是经典的 nth-阶 伯恩斯坦多项式 the classical nth-degree Bernstein polynomials
 
-n = 1
+([Bern12; Lore86])
+
+🚩🚩🚩🚩***Ex1.4***
+
+### n = 1
