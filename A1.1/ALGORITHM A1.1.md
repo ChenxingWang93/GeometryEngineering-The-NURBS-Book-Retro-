@@ -54,3 +54,14 @@ Ex1.2
   y = y_{0} + y_{1}u + y_{2}u^2, 0<=u<=1,
   & then eliminating u & u^2 from these equations 得到 2 度隐式等式 a second-degree implicit equation in x &y.
 3. 仔细观察👀 隐式等式的形式 就是一个抛物线
+
+Ex1.3
+
+### n = 3. 
+
+The cubic, 三次 
+- C(u) = a_{0} + a_{1}u + a_{2}u^2 + a_{3}u^3 是非常通用的曲线 is a very general curve;
+
+  it can be a truly _twisted_ three-dimensional curve 是一个 ***纯粹*** 的 _扭曲_ 三维曲线，
+
+  not lying in a single plane 并不依附于一个单一的平面
