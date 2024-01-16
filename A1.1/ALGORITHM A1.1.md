@@ -91,6 +91,9 @@ The basis(blending) functions, 基础 弯曲 函数 {Bi,,(u)}, 是经典的 nth-
 
 ### n = 1
 
+C(u)_>BZ,n(u)Pi 0 < u < 1 
+(1.7)
+
 <img width="350" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
 (1.8)
 
