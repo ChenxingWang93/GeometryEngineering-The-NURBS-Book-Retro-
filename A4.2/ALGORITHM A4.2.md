@@ -1,4 +1,4 @@
-```
+```Matlab
 ALGORITHM A4.2
   RatCurveDerivs(Aders,wders,d,CK)
     {  /* Compute C(u) derivatives from Cw(u) derivatives */
