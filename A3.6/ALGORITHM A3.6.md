@@ -14,6 +14,21 @@ uspan = FindSpan(n,p,u,U);
 DersBasisFuns(uspan,u,p,du,U,Nu);
 vspan = FindSpan(n,q,v,V);
 DersBasisFuns(vspan,v,q,dv,V,Nv);
-
+for (k=0; k<=du; k++)
+  {
+  for (s=0; s<=q; s++)
+    {
+    temp[s] = 0.0;
+    for (r=0; r<=p; r++)
+      temp[s] = temp[s] + Nu[k][r]*P[uspan-p+r][vspan-q+s];
+    }
+    dd = min(d-k,dv);
+    for (l=0; l<=dd; l++)
+      {
+      SKL[k][l] = 0.0;
+      for (s=0; s<=q; s++)
+        SKL[k][l] = SKL[k][l] + Nv[l][s]*temp[s];
+      }
+  }
 }
 ```
