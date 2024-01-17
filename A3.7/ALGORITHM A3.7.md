@@ -1,9 +1,9 @@
 ```Matlab
 ALGORITHM A3.7
   SurfaceDerivCpts(n,p,U,m,q,V,P,d,r1,r2,s1,s2,PKL)
-    { /*  Compute control points of derivative surfaces  */
-      /*  Input:  n,p,U,m,q,V,P,d,r1,r2,s1,s2  */
-      /*  Output: PKL  */
+    { /*  Compute control points of derivative surfaces 计算🧮曲面导数 控制点 */
+      /*  Input:  n,p,U,m,q,V,P,d,r1,r2,s1,s2 输入 */
+      /*  Output: PKL 输出 */
     du = min(d,p);    dv = min(d,q);
     r = r2-r1;    s = s2-s1;
     for (j=s1; j<=s2; j++)
