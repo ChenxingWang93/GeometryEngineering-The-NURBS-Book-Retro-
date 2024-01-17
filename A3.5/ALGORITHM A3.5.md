@@ -11,13 +11,13 @@ ALGORITHM A3.5
     uind = uspan-p;
 
 S = 0.0;
-for (1=0; 1<=q; 1++)
+for (l=0; l<=q; l++)
   {
   temp = 0.0;
-  vind = vspan-q+1;
+  vind = vspan-q+l;
   for (k=0; k<=p; k++)
     temp = temp + Nu[k]*P[uind+k][vind];
-  S = S + Nv[1]*temp;
+  S = S + Nv[l]*temp;
   }
 }
 ```
