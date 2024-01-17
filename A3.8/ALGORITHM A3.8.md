@@ -1,9 +1,9 @@
 ```Matlab
 ALGORITHM A3.8:
   SurfaceDerivsAlgs2(n,p,U,m,q,V,P,u,v,d,SKL)
-    { /*  Compute surface derivatives   */
-      /*  Input:  n,p,U,m,q,V,P,u,v,d   */
-      /*  Output: SKL  */
+    { /*  Compute surface derivatives 计算🧮 曲面导数  */
+      /*  Input:  n,p,U,m,q,V,P,u,v,d 输入  */
+      /*  Output: SKL 输出 */
     du = min(d,p);
     for (k=p+1; k<=d; k++)
       for (l=0; l<=d; l++)
