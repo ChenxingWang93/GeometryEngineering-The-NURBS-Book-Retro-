@@ -1,9 +1,9 @@
 ```Matlab
 ALGORITHM A5.1
   CurveKnotIns(np,p,UP,Pw,u,k,s,r,nq,UQ,Qw)
-    {  /*  Compute new curve from knot insertion  */
-       /*  Input:  np,p,UP,Pw,u,k,s,r   */
-       /*  output: nq,UQ,Qw  */
+    {  /*  Compute new curve from knot insertion 从 结点插入 计算🧮新曲线 */
+       /*  Input:  np,p,UP,Pw,u,k,s,r 输入 */
+       /*  output: nq,UQ,Qw 输出 */
     mp = np+p+1;
     nq = np+r;
        /*  Load new knot vector  */
