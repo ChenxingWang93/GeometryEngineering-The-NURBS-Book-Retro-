@@ -1,4 +1,4 @@
-``Matlab
+```Matlab
 ALGORITHM A5.5
   RefineKnotVectSurface(n,p,U,m,q,V,Pw,X,r,dir,Ubar,Vbar,Qw)
     {  /*  Refine surface knot vector  */
