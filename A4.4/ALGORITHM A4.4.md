@@ -1,10 +1,10 @@
 ```Matlab
 ALGORITHM A4.4
   RatSurfaceDerivs(Aders,wders,d,SKL)
-    {  /*  Compute S(u,v) derivatives  */
-       /*  from Sw(u,v) derivatives  */
-       /*  Input:  Aders,wders,d  */
-       /*  Output: SKL  */
+    {  /*  Compute S(u,v) derivatives 计算 S(u,v) 导数 */
+       /*  from Sw(u,v) derivatives 从 Sw(u,v) 导数 */
+       /*  Input:  Aders,wders,d 输入 */
+       /*  Output: SKL 输出 */
 
 for (k=0; k<=d; k++)
   for (l=0; l<=d-k; l++)
