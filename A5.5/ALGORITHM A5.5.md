@@ -1,15 +1,15 @@
-```Matlab
+```C++
 ALGORITHM A5.5
   RefineKnotVectSurface(n,p,U,m,q,V,Pw,X,r,dir,Ubar,Vbar,Qw)
-    {  /*  Refine surface knot vector  */
-       /*  Input:  n,p,U,m,q,V,Pw,X,r,dir  */
-       /*  Output: Ubar,Vbar,Qw  */
+    {  /*  Refine surface knot vector 精炼 曲面 结点 向量 */
+       /*  Input:  n,p,U,m,q,V,Pw,X,r,dir 输入 */
+       /*  Output: Ubar,Vbar,Qw 输出 */
     if (dir == U_DIRECTION)
       {
       find indexes a and b;
       initialize Ubar;
       copy V into Vbar;
-                /* Save unaltered ctrl pts */
+                /* Save unaltered ctrl pts 保存 不变的 控制点 */
       for (row=0; row<=m; row++)
         {
         for (k=0; k<=a-p; k++)  Qw[k][row] = Pw[k][row];
