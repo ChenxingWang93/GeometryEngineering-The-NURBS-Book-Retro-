@@ -31,7 +31,6 @@ if (j-i < t)  /* Check if knot removable */
   if (Distance4D(temp[ii-1],temp[jj+1]) <= TOL)
     remflag = 1;
   }
-  }
 else
   {
   alfi = (u-U[i]/U[i+ord+t]-U[i]);
@@ -42,5 +41,25 @@ else
 if (remflag == 0)   /* Cannot remove any more knots */
   break;           /* Get out of for-loop */
 else
-  
+    {   /* successful removal. Save new cont.pts.   */
+    i = first;   j = last;
+    while (j-i > t)
+      {
+      Pw[i] = temp[i-off];   Pw[j] = temp[j-off];
+      i = i+1;    j = j-1;
+      }
+    }
+  first = first-1;    last = last+1;
+  } /* End of for-loop */
+if (t == 0)   return;
+
+for (k=r+1; k<=m; k++) U[k-t] = U[k];  /* Shift knots */
+j = fout;   i=j;   /* Pj thru Pi will be overwritten */
+for (k=1; k<t; k++)
+  if (Mod(k,2) == 1)    /* k modulo 2 */
+    i = i+1;    else    j = j-1;
+for (k=i+1; k<=n; k++)    /* Shift */
+  {  Pw[j] = Pw[k];   j = j+1;  }
+return;
+}
 ```
