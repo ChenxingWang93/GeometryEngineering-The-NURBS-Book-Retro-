@@ -17,7 +17,30 @@ i = first;     j=last;
 ii = 1;     jj = last-off;
 remflag = 0;
 while (j-i > t)
-  {}
+  { /* Compute new control points for one removal step */
+  alfi = (u-U[i])/(U[i+ord+t]-U[i]);
+  alfj = (u-U[j-t])/(U[j+ord]-U[j-t]);
 
+  temp[ii] = (Pw[i]-(1.0-alfi)*temp[ii-1])/alfi;
+  temp[jj] = (Pw[j]-alfj*temp[jj+1])/(1.0-alfj);
+  i = i+1;    ii = ii+1;
+  j = j-1;    jj = jj-1;
+  } /* End of while-loop  */
+if (j-i < t)  /* Check if knot removable */
+  {
+  if (Distance4D(temp[ii-1],temp[jj+1]) <= TOL)
+    remflag = 1;
   }
+  }
+else
+  {
+  alfi = (u-U[i]/U[i+ord+t]-U[i]);
+  if (Distance4D(Pw[i],alfi*temp[ii+t+1]
+                           +(1.0-alfi)*temp[ii-1]) <= TOL)
+    remflag = 1;
+  }
+if (remflag == 0)   /* Cannot remove any more knots */
+  break;           /* Get out of for-loop */
+else
+  
 ```
