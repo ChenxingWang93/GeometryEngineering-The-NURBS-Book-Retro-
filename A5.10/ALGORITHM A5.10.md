@@ -28,5 +28,10 @@ if (dir == U_DIRECTION)
   update variables;
   get end knots;
   }
+if (dir == U_DIRECTION)
+  {
+  /* Similar code as above with u- and v-directional
+    parameters switched */
+  }
 }
 ```
