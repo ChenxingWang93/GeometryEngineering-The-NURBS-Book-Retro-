@@ -48,12 +48,68 @@ if (r > 0)
     save = r-j;   s = mul+j;
     for (k=p; k>=s; k--)
       {
-      bpts[k] = alfs
+      bpts[k] = alfs[k-s]*bpts[k] +
+                (1.0-alfs[k-s])*bpts[k-1];
       }
     Nextbpts[save] = bpts[p];
     }
-  }
+  }  /* End of "insert knot" */
+for (i=lbz; i<=ph; i++)   /* Degree elevate Bezier */
+  {  /* Only points lbz,...,ph are used below */
+  ebpts[i] = 0.0;
+  mpi = Min(p,i);
+  for (j=Max(0,i-t); j<=mpi; j++)
+    ebpts[i] = ebpts[i] + bezalfs[i][j]*bpts[j];
+  }  /* End of degree elevating Bezier */
+if (oldr > 1)
+  {  /* Must remove knot u=U[a] oldr times */
+  first = kind-2;   last = kind;
+  den = ub-ua;
 
-}
+bet = (ub-Uh[kind-1])/den;
+for (tr=1; tr<oldr; tr++)
+  {  /* Knot removal loop */
+  i = first;    j = last;    kj = j-kind+1;
+  while (j-i > tr)  /* Loop and compute the new */
+    {   /* control points for one removal step */
+    if (i < cind)
+      {
+      alf = (ub-Uh[i])/(ua-Uh[i]);
+      Qw[i] = alf*Qw[i] + (1.0-alf)*Qw[i-1];
+      }
+    if( j >= lbz)
+      {
+      if( j-tr <= kind-ph+oldr )
+        {
+        gam = (ub-Uh[j-tr])/den;
+        ebpts[kj] = gam*ebpts[kj]+(1.0-gam)*ebpts[kj+1];
+        }
+        else
+        {
+        ebpts[kj] = bet*ebpts[kj]+(1.0-bet)*ebpts[kj+1];
+        {
+      }
+    i = i+1;   j = j-1;   kj = kj-1;
+    }
+  first = first-1;    last = last+1;
+  }
+}  /* End of removing knot, u=U[a] */
+if (a != p)/* Load the knot ua */
+  for(i=0; i<=ph-oldr; i++)
+
+     {  Uh[kind] = ua;    kind = kind+1;  }
+  for(j=lbz; j<=rbz; j++)   /* Load ctrl pts into Qw */
+    { Qw[cind] = ebpts[j];    cind = cind+1;  }
+  if (b < m)
+    {  /* Set up for next pass thru loop */
+    for (j=0; j<r; j++)    bpts[j] = Nextbpts[j];
+    for (j=r; j<=p; j++)   bpts[j] = Pw[b-p+j];
+    a = b;   b = b+1;   ua = ub;
+    }
+    else
+        /* End knot */
+      for (i=0; i<=ph; i++)  Ub[kind+i] = ub;
+}    /* End of while-loop (b < m) */
+nh = mh-ph-1;
 }
 ```
