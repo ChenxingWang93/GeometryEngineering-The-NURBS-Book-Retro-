@@ -227,5 +227,13 @@ P_{1} - P_{0} & P_{3} - P_{2};
 - convex hull property凸包属性: the curves are  contained in the convex hulls of their defining control pts
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/18247197-7f24-4d44-8a42-bdd7c2624722)
 
-- variation diminishing property: no straight line intersects a curve more times than it intersects the curve's control polygon(for a three-dimensional Bezier curve, replace the words 'straight line' with the word 'plane'). This expresses the property that a Bezier curve follows its control polygon rather closely and does not wiggle more than its control polygon.
+- variation diminishing property:差异 减少 属性 no straight line intersects a curve more times than it intersects the curve's control polygon(for a three-dimensional Bezier curve, replace the words 'straight line' with the word 'plane'). This expresses the property that a Bezier curve follows its control polygon rather closely and does not wiggle more than its control polygon.
+
+没有 直线 相交曲线的次数 多于曲线控制 多边形（对于 三维 贝塞尔曲线，替换 “直线” 为 “平面”）
+
+这表达了 贝塞尔曲线相当紧密地 遵循其控制多边形
+
+并且不会比其控制多边形摆动更多 的属性
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb66646a-a564-477f-a24e-7232020429d3)
+
+- 
