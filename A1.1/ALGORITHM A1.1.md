@@ -186,3 +186,21 @@ called the control polygon, approximates the shape of the curve rather nicely;
 ```
 P_{0} = C(0) &P_{2} = C(1);
 ```
+
+- the tangent directions to the curve at its endpoints are parallel to
+```
+p_{1}-p_{0}
+```
+
+```
+p_{2}-p_{1}
+```
+(this is derived later)
+
+the curve is contained in the triangle formed by 
+
+```
+P_{0}
+P_{1}
+P_{2}
+```
