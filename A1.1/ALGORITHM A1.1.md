@@ -234,6 +234,6 @@ P_{1} - P_{0} & P_{3} - P_{2};
 这表达了 贝塞尔曲线相当紧密地 遵循其控制多边形
 
 并且不会比其控制多边形摆动更多 的属性
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb66646a-a564-477f-a24e-7232020429d3)
 
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb66646a-a564-477f-a24e-7232020429d3)
 - 
