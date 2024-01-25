@@ -259,3 +259,7 @@ P_{1} P_{2} P_{3}
 
 Figure 1.12 shows a sixth-degree, closed Bezier curve. The curve is smooth at C(0)(=C(1)) P_{1} - P_{0} is parallel to P_{6} - P_{5}
 在 u = 0 & u = 1 处的 tangent vectors 有相同方向。
+
+in addition to the previously mentioned properties, Bezier curves are invariant under the usual transformation such as rotations, translations &scalings;
+
+that is, one applies the transformation to the curve by applying it to the control polygon. We present this concept more rigorously in Chapter 3 for B-spline curve(of which Bezier curves are a special case.)
