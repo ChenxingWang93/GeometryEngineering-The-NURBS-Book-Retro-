@@ -250,3 +250,12 @@ P_{1} P_{2} P_{3}
 - a loop in the control polygon may or may not imply a loop in the curve. The transition between Figure 1.11e &Figure 1.11f is a curve with a cusp.
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de0f7a6e-05ea-4941-85f7-9d5fd157379c)![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de21600a-5db9-454f-a33e-5f2d5dfab61d)
+
+🚩🚩🚩🚩🚩🚩🚩Ex1.7
+
+### n = 6.
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/fc774b45-46d8-4595-b1c6-1d88ff9abe69)
+
+Figure 1.12 shows a sixth-degree, closed Bezier curve. The curve is smooth at C(0)(=C(1)) P_{1} - P_{0} is parallel to P_{6} - P_{5}
+在 u = 0 & u = 1 处的 tangent vectors 有相同方向。
