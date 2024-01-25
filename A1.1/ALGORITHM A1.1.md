@@ -236,4 +236,17 @@ P_{1} - P_{0} & P_{3} - P_{2};
 并且不会比其控制多边形摆动更多 的属性
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb66646a-a564-477f-a24e-7232020429d3)
-- 
+
+- initially (at u = 0) the curve is turning in the same direction as
+ 
+```
+P_{0} P_{1} P_{2} 
+```
+at u = 1 it is turning in the direction 
+
+```
+P_{1} P_{2} P_{3} 
+```
+- a loop in the control polygon may or may not imply a loop in the curve. The transition between Figure 1.11e &Figure 1.11f is a curve with a cusp.
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de0f7a6e-05ea-4941-85f7-9d5fd157379c)![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de21600a-5db9-454f-a33e-5f2d5dfab61d)
