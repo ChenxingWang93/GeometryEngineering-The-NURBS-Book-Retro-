@@ -257,7 +257,18 @@ P_{1} P_{2} P_{3}
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/fc774b45-46d8-4595-b1c6-1d88ff9abe69)
 
-Figure 1.12 shows a sixth-degree, closed Bezier curve. The curve is smooth at C(0)(=C(1)) P_{1} - P_{0} is parallel to P_{6} - P_{5}
+Figure 1.12 shows a sixth-degree, closed Bezier curve. The curve is smooth at 
+
+```
+C(0)(=C(1)) P_{1} - P_{0} 
+```
+
+is parallel to 
+
+```
+P_{6} - P_{5}
+```
+
 在 u = 0 & u = 1 处的 tangent vectors 有相同方向。
 
 in addition to the previously mentioned properties, Bezier curves are invariant under the usual transformation such as rotations, translations &scalings;
