@@ -134,13 +134,8 @@ C(u)_>BZ,n(u)Pi 0 < u < 1
 (1.8)
 
 ```
-B_{0,1}(u) = 1 - u &
+B_{0,1}(u) = 1 - u &B_{1,1}(u) = u
 ```
-
-```
-B_{1,1}(u) = u
-```
-
 取形式 
 ```
 C(u) = (1-u)P_{0} + uP_{1}, 
@@ -277,28 +272,56 @@ that is, one applies the transformation to the curve by applying it to the contr
 
 P1.2  partition of unity:
 
+P1.3 
 ```
-P1.3  B_{0,n}(0) = B_{n,n}(1) = 1;
+B_{0,n}(0) = B_{n,n}(1) = 1;
 ```
+
+P1.4
 ```
-P1.4  B_{i,n}(u) attains exactly one maximum on the interval [0,1], that is, at _u_ = _i_/_u_
+B_{i,n}(u)
 ```
+attains exactly one maximum on the interval,
 ```
-P1.5  symmetry: for any _n_, the set of polynomials B_{i,n}(u) is symmetric with respect to _u_ = 1/2;
+[0,1]
 ```
+that is, at
 ```
-Figure1.13.The Bernstein polynomials for (a)n = 1; (b)n = 2; (c)n = 3; (d)n = 9.
+_u_ = _i_/_u_
 ```
+P1.5
+symmetry: for any 
+```
+_n_,   
+```
+the set of polynomials
+```
+B_{i,n}(u)
+```
+is symmetric with respect to
+```
+ _u_ = 1/2;
+```
+Figure1.13.The Bernstein polynomials for 
+```
+(a)n = 1; (b)n = 2; (c)n = 3; (d)n = 9.
+```
+
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/98b89ff9-fc5d-4d4d-93cd-34a798ce74c6)
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/6fbba15b-eb4a-4c9a-a11e-76ee3526030f)
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/497b1119-d719-4d3a-aa52-c3646af5f87f)
+
+P1.6 recursive definition:
 ```
-P1.6 recursive definition: B_{i,n}(u) = (1 - u)B_{i,n-1}(u) + uB_{i-1,n-1}(u) (see Figure 1.14);
+ B_{i,n}(u) = (1 - u)B_{i,n-1}(u) + uB_{i-1,n-1}(u)
 ```
+(see Figure 1.14);
+
+we define 
 ```
-we define B_{i,n}(u) = 0 if i<0 or i>n;
+B_{i,n}(u) = 0 if i<0 or i>n;
 ```
 P1.7 derivatives:
 ```
