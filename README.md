@@ -36,11 +36,11 @@
   - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) _张量 积 曲面_
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md)
-  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md)
-  - 2.3Derivatives of B-spline Basis Functions
-  - 2.4Further Properties of the Basis Functions
-  - 2.5Computational Algorithms 
+  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) _简介_
+  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 定义与 属性_
+  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 Derivatives_
+  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) _基础函数的 近一属性_
+  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) _计算🧮 算法_
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
   - 3.1Introduction
   - 3.2The Definition and Properties of B-spline Curves
