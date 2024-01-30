@@ -1,4 +1,4 @@
-```Matlab
+```C++
 ALGORITHM A3.7
   SurfaceDerivCpts(n,p,U,m,q,V,P,d,r1,r2,s1,s2,PKL)
     { /*  Compute control points of derivative surfaces 计算🧮曲面导数 控制点 */
