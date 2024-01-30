@@ -42,11 +42,11 @@
   - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) _基础函数的 近一属性_
   - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) _计算🧮 算法_
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
-  - 3.1Introduction
-  - 3.2The Definition and Properties of B-spline Curves
-  - 3.3The Derivatives of a B-spline Curve
-  - 3.4Definition and Properties of B-spline Surfaces
-  - 3.5Derivatives of a B-spline Surface
+  - 3.1[Introduction]()
+  - 3.2[The Definition and Properties of B-spline Curves]()
+  - 3.3[The Derivatives of a B-spline Curve]()
+  - 3.4[Definition and Properties of B-spline Surfaces]()
+  - 3.5[Derivatives of a B-spline Surface]()
     - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
   - 4.1Introduction
