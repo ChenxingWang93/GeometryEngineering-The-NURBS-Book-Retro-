@@ -156,7 +156,11 @@
 ### 《SISL The SINTEF Spline Library Reference Manual》
 ### TOC 
 
-### 
+- ***Preface***
+- ***General Introduction***
+- ***Curve Definition***
+- ***Curve Interrogation***
+- ***Curve Analysis***
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
