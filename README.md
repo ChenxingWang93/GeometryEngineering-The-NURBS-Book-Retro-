@@ -156,35 +156,35 @@
 ### 《SISL The SINTEF Spline Library Reference Manual》
 ### TOC
 - ***1 Preface***
-  -  1.1 The 
-  -  1.2
-  -  1.3
+  -  1.1 The structure of this document
+  -  1.2 The structure of the software package
+  -  1.3 Licensing information
 - ***2 General Introduction***
-  - 2.1
-  - 2.2
-  - 2.3
-  - 2.4
-  - 2.5
-    - 2.5.1
-    - 2.5.2
-    - 2.5.3
-    - 2.5.4 
-  - 2.6
-    - 2.6.1
-    - 2.6.2 
+  - 2.1 C Syntax Used in Manual
+  - 2.2 Dynamic Allocation in SISL
+  - 2.3 Creating the library
+  - 2.4 An Example Program
+  - 2.5 B-spline Curves
+    - 2.5.1 B-spline
+    - 2.5.2 The Control Polygon
+    - 2.5.3 The Knot Vector
+    - 2.5.4 NURBS Surfaces
+  - 2.6 B-spline Surfaces
+    - 2.6.1 The Basis Functions
+    - 2.6.2 NURBS Surfaces
 - ***3 Curve Definition***
-  - 3.1
-    - 3.1.1
-    - 3.1.2
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.6
-    - 3.1.7
-    - 3.1.8
-    - 3.1.9
-    - 3.1.10
-    - 3.1.11
+  - 3.1 Interpolation
+    - 3.1.1 Compute a curve interpolating a straight line between two points
+    - 3.1.2 Compute a curve interpolating a set of points, automatic parameterization
+    - 3.1.3 Compute a curve interpolating a set of points, parameterization as input
+    - 3.1.4 Compute a curve by Hermite interpolation, automatic parameterization
+    - 3.1.5 Compute a curve by Hermite interpolation, parameterization as input
+    - 3.1.6 Compute a fillet curve based on parameter value
+    - 3.1.7 Compute a fillet curve based on points
+    - 3.1.8 Compute a fillet curve based on radius
+    - 3.1.9 Compute a circular fillet between a 2D curve and a circle
+    - 3.1.10 Compute a circular fillet between two 2D curves
+    - 3.1.11 
     - 3.1.12
   - 3.2
     - 3.2.1
