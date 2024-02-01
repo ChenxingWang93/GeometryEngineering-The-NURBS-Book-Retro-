@@ -43,10 +43,10 @@
   - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) _计算🧮 算法_
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
   - 3.1[Introduction]()
-  - 3.2[The Definition and Properties of B-spline Curves]()
-  - 3.3[The Derivatives of a B-spline Curve]()
-  - 3.4[Definition and Properties of B-spline Surfaces]()
-  - 3.5[Derivatives of a B-spline Surface]()
+  - 3.2[The Definition and Properties of B-spline Curves]() _B-Spline 曲线的 定义与 属性_
+  - 3.3[The Derivatives of a B-spline Curve]() _B-Spline 曲线的 衍生物_
+  - 3.4[Definition and Properties of B-spline Surfaces]() _B-Spline 曲面的 定义与 属性_
+  - 3.5[Derivatives of a B-spline Surface]() _B-Spline 曲面的 衍生物_
     - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
   - 4.1Introduction
@@ -154,13 +154,64 @@
   - 13.10 System Structure
 
 ### 《SISL The SINTEF Spline Library Reference Manual》
-### TOC 
+### TOC
+- ***1 Preface***
+  -  1.1 The 
+  -  1.2
+  -  1.3
+- ***2 General Introduction***
+  - 2.1
+  - 2.2
+  - 2.3
+  - 2.4
+  - 2.5
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4 
+  - 2.6
+    - 2.6.1
+    - 2.6.2 
+- ***3 Curve Definition***
+  - 3.1
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    - 3.1.7
+    - 3.1.8
+    - 3.1.9
+    - 3.1.10
+    - 3.1.11
+    - 3.1.12
+  - 3.2
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+  - 3.3
+  - 3.4
+    - 3.4.1
+    - 3.4.2
+    - 3.4.3
+    - 3.4.4
+    - 3.4.5
+    - 3.4.6
+    - 3.4.7
+    - 3.4.8  
+- ***4 Curve Interrogation***
+- ***5 Curve Analysis***
+- ***6 Curve Utilities***
+- ***7 Surface Definition***
+- ***8 Surface Interrogation***
+- ***9 Surface Analysis***
+- ***10 Surface Utilities***
+- ***11 Data Reduction***
+- ***12 Tutorial programs***
 
-- ***Preface***
-- ***General Introduction***
-- ***Curve Definition***
-- ***Curve Interrogation***
-- ***Curve Analysis***
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
