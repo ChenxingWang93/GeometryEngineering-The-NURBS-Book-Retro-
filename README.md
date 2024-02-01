@@ -155,11 +155,11 @@
 
 ### 《SISL The SINTEF Spline Library Reference Manual》
 ### TOC
-- ***1 Preface***
+- ***1 Preface*** 
   -  1.1 The structure of this document
   -  1.2 The structure of the software package
   -  1.3 Licensing information
-- ***2 General Introduction***
+- ***2 General Introduction*** 
   - 2.1 C Syntax Used in Manual
   - 2.2 Dynamic Allocation in SISL
   - 2.3 Creating the library
@@ -173,7 +173,7 @@
     - 2.6.1 The Basis Functions
     - 2.6.2 NURBS Surfaces
 - ***3 Curve Definition***
-  - 3.1 Interpolation
+  - 3.1 Interpolation ***插入***
     - 3.1.1 Compute a curve interpolating a straight line between two points
     - 3.1.2 Compute a curve interpolating a set of points, automatic parameterization
     - 3.1.3 Compute a curve interpolating a set of points, parameterization as input
@@ -184,17 +184,17 @@
     - 3.1.8 Compute a fillet curve based on radius
     - 3.1.9 Compute a circular fillet between a 2D curve and a circle
     - 3.1.10 Compute a circular fillet between two 2D curves
-    - 3.1.11 
-    - 3.1.12
-  - 3.2
-    - 3.2.1
-    - 3.2.2
-    - 3.2.3
-    - 3.2.4
-    - 3.2.5
-  - 3.3
-  - 3.4
-    - 3.4.1
+    - 3.1.11 Compute a circular fillet between a 2D curve and a 2D line
+    - 3.1.12 Compute a blending curve between two curves
+  - 3.2 Approximation ***近似***
+    - 3.2.1 Approximate a circular arc with a curve 
+    - 3.2.2 Approximate a conic arc with a curve
+    - 3.2.3 Compute a curve using the input points as controlling vertices, automatic parameterization
+    - 3.2.4 Approximate the offset of a curve with a curve
+    - 3.2.5 Approximate a curve with a sequence of straight lines
+  - 3.3 Mirror a Curve ***镜像 一条 曲线***
+  - 3.4 Conversion ***转化***
+    - 3.4.1 
     - 3.4.2
     - 3.4.3
     - 3.4.4
