@@ -156,20 +156,20 @@
 ### 《SISL The SINTEF Spline Library Reference Manual》
 ### TOC
 - ***1 Preface*** 
-  -  1.1 The structure of this document
-  -  1.2 The structure of the software package
-  -  1.3 Licensing information
+  -  1.1 The structure of this document _该文档📄 结构_
+  -  1.2 The structure of the software package _软件包 结构_
+  -  1.3 Licensing information _许可 信息_
 - ***2 General Introduction*** 
-  - 2.1 C Syntax Used in Manual
-  - 2.2 Dynamic Allocation in SISL
-  - 2.3 Creating the library
-  - 2.4 An Example Program
-  - 2.5 B-spline Curves
+  - 2.1 C Syntax Used in Manual _手册中的 C 句法_
+  - 2.2 Dynamic Allocation in SISL _动态 分配_
+  - 2.3 Creating the library _创建 库_
+  - 2.4 An Example Program _样例 程序_
+  - 2.5 B-spline Curves _B-样条 曲线_
     - 2.5.1 B-spline
     - 2.5.2 The Control Polygon
     - 2.5.3 The Knot Vector
     - 2.5.4 NURBS Surfaces
-  - 2.6 B-spline Surfaces
+  - 2.6 B-spline Surfaces _B-样条 曲面_
     - 2.6.1 The Basis Functions
     - 2.6.2 NURBS Surfaces
 - ***3 Curve Definition***
@@ -211,7 +211,6 @@
 - ***10 Surface Utilities***
 - ***11 Data Reduction***
 - ***12 Tutorial programs***
-
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
