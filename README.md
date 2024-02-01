@@ -194,14 +194,14 @@
     - 3.2.5 Approximate a curve with a sequence of straight lines
   - 3.3 Mirror a Curve ***镜像 一条 曲线***
   - 3.4 Conversion ***转化***
-    - 3.4.1 
-    - 3.4.2
-    - 3.4.3
-    - 3.4.4
-    - 3.4.5
-    - 3.4.6
-    - 3.4.7
-    - 3.4.8  
+    - 3.4.1 Convert a curve of order up to four, to a sequence of cubic polynomials
+    - 3.4.2 Convert a curve to a sequence of Bezier curves
+    - 3.4.3 Pick out the next Bezier curve from a curve
+    - 3.4.4 Express a curve using a higher-order basis
+    - 3.4.5 Express the "i" -th derivative of an open curve as a curve
+    - 3.4.6 Express a 2D or 3D ellipse as a curve
+    - 3.4.7 Express a conic arc as a curve
+    - 3.4.8 Express a truncated helix as a curve
 - ***4 Curve Interrogation***
 - ***5 Curve Analysis***
 - ***6 Curve Utilities***
