@@ -203,14 +203,41 @@
     - 3.4.7 Express a conic arc as a curve
     - 3.4.8 Express a truncated helix as a curve
 - ***4 Curve Interrogation***
+  - 4.1
+  - 4.2
+  - 4.3
+  - 4.4
+  - 4.5
+  - 4.6
+  - 4.7
+  - 4.8
+  - 4.9
+  - 4.10
 - ***5 Curve Analysis***
+  - 5.1 
 - ***6 Curve Utilities***
+  - 6.1
+  - 6.2
+  - 6.3
+  - 6.4
+  - 6.5
+  - 6.6
 - ***7 Surface Definition***
+  - 7.1
+  - 7.2
+  - 7.3
+  - 7.4
 - ***8 Surface Interrogation***
+  - 8.1
+  - 8.2
 - ***9 Surface Analysis***
+  - 
 - ***10 Surface Utilities***
+  - 
 - ***11 Data Reduction***
+  - 
 - ***12 Tutorial programs***
+  - 
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
