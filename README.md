@@ -203,33 +203,33 @@
     - 3.4.7 Express a conic arc as a curve
     - 3.4.8 Express a truncated helix as a curve
 - ***4 Curve Interrogation***
-  - 4.1
-  - 4.2
-  - 4.3
-  - 4.4
-  - 4.5
-  - 4.6
-  - 4.7
-  - 4.8
-  - 4.9
-  - 4.10
+  - 4.1 Intersections
+  - 4.2 Compute the Length of a Curve
+  - 4.3 Check if a Curve Closed
+  - 4.4 Check if a Curve is Degenerated
+  - 4.5 Pick the Parameter Range of a Curve
+  - 4.6 Closest Points
+  - 4.7 Find the Absolute Extremals of a Curve
+  - 4.8 Area between Curve and Point
+  - 4.9 Bounding Box
+  - 4.10 Normal Cone
 - ***5 Curve Analysis*** 
-  - 5.1 
-- ***6 Curve Utilities*** 
-  - 6.1
-  - 6.2
-  - 6.3
-  - 6.4
-  - 6.5
-  - 6.6
+  - 5.1 Curvature Evaluation
+- ***6 Curve Utilities***
+  - 6.1 Curve Object
+  - 6.2 Evaluation
+  - 6.3 Subdivision
+  - 6.4 Joining
+  - 6.5 Reverse the Orientation of a Curve
+  - 6.6 Extend a B-spline Curve
 - ***7 Surface Definition***
-  - 7.1
-  - 7.2
-  - 7.3
-  - 7.4
+  - 7.1 Interpolation
+  - 7.2 Approximation
+  - 7.3 Mirror a Surface
+  - 7.4 Conversion
 - ***8 Surface Interrogation***
-  - 8.1
-  - 8.2
+  - 8.1 Intersection Curves
+  - 8.2 Find the Intersections
 - ***9 Surface Analysis***
   - 9.1 Curvature Evaluation
 - ***10 Surface Utilities***
