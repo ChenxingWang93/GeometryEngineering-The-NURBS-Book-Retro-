@@ -213,9 +213,9 @@
   - 4.8
   - 4.9
   - 4.10
-- ***5 Curve Analysis***
+- ***5 Curve Analysis*** 
   - 5.1 
-- ***6 Curve Utilities***
+- ***6 Curve Utilities*** 
   - 6.1
   - 6.2
   - 6.3
@@ -231,13 +231,27 @@
   - 8.1
   - 8.2
 - ***9 Surface Analysis***
-  - 
+  - 9.1 Curvature Evaluation
 - ***10 Surface Utilities***
-  - 
+  - 10.1 Surface Object
+  - 10.2 Evaluation
+  - 10.3 Subdivision
+  - 10.4 Picking Curves from a Surface
+  - 10.5 Pick a Part of a Surface
+  - 10.6 Turn the Direction of the Surface Normal Vector
 - ***11 Data Reduction***
-  - 
+  - 11.1 Curves
+  - 11.2 Surfaces
 - ***12 Tutorial programs***
-  - 
+  - 12.1 Compelling the programs
+  - 12.2 Description & commentaries on the sample programs
+- ***13 The object viewer program***
+  - 13.1 General
+  - 13.2 Compiling the viewer
+  - 13.3 Command line arguments
+  - 13.4 User controls
+    - Mouse commands
+    - Keyboard commands
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
