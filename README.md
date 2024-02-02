@@ -174,47 +174,47 @@
     - 2.6.2 ~~NURBS Surfaces~~
 - ***3 Curve Definition***
   - 3.1 Interpolation ***插入***
-    - 3.1.1 Compute a curve interpolating a straight line between two points
-    - 3.1.2 Compute a curve interpolating a set of points, automatic parameterization
-    - 3.1.3 Compute a curve interpolating a set of points, parameterization as input
-    - 3.1.4 Compute a curve by Hermite interpolation, automatic parameterization
-    - 3.1.5 Compute a curve by Hermite interpolation, parameterization as input
-    - 3.1.6 Compute a fillet curve based on parameter value
-    - 3.1.7 Compute a fillet curve based on points
-    - 3.1.8 Compute a fillet curve based on radius
-    - 3.1.9 Compute a circular fillet between a 2D curve and a circle
-    - 3.1.10 Compute a circular fillet between two 2D curves
-    - 3.1.11 Compute a circular fillet between a 2D curve and a 2D line
-    - 3.1.12 Compute a blending curve between two curves
+    - 3.1.1 ~~Compute a curve interpolating a straight line between two points~~
+    - 3.1.2 ~~Compute a curve interpolating a set of points, automatic parameterization~~
+    - 3.1.3 ~~Compute a curve interpolating a set of points, parameterization as input~~
+    - 3.1.4 ~~Compute a curve by Hermite interpolation, automatic parameterization~~
+    - 3.1.5 ~~Compute a curve by Hermite interpolation, parameterization as input~~
+    - 3.1.6 ~~Compute a fillet curve based on parameter value~~
+    - 3.1.7 ~~Compute a fillet curve based on points~~
+    - 3.1.8 ~~Compute a fillet curve based on radius~~
+    - 3.1.9 ~~Compute a circular fillet between a 2D curve and a circle~~
+    - 3.1.10 ~~Compute a circular fillet between two 2D curves~~
+    - 3.1.11 ~~Compute a circular fillet between a 2D curve and a 2D line~~
+    - 3.1.12 ~~Compute a blending curve between two curves~~
   - 3.2 Approximation ***近似***
-    - 3.2.1 Approximate a circular arc with a curve 
-    - 3.2.2 Approximate a conic arc with a curve
-    - 3.2.3 Compute a curve using the input points as controlling vertices, automatic parameterization
-    - 3.2.4 Approximate the offset of a curve with a curve
-    - 3.2.5 Approximate a curve with a sequence of straight lines
+    - 3.2.1 ~~Approximate a circular arc with a curve~~
+    - 3.2.2 ~~Approximate a conic arc with a curve~~
+    - 3.2.3 ~~Compute a curve using the input points as controlling vertices, automatic parameterization~~
+    - 3.2.4 ~~Approximate the offset of a curve with a curve~~
+    - 3.2.5 ~~Approximate a curve with a sequence of straight lines~~
   - 3.3 Mirror a Curve ***镜像 一条 曲线***
   - 3.4 Conversion ***转化***
-    - 3.4.1 Convert a curve of order up to four, to a sequence of cubic polynomials
-    - 3.4.2 Convert a curve to a sequence of Bezier curves
-    - 3.4.3 Pick out the next Bezier curve from a curve
-    - 3.4.4 Express a curve using a higher-order basis
-    - 3.4.5 Express the "i" -th derivative of an open curve as a curve
-    - 3.4.6 Express a 2D or 3D ellipse as a curve
-    - 3.4.7 Express a conic arc as a curve
-    - 3.4.8 Express a truncated helix as a curve
+    - 3.4.1 ~~Convert a curve of order up to four, to a sequence of cubic polynomials~~
+    - 3.4.2 ~~Convert a curve to a sequence of Bezier curves~~
+    - 3.4.3 ~~Pick out the next Bezier curve from a curve~~
+    - 3.4.4 ~~Express a curve using a higher-order basis~~
+    - 3.4.5 ~~Express the "i" -th derivative of an open curve as a curve~~
+    - 3.4.6 ~~Express a 2D or 3D ellipse as a curve~~
+    - 3.4.7 ~~Express a conic arc as a curve~~
+    - 3.4.8 ~~Express a truncated helix as a curve~~
 - ***4 Curve Interrogation***
-  - 4.1 Intersections
+  - 4.1 Intersections ***相交***
     - 4.1.1 
     - 4.1.2
     - 4.1.3
     - 4.1.4
     - 4.1.5
     - 4.1.6
-  - 4.2 Compute the Length of a Curve
-  - 4.3 Check if a Curve Closed
-  - 4.4 Check if a Curve is Degenerated
-  - 4.5 Pick the Parameter Range of a Curve
-  - 4.6 Closest Points
+  - 4.2 Compute the Length of a Curve ***计算🧮 一段 弧长***
+  - 4.3 Check if a Curve Closed ***检查 一段 弧 是否闭合***
+  - 4.4 Check if a Curve is Degenerated ***检查 一段 弧 是否退化***
+  - 4.5 Pick the Parameter Range of a Curve ***拾取 曲线的 参数 范围***
+  - 4.6 Closest Points ***最近 点***
     - 4.6.1
     - 4.6.2
     - 4.6.3
@@ -234,11 +234,11 @@
     - 4.10.3 ~~Find the direction cone of a curve~~
 - ***5 Curve Analysis*** 
   - 5.1 Curvature Evaluation
-    - 5.1.1 Evaluate the curvature of a curve at given parameter values
-    - 5.1.2 Evaluate the torsion of a curve at given parameter values
-    - 5.1.3 Evaluate the Variation of Curvature (VoC) of a curve at given parameter values
-    - 5.1.4 Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values
-    - 5.1.5 Evaluate geometric properties at given parameter values
+    - 5.1.1 ~~Evaluate the curvature of a curve at given parameter values~~
+    - 5.1.2 ~~Evaluate the torsion of a curve at given parameter values~~
+    - 5.1.3 ~~Evaluate the Variation of Curvature (VoC) of a curve at given parameter values~~
+    - 5.1.4 ~~Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values~~
+    - 5.1.5 ~~Evaluate geometric properties at given parameter values~~
 - ***6 Curve Utilities***
   - 6.1 Curve Object _曲面 对象_
     - 6.1.1
@@ -270,7 +270,12 @@
     - 7.1.4
     - 7.1.5
     - 7.1.6
-    - 
+    - 7.1.7
+    - 7.1.8
+    - 7.1.9
+    - 7.1.10
+    - 7.1.11
+    - 7.1.12
   - 7.2 Approximation _近似_
   - 7.3 Mirror a Surface _镜像_
   - 7.4 Conversion _转换_
@@ -297,8 +302,8 @@
   - 13.2 Compiling the viewer
   - 13.3 Command line arguments
   - 13.4 User controls
-    - Mouse commands
-    - Keyboard commands
+    - ~~Mouse commands~~
+    - ~~Keyboard commands~~
 
 ### Online C++ &coding resources
 - [Beginner's Guide to C++](https://www.udemy.com/zh-cn/topic/c-plus-plus/#beginnersguide)
