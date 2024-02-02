@@ -204,15 +204,32 @@
     - 3.4.8 Express a truncated helix as a curve
 - ***4 Curve Interrogation***
   - 4.1 Intersections
+    - 4.1.1 
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 4.1.6
   - 4.2 Compute the Length of a Curve
   - 4.3 Check if a Curve Closed
   - 4.4 Check if a Curve is Degenerated
   - 4.5 Pick the Parameter Range of a Curve
   - 4.6 Closest Points
+    - 4.6.1
+    - 4.6.2
+    - 4.6.3
+    - 4.6.4
+    - 4.6.5
   - 4.7 Find the Absolute Extremals of a Curve
   - 4.8 Area between Curve and Point
+    - 4.8.1
+    - 4.8.2
   - 4.9 Bounding Box
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3 
   - 4.10 Normal Cone
+    - 
 - ***5 Curve Analysis*** 
   - 5.1 Curvature Evaluation
 - ***6 Curve Utilities***
