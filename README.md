@@ -250,14 +250,14 @@
     - 6.2.3
     - 6.2.4
     - 6.2.5
-  - 6.3 Subdivision
+  - 6.3 Subdivision
     - 6.3.1
     - 6.3.2
     - 6.3.3
     - 6.3.4
     - 6.3.5
     - 6.3.6
-  - 6.4 Joining 连接
+  - 6.4 Joining _连接_
     - 6.4.1
     - 6.4.2
   - 6.5 Reverse the Orientation of a Curve
