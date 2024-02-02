@@ -165,13 +165,13 @@
   - 2.3 Creating the library _创建 库_
   - 2.4 An Example Program _样例 程序_
   - 2.5 B-spline Curves _B-样条 曲线_
-    - 2.5.1 B-spline
-    - 2.5.2 The Control Polygon
-    - 2.5.3 The Knot Vector
-    - 2.5.4 NURBS Surfaces
+    - 2.5.1 ~~B-spline~~
+    - 2.5.2 ~~The Control Polygon~~
+    - 2.5.3 ~~The Knot Vector~~
+    - 2.5.4 ~~NURBS Surfaces~~
   - 2.6 B-spline Surfaces _B-样条 曲面_
-    - 2.6.1 The Basis Functions
-    - 2.6.2 NURBS Surfaces
+    - 2.6.1 ~~The Basis Functions~~
+    - 2.6.2 ~~NURBS Surfaces~~
 - ***3 Curve Definition***
   - 3.1 Interpolation ***插入***
     - 3.1.1 Compute a curve interpolating a straight line between two points
@@ -229,9 +229,9 @@
     - 4.9.2
     - 4.9.3 
   - 4.10 Normal Cone
-    - 4.10.1 Normal Cone
-    - 4.10.2 Create &initialize a curve/surface direction instance
-    - 4.10.3 Find the direction cone of a curve
+    - 4.10.1 ~~Normal Cone~~
+    - 4.10.2 ~~Create &initialize a curve/surface direction instance~~
+    - 4.10.3 ~~Find the direction cone of a curve~~
 - ***5 Curve Analysis*** 
   - 5.1 Curvature Evaluation
     - 5.1.1 Evaluate the curvature of a curve at given parameter values
@@ -250,7 +250,7 @@
     - 6.2.3
     - 6.2.4
     - 6.2.5
-  - 6.3 Subdivision
+  - 6.3 Subdivision _细分_
     - 6.3.1
     - 6.3.2
     - 6.3.3
@@ -264,6 +264,13 @@
   - 6.6 Extend a B-spline Curve
 - ***7 Surface Definition***
   - 7.1 Interpolation _插入_
+    - 7.1.1
+    - 7.1.2
+    - 7.1.3
+    - 7.1.4
+    - 7.1.5
+    - 7.1.6
+    - 
   - 7.2 Approximation _近似_
   - 7.3 Mirror a Surface _镜像_
   - 7.4 Conversion _转换_
