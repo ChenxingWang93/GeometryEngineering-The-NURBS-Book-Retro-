@@ -240,45 +240,45 @@
     - 5.1.4 Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values
     - 5.1.5 Evaluate geometric properties at given parameter values
 - ***6 Curve Utilities***
-  - 6.1 Curve Object
+  - 6.1 Curve Object _曲面 对象_
     - 6.1.1
     - 6.1.2
     - 6.1.3 
-  - 6.2 Evaluation
+  - 6.2 Evaluation _评估_
     - 6.2.1
     - 6.2.2
     - 6.2.3
     - 6.2.4
     - 6.2.5
-  - 6.3 Subdivision
+  - 6.3 Subdivision
     - 6.3.1
     - 6.3.2
     - 6.3.3
     - 6.3.4
     - 6.3.5
     - 6.3.6
-  - 6.4 Joining
+  - 6.4 Joining 连接
     - 6.4.1
     - 6.4.2
   - 6.5 Reverse the Orientation of a Curve
   - 6.6 Extend a B-spline Curve
 - ***7 Surface Definition***
-  - 7.1 Interpolation
-  - 7.2 Approximation
-  - 7.3 Mirror a Surface
-  - 7.4 Conversion
+  - 7.1 Interpolation _插入_
+  - 7.2 Approximation _近似_
+  - 7.3 Mirror a Surface _镜像_
+  - 7.4 Conversion _转换_
 - ***8 Surface Interrogation***
-  - 8.1 Intersection Curves
-  - 8.2 Find the Intersections
+  - 8.1 Intersection Curves _曲线交点_
+  - 8.2 Find the Intersections _找 相交_
 - ***9 Surface Analysis***
-  - 9.1 Curvature Evaluation
+  - 9.1 Curvature Evaluation _曲率评估_
 - ***10 Surface Utilities***
-  - 10.1 Surface Object
-  - 10.2 Evaluation
-  - 10.3 Subdivision
-  - 10.4 Picking Curves from a Surface
-  - 10.5 Pick a Part of a Surface
-  - 10.6 Turn the Direction of the Surface Normal Vector
+  - 10.1 Surface Object _曲面对象_
+  - 10.2 Evaluation _评估_
+  - 10.3 Subdivision _细分_
+  - 10.4 Picking Curves from a Surface _从曲面 拾取 曲线_
+  - 10.5 Pick a Part of a Surface _从曲面上 拾取一个部件_
+  - 10.6 Turn the Direction of the Surface Normal Vector __
 - ***11 Data Reduction***
   - 11.1 Curves
   - 11.2 Surfaces
