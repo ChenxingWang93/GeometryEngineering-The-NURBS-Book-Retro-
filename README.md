@@ -229,14 +229,37 @@
     - 4.9.2
     - 4.9.3 
   - 4.10 Normal Cone
-    - 
+    - 4.10.1 Normal Cone
+    - 4.10.2 Create &initialize a curve/surface direction instance
+    - 4.10.3 Find the direction cone of a curve
 - ***5 Curve Analysis*** 
   - 5.1 Curvature Evaluation
+    - 5.1.1 Evaluate the curvature of a curve at given parameter values
+    - 5.1.2 Evaluate the torsion of a curve at given parameter values
+    - 5.1.3 Evaluate the Variation of Curvature (VoC) of a curve at given parameter values
+    - 5.1.4 Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values
+    - 5.1.5 Evaluate geometric properties at given parameter values
 - ***6 Curve Utilities***
   - 6.1 Curve Object
+    - 6.1.1
+    - 6.1.2
+    - 6.1.3 
   - 6.2 Evaluation
+    - 6.2.1
+    - 6.2.2
+    - 6.2.3
+    - 6.2.4
+    - 6.2.5
   - 6.3 Subdivision
+    - 6.3.1
+    - 6.3.2
+    - 6.3.3
+    - 6.3.4
+    - 6.3.5
+    - 6.3.6
   - 6.4 Joining
+    - 6.4.1
+    - 6.4.2
   - 6.5 Reverse the Orientation of a Curve
   - 6.6 Extend a B-spline Curve
 - ***7 Surface Definition***
