@@ -220,20 +220,20 @@
     - 4.6.3
     - 4.6.4
     - 4.6.5
-  - 4.7 Find the Absolute Extremals of a Curve
-  - 4.8 Area between Curve and Point
+  - 4.7 Find the Absolute Extremals of a Curve ***找到 一曲线的 绝对极值***
+  - 4.8 Area between Curve and Point ***曲线 与 点间的面积***
     - 4.8.1
     - 4.8.2
-  - 4.9 Bounding Box
+  - 4.9 Bounding Box ***包围盒***
     - 4.9.1
     - 4.9.2
     - 4.9.3 
-  - 4.10 Normal Cone
+  - 4.10 Normal Cone ***常规 圆锥体***
     - 4.10.1 ~~Normal Cone~~
     - 4.10.2 ~~Create &initialize a curve/surface direction instance~~
     - 4.10.3 ~~Find the direction cone of a curve~~
 - ***5 Curve Analysis*** 
-  - 5.1 Curvature Evaluation
+  - 5.1 Curvature Evaluation ***曲率 评估***
     - 5.1.1 ~~Evaluate the curvature of a curve at given parameter values~~
     - 5.1.2 ~~Evaluate the torsion of a curve at given parameter values~~
     - 5.1.3 ~~Evaluate the Variation of Curvature (VoC) of a curve at given parameter values~~
@@ -260,8 +260,8 @@
   - 6.4 Joining _连接_
     - 6.4.1
     - 6.4.2
-  - 6.5 Reverse the Orientation of a Curve
-  - 6.6 Extend a B-spline Curve
+  - 6.5 Reverse the Orientation of a Curve _翻转 曲面朝向_
+  - 6.6 Extend a B-spline Curve _延伸 一个B-样条 曲线_
 - ***7 Surface Definition***
   - 7.1 Interpolation _插入_
     - 7.1.1
@@ -290,18 +290,18 @@
   - 10.3 Subdivision _细分_
   - 10.4 Picking Curves from a Surface _从曲面 拾取 曲线_
   - 10.5 Pick a Part of a Surface _从曲面上 拾取一个部件_
-  - 10.6 Turn the Direction of the Surface Normal Vector __
+  - 10.6 Turn the Direction of the Surface Normal Vector _翻转 曲面 法向量方向_
 - ***11 Data Reduction***
-  - 11.1 Curves
-  - 11.2 Surfaces
+  - 11.1 Curves _曲线_
+  - 11.2 Surfaces _曲面_
 - ***12 Tutorial programs***
   - 12.1 Compelling the programs
   - 12.2 Description & commentaries on the sample programs
 - ***13 The object viewer program***
-  - 13.1 General
-  - 13.2 Compiling the viewer
-  - 13.3 Command line arguments
-  - 13.4 User controls
+  - 13.1 General _通用_
+  - 13.2 Compiling the viewer _编译 视图_
+  - 13.3 Command line arguments _命令行 args_
+  - 13.4 User controls _用户 控制_
     - ~~Mouse commands~~
     - ~~Keyboard commands~~
 
