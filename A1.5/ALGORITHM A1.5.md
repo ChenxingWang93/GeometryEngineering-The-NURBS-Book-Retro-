@@ -1,4 +1,4 @@
-``` matlab
+``` C++
 ALGORITHM A1.5
   deCasteljau1 (P,n,u,C)
     {  /*  Compute point on a Bezier curve 🧮计算 贝塞尔曲线上的 点 ⦁ */
