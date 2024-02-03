@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A1.3
    AllBernstein(n,u,B)
    {  /* compute all nth-degree Bernstein polynomials. 🧮计算 n-th 度 伯恩斯坦多项式 */
