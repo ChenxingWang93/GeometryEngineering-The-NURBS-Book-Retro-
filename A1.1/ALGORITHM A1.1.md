@@ -270,14 +270,14 @@ in addition to the previously mentioned properties, Bezier curves are invariant 
 
 that is, one applies the transformation to the curve by applying it to the control polygon. We present this concept more rigorously in Chapter 3 for B-spline curve(of which Bezier curves are a special case.)
 
-P1.2  partition of unity:
+***P1.2***  partition of unity:
 
-P1.3 
+***P1.3*** 
 ```
 B_{0,n}(0) = B_{n,n}(1) = 1;
 ```
 
-P1.4
+***P1.4***
 ```
 B_{i,n}(u)
 ```
@@ -289,7 +289,7 @@ that is, at
 ```
 _u_ = _i_/_u_
 ```
-P1.5
+***P1.5***
 symmetry: for any 
 ```
 _n_,   
@@ -313,7 +313,7 @@ Figure1.13.The Bernstein polynomials for
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/497b1119-d719-4d3a-aa52-c3646af5f87f)
 
-P1.6 recursive definition:
+***P1.6*** recursive definition:
 ```
  B_{i,n}(u) = (1 - u)B_{i,n-1}(u) + uB_{i-1,n-1}(u)
 ```
@@ -323,7 +323,7 @@ we define
 ```
 B_{i,n}(u) = 0 if i<0 or i>n;
 ```
-P1.7 derivatives:
+***P1.7*** derivatives:
 ```
 {B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
 ```
@@ -333,5 +333,3 @@ with
 ```
 B-1,n_1(u),n-1(u) - 0
 ```
-
-
