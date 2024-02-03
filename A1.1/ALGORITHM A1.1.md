@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A1.1
   Horner1(a,n,u0,C)
     {   /*  Compute point on power basis curve. 在势函数曲线上 计算点 */
