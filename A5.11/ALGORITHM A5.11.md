@@ -1,4 +1,4 @@
-```C++
+``` C++
 ALGORITHM A5.11
 DegreeReduceCurve(n,p,U,Qw,nh,Uh,Pw)
   {  /*  Degree reduce a curve from p to p-1.  */
