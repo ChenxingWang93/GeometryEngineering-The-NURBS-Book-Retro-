@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A1.4
   PointOnBezierCurve(P, n, u, C)
     {  /*  Compute point on Bezier curve 🧮计算 贝塞尔曲线 上的点 */
