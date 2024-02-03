@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A1.2
   Bernstein(i,n,u,B)
     {  /*  compute the value of a Bernstein polynomial 🧮计算 伯恩斯坦多项式的 值 */
