@@ -1,3 +1,5 @@
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/bcf7a715-f21d-445b-a9c3-8a8d67be7872)
+
 ``` C++
 ALGORITHM A8.1 
   MakeRevolveSurf(S,T,theta,m,Pj,wj,n,U,Pij,wij)
@@ -58,3 +60,5 @@ for (i=1; i<=narcs; i++)   /* compute u row */
   }  
 }
 ```
+
+
