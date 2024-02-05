@@ -61,4 +61,4 @@ for (i=1; i<=narcs; i++)   /* compute u row */
 }
 ```
 
-
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/e24355c1-f9ed-4d76-83be-dfcb1874cd40)
