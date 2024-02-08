@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A5.2
   CurvePntByCornerCut(n,p,U,Pw,u,C)
     {  /*  Compute point on rational b- spline curve 计算🧮 在有理b- 样条曲线上的点 */
