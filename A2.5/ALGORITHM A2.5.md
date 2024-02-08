@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A2.5
   DersOnBasisFun(p,m,U,i,u,n,ders)
     { /* Compute derivatives of basis function Nip 🧮计算 基函数Nip 的导数 */
