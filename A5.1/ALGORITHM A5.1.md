@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A5.1
   CurveKnotIns(np,p,UP,Pw,u,k,s,r,nq,UQ,Qw)
     {  /*  Compute new curve from knot insertion 从 结点插入 计算🧮新曲线 */
