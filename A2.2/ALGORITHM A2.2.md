@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A2.2
   BasisFuns(i,u,p,U,N)
     { /*  Compute the nonvanishing basis functions 🧮计算 非消失 基函数 */
