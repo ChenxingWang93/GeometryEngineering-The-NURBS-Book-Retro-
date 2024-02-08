@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A3.3
   CurveDerivCpts(n,p,U,P,d,r1,r2,PK)
     { /*  Compute control points of curve derivatives 🧮计算 弧形 导数 的控制点  */
