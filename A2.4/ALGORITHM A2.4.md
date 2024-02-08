@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A2.4
   OneBasisFun(p,m,U,i,u,Nip)
     {  /* Compute the basis function Nip 🧮 计算 基函数 Nip */
