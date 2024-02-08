@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A2.1
   int FindSpan(n,p,u,U)
     { /*  Determine the knot span index 决定 节跨度的 指数 */
