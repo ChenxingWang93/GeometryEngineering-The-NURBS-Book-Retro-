@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A2.3
   DersBasisFuns(i,u,p,n,U,ders)
     { /*  compute nonzero basis functions and their 计算 非零 基函数 */
