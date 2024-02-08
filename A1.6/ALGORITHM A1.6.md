@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A1.6
   Horner2(a,n,m,u0,v0,S)
     {  /*  Compute point on a power basis surface. 🧮计算 势函数 曲面 上的点 ∙  */
@@ -9,4 +9,3 @@ ALGORITHM A1.6
     Horner1(b,n,u0,S);
     }
 ```
-
