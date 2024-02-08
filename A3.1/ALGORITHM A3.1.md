@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A3.1:
   CurvePoint(n,p,U,P,u,C)
     { /*  Compute curve point 🧮计算 弧点 ∙ */
