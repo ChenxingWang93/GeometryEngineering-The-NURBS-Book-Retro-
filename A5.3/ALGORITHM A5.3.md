@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A5.3
   SurfaceKnotIns(np,p,UP,mp,q,VP,Pw,dir,uv,k,s,r,nq,UQ,mq,VQ,Qw)
     {  /*  Surface knot insertion 曲面 结点 插入 */
