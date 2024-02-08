@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A4.4
   RatSurfaceDerivs(Aders,wders,d,SKL)
     {  /*  Compute S(u,v) derivatives 计算 S(u,v) 导数 */
