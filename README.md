@@ -240,7 +240,7 @@
     - 5.1.4 ~~Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values~~
     - 5.1.5 ~~Evaluate geometric properties at given parameter values~~
 - ***6 Curve Utilities*** ***曲线 工具🔧***
-  - 6.1 Curve Object _曲面 对象_
+  - 6.1 Curve Object _曲线 对象_
     - 6.1.1
     - 6.1.2
     - 6.1.3 
@@ -279,13 +279,13 @@
   - 7.2 Approximation _近似_
   - 7.3 Mirror a Surface _镜像_
   - 7.4 Conversion _转换_
-- ***8 Surface Interrogation*** ***曲线 审问***
+- ***8 Surface Interrogation*** ***曲面 审问***
   - 8.1 Intersection Curves _曲线交点_
   - 8.2 Find the Intersections _找 相交_
-- ***9 Surface Analysis***
+- ***9 Surface Analysis*** _曲面分析_
   - 9.1 Curvature Evaluation _曲率评估_
-- ***10 Surface Utilities*** ***曲线 工具🔧***
-  - 10.1 Surface Object _曲面对象_
+- ***10 Surface Utilities*** ***曲面 工具🔧***
+  - 10.1 Surface Object _曲面 对象_
   - 10.2 Evaluation _评估_
   - 10.3 Subdivision _细分_
   - 10.4 Picking Curves from a Surface _从曲面 拾取 曲线_
