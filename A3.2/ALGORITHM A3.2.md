@@ -1,4 +1,4 @@
-``` Matlab
+``` C++
 ALGORITHM A3.2:
   CurveDerivsAlg1(n,p,U,P,u,d,CK)
     { /*  Compute curve derivatives 🧮计算 弧 导数 */
