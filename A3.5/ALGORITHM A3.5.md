@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A3.5
   SurfacePoint(n,p,U,m,q,V,P,u,v,S)
     { /* Compute surface point 计算🧮曲面上的点 */
