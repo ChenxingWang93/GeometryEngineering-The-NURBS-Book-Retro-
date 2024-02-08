@@ -1,4 +1,4 @@
-```Matlab
+``` C++
 ALGORITHM A4.2
   RatCurveDerivs(Aders,wders,d,CK)
     {  /* Compute C(u) derivatives from Cw(u) derivatives 从 Cw(u)导数 计算 C(u)导数 */
