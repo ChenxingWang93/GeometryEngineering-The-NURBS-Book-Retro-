@@ -155,11 +155,11 @@
 
 ### 《SISL The SINTEF Spline Library Reference Manual》
 ### TOC
-- ***1 Preface*** 
+- ***1 Preface*** _前言_
   -  1.1 The structure of this document _该文档📄 结构_
   -  1.2 The structure of the software package _软件包 结构_
   -  1.3 Licensing information _许可 信息_
-- ***2 General Introduction*** 
+- ***2 General Introduction*** _总体 介绍_
   - 2.1 C Syntax Used in Manual _手册中的 C 句法_
   - 2.2 Dynamic Allocation in SISL _动态 分配_
   - 2.3 Creating the library _创建 库_
@@ -172,7 +172,7 @@
   - 2.6 B-spline Surfaces _B-样条 曲面_
     - 2.6.1 ~~The Basis Functions~~
     - 2.6.2 ~~NURBS Surfaces~~
-- ***3 Curve Definition*** ***曲线 定义***
+- ***3 Curve Definition*** _曲线 定义_
   - 3.1 Interpolation ***插入***
     - 3.1.1 ~~Compute a curve interpolating a straight line between two points~~
     - 3.1.2 ~~Compute a curve interpolating a set of points, automatic parameterization~~
@@ -202,7 +202,7 @@
     - 3.4.6 ~~Express a 2D or 3D ellipse as a curve~~
     - 3.4.7 ~~Express a conic arc as a curve~~
     - 3.4.8 ~~Express a truncated helix as a curve~~
-- ***4 Curve Interrogation*** ***曲线 审问***
+- ***4 Curve Interrogation*** _曲线 审问_
   - 4.1 Intersections ***相交***
     - 4.1.1 
     - 4.1.2
@@ -232,14 +232,14 @@
     - 4.10.1 ~~Normal Cone~~
     - 4.10.2 ~~Create &initialize a curve/surface direction instance~~
     - 4.10.3 ~~Find the direction cone of a curve~~
-- ***5 Curve Analysis*** ***曲线 分析***
+- ***5 Curve Analysis*** _曲线 分析_
   - 5.1 Curvature Evaluation ***曲率 评估***
     - 5.1.1 ~~Evaluate the curvature of a curve at given parameter values~~
     - 5.1.2 ~~Evaluate the torsion of a curve at given parameter values~~
     - 5.1.3 ~~Evaluate the Variation of Curvature (VoC) of a curve at given parameter values~~
     - 5.1.4 ~~Evaluate the Frenet Frame (t,n,b) of a curve at given parameter values~~
     - 5.1.5 ~~Evaluate geometric properties at given parameter values~~
-- ***6 Curve Utilities*** ***曲线 工具🔧***
+- ***6 Curve Utilities*** _曲线 工具🔧_
   - 6.1 Curve Object _曲线 对象_
     - 6.1.1
     - 6.1.2
@@ -262,7 +262,7 @@
     - 6.4.2
   - 6.5 Reverse the Orientation of a Curve _翻转 曲面朝向_
   - 6.6 Extend a B-spline Curve _延伸 一个B-样条 曲线_
-- ***7 Surface Definition*** ***曲面 定义***
+- ***7 Surface Definition*** _曲面 定义_
   - 7.1 Interpolation _插入_
     - 7.1.1
     - 7.1.2
@@ -279,25 +279,25 @@
   - 7.2 Approximation _近似_
   - 7.3 Mirror a Surface _镜像_
   - 7.4 Conversion _转换_
-- ***8 Surface Interrogation*** ***曲面 审问***
+- ***8 Surface Interrogation*** _曲面 审问_
   - 8.1 Intersection Curves _曲线交点_
   - 8.2 Find the Intersections _找 相交_
 - ***9 Surface Analysis*** _曲面分析_
   - 9.1 Curvature Evaluation _曲率评估_
-- ***10 Surface Utilities*** ***曲面 工具🔧***
+- ***10 Surface Utilities*** _曲面 工具🔧_
   - 10.1 Surface Object _曲面 对象_
   - 10.2 Evaluation _评估_
   - 10.3 Subdivision _细分_
   - 10.4 Picking Curves from a Surface _从曲面 拾取 曲线_
   - 10.5 Pick a Part of a Surface _从曲面上 拾取一个部件_
   - 10.6 Turn the Direction of the Surface Normal Vector _翻转 曲面 法向量方向_
-- ***11 Data Reduction*** ***数据📊 缩减➖***
+- ***11 Data Reduction*** _数据📊 缩减➖_
   - 11.1 Curves _曲线_
   - 11.2 Surfaces _曲面_
-- ***12 Tutorial programs*** ***辅导 程序***
+- ***12 Tutorial programs*** _辅导 程序_
   - 12.1 Compelling the programs
   - 12.2 Description & commentaries on the sample programs
-- ***13 The object viewer program*** ***对象 观察者 程序***
+- ***13 The object viewer program*** _对象 观察者 程序_
   - 13.1 General _通用_
   - 13.2 Compiling the viewer _编译 视图_
   - 13.3 Command line arguments _命令行 args_
