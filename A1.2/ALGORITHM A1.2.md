@@ -2,8 +2,8 @@
 ALGORITHM A1.2
   Bernstein(i,n,u,B)
     {  /*  compute the value of a Bernstein polynomial 🧮计算 伯恩斯坦多项式的 值 */
-       /*  Input:  i,n,u  */
-       /*  Output: B  */
+       /*  Input:  i,n,u 输入 */
+       /*  Output: B 输出 */
     for (j=0; j<=n; j++)   /*  compute the columns 🧮计算 列 */
       temp[j] = 0.0;       /*  of Table 1.1  */
     temp[n-i] = 1.0;       /*  in a temporary array 在临时数组 中 */
