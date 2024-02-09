@@ -2,8 +2,8 @@
 ALGORITHM A2.2
   BasisFuns(i,u,p,U,N)
     { /*  Compute the nonvanishing basis functions 🧮计算 非消失 基函数 */
-      /*  Input:  i,u,p,U  */
-      /*  Output: N  */
+      /*  Input:  i,u,p,U 输入 */
+      /*  Output: N 输出 */
     N[0]=1.0;
     for (j=1; j<=p; j++)
       {
