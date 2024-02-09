@@ -3,8 +3,8 @@ ALGORITHM A1.7
   deCasteljau2(P,n,m,u0,v0,S)
     {  /*  Compute a point on a Bezier surface 贝塞尔曲面上 🧮计算一个点 ∙  */
        /*  by the deCasteljau. deCasteljau 递推 */
-       /*  Input:  P,n,m,u0,v0  */
-       /*  Output: S*/
+       /*  Input:  P,n,m,u0,v0 输入 */
+       /*  Output: 输出 S*/
     if (n <= m)
       {
       for (j=0; j<=m; j++)   /* P[j][] is jth row 第 jth 行 */
