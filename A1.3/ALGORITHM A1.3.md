@@ -2,8 +2,8 @@
 ALGORITHM A1.3
    AllBernstein(n,u,B)
    {  /* compute all nth-degree Bernstein polynomials. 🧮计算 n-th 度 伯恩斯坦多项式 */
-      /* Input: n,u */
-      /* Output: B (an array, B[0],... B[n]) */
+      /* Input: n,u 输入 */
+      /* Output: B (an array, B[0],... B[n]) 输出 */
    B[0] = 1.0
    u1 = 1.0-u;
    for (j=1; j<=n; j++)
