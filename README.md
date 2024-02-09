@@ -229,9 +229,9 @@
     - 4.9.2
     - 4.9.3 
   - 4.10 Normal Cone ***常规 圆锥体***
-    - 4.10.1 ~~Normal Cone~~
-    - 4.10.2 ~~Create &initialize a curve/surface direction instance~~
-    - 4.10.3 ~~Find the direction cone of a curve~~
+    - 4.10.1 ~~Normal cone object~~ _常规 圆锥体 对象_
+    - 4.10.2 ~~Create &initialize a curve/surface direction instance~~ _创建 &初始化 一个曲线/ 曲面 方向 实例_
+    - 4.10.3 ~~Find the direction cone of a curve~~ _找到 曲线 方向锥_
 - ***5 Curve Analysis*** _曲线 分析_
   - 5.1 Curvature Evaluation ***曲率 评估***
     - 5.1.1 ~~Evaluate the curvature of a curve at given parameter values~~
