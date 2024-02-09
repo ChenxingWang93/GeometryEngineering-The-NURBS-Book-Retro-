@@ -2,7 +2,7 @@
 ALGORITHM A2.1
   int FindSpan(n,p,u,U)
     { /*  Determine the knot span index 决定 节跨度的 指数 */
-      /*  Input:  n,p,u,U  */
+      /*  Input:  n,p,u,U 输入 */
       /*  Return: the knot span index 节跨度 指数 */
     if (u == U[n+1])  return(n);    /* Special case 特殊情况 */
     low = p;  high = n+1;   /* Do binary search 做 二进制搜索🔍 */
