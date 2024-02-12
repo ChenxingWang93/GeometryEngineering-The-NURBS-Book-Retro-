@@ -165,10 +165,10 @@
   - 2.3 Creating the library _创建 库_
   - 2.4 An Example Program _样例 程序_
   - 2.5 B-spline Curves _B-样条 曲线_
-    - 2.5.1 ~~B-spline~~
-    - 2.5.2 ~~The Control Polygon~~
-    - 2.5.3 ~~The Knot Vector~~
-    - 2.5.4 ~~NURBS Surfaces~~
+    - 2.5.1 ~~[B-spline](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.1%20B-splines.md)_B样条_~~
+    - 2.5.2 ~~[The Control Polygon](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.2%20The%20Control%20Polygon.md)_控制 多边形_~~
+    - 2.5.3 ~~[The Knot Vector](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.3%20The%20Knot%20Vector.md)_结向量_~~
+    - 2.5.4 ~~[NURBS Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.4%20NURBS%20Curves.md)~~
   - 2.6 B-spline Surfaces _B-样条 曲面_
     - 2.6.1 ~~The Basis Functions~~
     - 2.6.2 ~~NURBS Surfaces~~
