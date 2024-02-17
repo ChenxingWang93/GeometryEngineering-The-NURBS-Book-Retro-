@@ -23,9 +23,9 @@ DegreeElevateCurve(n,p,U,Pw,t,nh,Uh,Qw)
   ua = U[0];
   Qw[0] = Pw[0];
   for (i=0; i<=ph; i++)   Uh[i] = ua;
-    /* Initialize first Bezier seg */
+    /* Initialize first Bezier seg 初始化 第一个☝️ 贝塞尔 片段 */
   for (i=0; i<=ph; i++)  bpts[i] = Pw[i];
-  while (b < m)    /* Big loop thru knot vector */
+  while (b < m)    /* Big loop thru knot vector 结点 向量 大循环 ♻️ */
     {
   i = b;
   while (b < m && U[b] == U[b+1])    b = b+1;
@@ -39,7 +39,7 @@ DegreeElevateCurve(n,p,U,Pw,t,nh,Uh,Qw)
 
 if (r > 0)  rbz = ph-(r+1)/2;   else   rbz = ph;
 if (r > 0)
-  {  /* Insert knot to get Bezier segment */
+  {  /* Insert knot to get Bezier segment 插入 结点 获得 贝塞尔 片段 */
   numer = ub-ua;
   for (k=p; k>mul; k--)
     alfs[k-mul-1] = numer/(U[a+k]-ua);
@@ -53,7 +53,7 @@ if (r > 0)
       }
     Nextbpts[save] = bpts[p];
     }
-  }  /* End of "insert knot" */
+  }  /* End of "insert knot" “插入结点” */
 for (i=lbz; i<=ph; i++)   /* Degree elevate Bezier */
   {  /* Only points lbz,...,ph are used below */
   ebpts[i] = 0.0;
