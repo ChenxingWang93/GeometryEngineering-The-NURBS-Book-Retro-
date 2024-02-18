@@ -54,8 +54,8 @@ if (r > 0)
     Nextbpts[save] = bpts[p];
     }
   }  /* End of "insert knot" “插入结点” */
-for (i=lbz; i<=ph; i++)   /* Degree elevate Bezier */
-  {  /* Only points lbz,...,ph are used below */
+for (i=lbz; i<=ph; i++)   /* Degree elevate Bezier 贝塞尔曲线 度数 提升*/
+  {  /* Only points lbz,...,ph are used below 只有 点 lbz,...,ph 被使用*/
   ebpts[i] = 0.0;
   mpi = Min(p,i);
   for (j=Max(0,i-t); j<=mpi; j++)
