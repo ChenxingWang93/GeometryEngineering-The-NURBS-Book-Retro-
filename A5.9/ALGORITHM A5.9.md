@@ -60,18 +60,18 @@ for (i=lbz; i<=ph; i++)   /* Degree elevate Bezier 贝塞尔曲线 度数 提升
   mpi = Min(p,i);
   for (j=Max(0,i-t); j<=mpi; j++)
     ebpts[i] = ebpts[i] + bezalfs[i][j]*bpts[j];
-  }  /* End of degree elevating Bezier */
+  }  /* End of degree elevating Bezier 结束 贝塞尔曲线 度数提升 */
 if (oldr > 1)
-  {  /* Must remove knot u=U[a] oldr times */
+  {  /* Must remove knot u=U[a] oldr times 必须 移除 结点 u=U[a] oldr 次数*/
   first = kind-2;   last = kind;
   den = ub-ua;
 
 bet = (ub-Uh[kind-1])/den;
 for (tr=1; tr<oldr; tr++)
-  {  /* Knot removal loop */
+  {  /* Knot removal loop 结点 移除 循环 */
   i = first;    j = last;    kj = j-kind+1;
   while (j-i > tr)  /* Loop and compute the new */
-    {   /* control points for one removal step */
+    {   /* control points for one removal step 控制点 对于 每个 移除步骤 */
     if (i < cind)
       {
       alf = (ub-Uh[i])/(ua-Uh[i]);
@@ -93,23 +93,23 @@ for (tr=1; tr<oldr; tr++)
     }
   first = first-1;    last = last+1;
   }
-}  /* End of removing knot, u=U[a] */
-if (a != p)/* Load the knot ua */
+}  /* End of removing knot, u=U[a] 结束🔚 移除 结点 */
+if (a != p)/* Load the knot ua 加载 结点 ua */
   for(i=0; i<=ph-oldr; i++)
 
      {  Uh[kind] = ua;    kind = kind+1;  }
-  for(j=lbz; j<=rbz; j++)   /* Load ctrl pts into Qw */
+  for(j=lbz; j<=rbz; j++)   /* Load ctrl pts into Qw 加载 ctrl 点 到 Qw */
     { Qw[cind] = ebpts[j];    cind = cind+1;  }
   if (b < m)
-    {  /* Set up for next pass thru loop */
+    {  /* Set up for next pass thru loop 通过循环 设定 下一个 pass */
     for (j=0; j<r; j++)    bpts[j] = Nextbpts[j];
     for (j=r; j<=p; j++)   bpts[j] = Pw[b-p+j];
     a = b;   b = b+1;   ua = ub;
     }
     else
-        /* End knot */
+        /* End knot 结束结点 */
       for (i=0; i<=ph; i++)  Ub[kind+i] = ub;
-}    /* End of while-loop (b < m) */
+}    /* End of while-loop (b < m) 结束 while-loop */
 nh = mh-ph-1;
 }
 ```
