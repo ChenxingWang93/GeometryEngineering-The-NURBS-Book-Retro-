@@ -333,3 +333,9 @@ with
 ```
 B-1,n_1(u),n-1(u) - 0
 ```
+
+with B-1,n_1(u) - Bn, n-1(u) - 0
+
+the definition of B'_{2,5}
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/be9c29ba-9ac6-4630-aab8-8f8a5cae9574)
