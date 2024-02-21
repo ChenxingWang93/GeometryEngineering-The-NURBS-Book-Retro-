@@ -20,7 +20,7 @@ for (k=1; k<k1; k++)
   for (j=k+1; j<=pk; j++)
     {
     d = 0.0;
-    for (i=k; i<j; i++)  d = d-M[][]*MI[][];
+    for (i=k; i<j; i++)  d = d-M[j][i]*MI[i][k];
     MI[j][k] = d/M[j][j];
     MI[pk][p-j] = MI[j][k];
     }
