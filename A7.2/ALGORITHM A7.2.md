@@ -18,8 +18,14 @@ ALGORITHM A7.2
       return;
       }
     else
-    {  /* */
-     
+    {  /* infinite control point, 180 degree arc */
+    w1 = 0.0;
+    Intersect3DLines(P,T0,P0,V02,alf0,alf2,dummy);
+    a = sqrt(alf2/(1.0-alf2));
+    b = 2.0*u*(1.0-u);
+    b = -alf0*(1.0-b)/b;
+    P1 = b*T0;
+    return;
     }
-}
+  }
 ```
