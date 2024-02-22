@@ -38,6 +38,16 @@ if (nsegs == 2)
   /* nsegs == 4 */
 Pw[4] = S;
 w1 = wqr;
-SplitArc()
+SplitArc(P0,Q1,w1,S,HQ1,HS,HR1,wqr);
+Pw[2] = HS;
+Pw[1] = wqr*HQ1;    Pw[3] = wqr*HR1;
+SplitArc(S,R1,w1,P2,HQ1,HS,HR1,wqr);
+Pw[6] = HS;
+Pw[5] = wqr*HQ1;    Pw[7] = wqr*HR1;
+for (i=0; i<2; i++)   /* load the remaining knots */
+  {
+  U[i+3] = 0.25;   U[i+5] = 0.5;   U[i+7] = 0.75;
+  }
+return;
 }
 ```
