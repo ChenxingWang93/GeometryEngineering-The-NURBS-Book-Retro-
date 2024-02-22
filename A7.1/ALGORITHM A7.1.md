@@ -15,5 +15,14 @@ ALGORITHM A7.1
                 narcs = 4;
     dtheta = theta/narcs;
     n = 2*narcs;    /* n+1 control points n+1 控制点 */
+    w1 = cos(dtheta/2.0);   /* dtheta/2 is base angle 基 角度 */
+    P0 = 0 + r*cos(ths)*X + r*sin(ths)*Y;
+    T0 = -sin(ths)*X + cos(ths)*Y; /* Initialize start values 初始化 开始 值*/
+    Pw[0] = P0;
+index = 0;   angle = ths;
+for (i=1; i<=narcs; i++)
+  {
+  
+  }
 }
 ```
