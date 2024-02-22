@@ -22,7 +22,30 @@ ALGORITHM A7.1
 index = 0;   angle = ths;
 for (i=1; i<=narcs; i++)
   {
-  
+  angle = angle + dtheta;
+  P2 = 0 + r*cos(angle)*X + r*sin(angle)*Y;
+  Pw[index+2] = P2;
+  T2 = -sin(angle)*X + cos(angle)*Y;
+  Intersect3DLines(P0,T0,P2,T2,dummy,dummy,P1);
+  Pw[index+1] = w1*p1;
+  index = index + 2;
+  if (i<narcs)     {  P0 = P2;   T0 = T2;  }
+  }
+j = 2*narcs+1;   /* load the knot vector 加载 结点 向量 */
+for (i=0; i<3; i++)
+  {  U[i] = 0.0;   U[i+j] = 1.0;  }
+switch (narcs)
+  {
+  case 1:  break;
+  case 2:  U[3] = U[4] = 0.5;
+           break;
+  case 3:  U[3] = U[4] = 1.0/3.0;
+           U[5] = U[6] = 2.0/3.0;
+           break; 
+  case 4:  U[3] = U[4] = 0.25;
+           U[5] = U[6] = 0.5;
+           U[7] = U[8] = 0.75;
+           break;
   }
 }
 ```
