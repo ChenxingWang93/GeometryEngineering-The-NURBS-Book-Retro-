@@ -14,8 +14,13 @@ ALGORITHM A9.5
       for (k=1; k<=n; k++)
         {
         Compute and load T^u_{k,l} into td[k][l][0]
-            /* */
+            /* Eqs.(9.31) and (9.33) */
+        d = |Q_{k,l}-Q_{k,l-1}|;
+        vb[l] = vb[l]+d;
+        s[k] = s[k]+d;
         }
-  }
+      total = total + s[k];
+      }
+      
 }
 ```
