@@ -6,6 +6,17 @@ ALGORITHM A9.1
        /*  Output: m,U,P 输出 */
     m = n+p+1;
 Compute the uk;    /* Eq.(9.5) or (9.6) */
-Compute the knot vector U;
+Compute the knot vector U;   /* Eq.(9.8) */
+Initialize array A to zero;
+for (i=0; i<=n; i++)
+  {  /* Set up coefficient matrix 设置 系数 矩阵 */
+  span = FindSpan(n,p,uk[i],U);
+  BasisFuns(span,uk[i],p,U,A[i][span-p]); /* Get ith row */
+  }
+LUDecomposition(A,n+1,p-1);
+for (i=0; i<r; i++)   /* r is the number of coordinates r 为 坐标数量 */
+  {
+  
+  }
 }
 ```
