@@ -9,10 +9,13 @@ ALGORITHM A9.5
     for (k=0; k<=n; k++)   ub[k] = 0.0;
     for (l=0; l<=m; l++)
       {
-      Compute and local into td[0][l][0];
+      Compute and load T^u_{0,l} into td[0][l][0];
       r[l] = 0.0;
       for (k=1; k<=n; k++)
-        {}
+        {
+        Compute and load T^u_{k,l} into td[k][l][0]
+            /* */
+        }
   }
 }
 ```
