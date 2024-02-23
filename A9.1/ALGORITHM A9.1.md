@@ -16,7 +16,9 @@ for (i=0; i<=n; i++)
 LUDecomposition(A,n+1,p-1);
 for (i=0; i<r; i++)   /* r is the number of coordinates r 为 坐标数量 */
   {
-  
+  for (j=0; j<=n; j++)   rhs[j] = ith coordinate of Q[j];
+  ForwardBackward(A,n+1,p-1,rhs,sol);
+  for (j=0; j<=n; j++)   ith coordinate of P[j] = sol[j];
   }
 }
 ```
