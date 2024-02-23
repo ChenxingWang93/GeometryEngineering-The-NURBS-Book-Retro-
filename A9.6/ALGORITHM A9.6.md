@@ -9,5 +9,11 @@ ALGORITHM A9.6
       if (Wq[i] > 0.0)   ru = ru+1;
         else             rc = rc+1;
     su = -1;    sc = -1;
+for (j=0; j<=s; j++)
+  if (Wd[j] > 0.0)   su = su+1;
+    else             sc = sc+1;
+mu = ru+su+1;    mc = rc+sc+1;
+if (mc >= n || mc+n >= mu+1)   return(error);
+ 
 }
 ```
