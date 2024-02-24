@@ -40,7 +40,41 @@ if (Wq[i] > 0.0)
   T[mc2] = Q[i];
   mc2 = mc2+1;
   }
-
-}
+  else
+  {  /* Constrained point */
+  Load the mc2th row of M[][] from funs[0][];
+  T[mc2] = Q[i];
+  mc2 = mc2+1;
+  }
+if (dflag == 1)
+  {  /* Derivative at this point */
+  if (Wd[j] > 0.0)
+    {  /* Uncostrained derivative */
+    W[mu2] = Wd[j];
+    Load the mu2th row of N[][] from funs[1][];
+    S[mu2] = W[mu2]*D[j];
+    mu2 = mu2+1;
+    }
+    else
+    {  /* Costrained derivative */
+    Load the mc2th row of M[][] from funs[][];
+    T[mc2] = D[j]
+    }
+  j = j+1;
+  }
+  }  /* End of for-loop i=0,...,r */
+Compute the matrices N^TWN and N^TWS;
+LUDecomposition(N^TWN,n+1,p);
+if (mc < 0)
+  {  /* No constraints */
+  Use ForwardBackward() to solve for the control points P[].
+      Eq.(9.71) reduces to (N^TWN)P = N^TWS.
+  return;
+  }
+Compute the inverse (N^TWN)^(-1), using ForwardBackward().
+Do matrix operations to get: M(N^TWN)(-1)M^T and
+    M(N^TWN)^(-1)(N^TWS)-T;
+Solve Eq.(9.75) for the Lagrange multipliers, load into A[];
+Then P = (N^TWN)^(-1)((N^TWS)-M^TA), Eq.(9.74);
 }
 ```
