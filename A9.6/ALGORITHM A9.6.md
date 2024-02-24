@@ -13,7 +13,10 @@ for (j=0; j<=s; j++)
   if (Wd[j] > 0.0)   su = su+1;
     else             sc = sc+1;
 mu = ru+su+1;    mc = rc+sc+1;
-if (mc >= n || mc+n >= mu+1)   return(error);
- 
+if (mc >= n || mc+n >= mu+1)      return(error);
+Compute and load parameters u_{k} into ub[] (Eq.[9.5]);
+Compute and load the knots into U[] (Eqs.[9.68],[9.69]);
+      /* Now set up array N,W,S,T,M */
+
 }
 ```
