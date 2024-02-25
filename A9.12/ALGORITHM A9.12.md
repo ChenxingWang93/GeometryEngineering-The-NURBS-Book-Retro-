@@ -35,8 +35,41 @@ for (k=1; k<dk; k++)
         return(0);
     }
     else
+  {  /* Noncoplanar case */
+  Pd = Intersection of 𝜋 with Line(Q[k+ks],Te);
+  Pc = Intersection of Line (Q[ks],Q[ke]-Q[ks]) with
+      Line(Pd,Ts);
+  gama = Distance3D(Pc,Q[ke])/Distance3D(Q[ks],Q[ke]);
+  if (gamma < 0.0 || gamma > 1.0)  return(0);
+  Use Newton iteration to solve Eq.(9.102) for uh[k].
+  if (uh[k] < 0.0 || uh[k] > 1.0)   return(0);
+    else
+    }
+    a = Distance3D(Pc,Pd);     b = -Distance3D(Pd,Q[k+ks]);
+    Evaluate Bernstein polynomials and use Eq.(9.99)
+      to get alfak[k] and betak[k].
+    }
+  }
+}  /* End of for-loop: k=1,...,dk-1 */
+  /* Step 2: average the 𝛼_{𝒌}𝑠 */
+alpha = beta = 0.0;
+for (k=1; k<dk; k++)
+  {  alpha = alpha+alfak[k];   beta = beta+betak[k];
+alpha = alpha/(dk-1);    beta = beta/(dk-1);
+P1 = Q[ks]+alpha*Ts;    P2 = Q[ke]+beta*Te;
+    /* Step 3: check deviations */
+  }
+for (k=1; k<dk; k++)
   {
+  u = uh[k];
+  if (Eq.[9.110] less than E)   continue;
+    else
+    {  /* Must do Newton iterations. u is start value */
+    Project Q[k+ks] to curve to get error ek.
+    if (ek > E)   break;
+    }
   }
-  }
+if (k == dk)   return(1);   /* segment within tolerance */
+  else         return(0);   /* not within tolerance */
 }
 ```
