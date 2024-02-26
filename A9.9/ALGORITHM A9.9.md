@@ -1,9 +1,9 @@
 ``` C++
 ALGORITHM A9.9
 RemoveKnotBoundCurve(n,p,U,P,ub,ek,E,nh,Uh,Ph)
-  {  /*  Remove knots from curve, bounded  */
-     /*  Input:  n,p,U,P,ub,ek,E  */
-     /*  Output: ek,nh,Uh,Ph  */
+  {  /*  Remove knots from curve, bounded 从曲线中移除 结点，形成的边界 */
+     /*  Input:  n,p,U,P,ub,ek,E 输入 */
+     /*  Output: ek,nh,Uh,Ph 输出 */
   Inf = ∞;    /* Big number */
   Get the values Br for all distinct interior knots (A9.8)
   For each basis function, get range of parameter indices.
