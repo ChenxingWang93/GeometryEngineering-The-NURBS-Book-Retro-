@@ -3,8 +3,8 @@ ALGORITHM A2.5
   DersOnBasisFun(p,m,U,i,u,n,ders)
     { /* Compute derivatives of basis function Nip 🧮计算 基函数Nip 的导数 */
 
-  /*  Input: p,m,U,i,u,n  */
-  /*  Output: ders */
+  /*  Input: p,m,U,i,u,n 输入 */
+  /*  Output: ders 输出 */
 if (u < U[i] || u >= U[i+p+1])  /* Local property 本地 属性 */
   {
   for (k=0; k<=n; k++)  ders[k] = 0.0;
