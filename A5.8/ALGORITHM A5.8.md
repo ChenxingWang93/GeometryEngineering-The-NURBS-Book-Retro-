@@ -25,7 +25,7 @@ while (j-i > t)
   temp[jj] = (Pw[j]-alfj*temp[jj+1])/(1.0-alfj);
   i = i+1;    ii = ii+1;
   j = j-1;    jj = jj-1;
-  } /* End of while-loop  */
+  } /* End of while-loop 结束 while 循环 */
 if (j-i < t)  /* Check if knot removable 检查 是否 结点 可移除 */
   {
   if (Distance4D(temp[ii-1],temp[jj+1]) <= TOL)
@@ -50,15 +50,15 @@ else
       }
     }
   first = first-1;    last = last+1;
-  } /* End of for-loop */
+  } /* End of for-loop 结束 for 循环 */
 if (t == 0)   return;
 
-for (k=r+1; k<=m; k++) U[k-t] = U[k];  /* Shift knots */
+for (k=r+1; k<=m; k++) U[k-t] = U[k];  /* Shift knots 偏移 结点 */
 j = fout;   i=j;   /* Pj thru Pi will be overwritten */
 for (k=1; k<t; k++)
   if (Mod(k,2) == 1)    /* k modulo 2 */
     i = i+1;    else    j = j-1;
-for (k=i+1; k<=n; k++)    /* Shift */
+for (k=i+1; k<=n; k++)    /* Shift 偏移 */
   {  Pw[j] = Pw[k];   j = j+1;  }
 return;
 }
