@@ -2,8 +2,8 @@
 ALGORITHM A3.4
   CurveDerivsAlg2(n,p,U,P,u,d,CK)
     { /*  Compute curve derivatives 🧮计算 弧形 导数 */
-      /*  Input:  n,p,U,P,u,d  */
-      /*  Output: CK  */
+      /*  Input:  n,p,U,P,u,d 输入 */
+      /*  Output: CK 输出 */
     du = min(d,p);
 for (k=p+1; k<=d; k++)  CK[k] = 0.0;
 span = FindSpan(n,p,u,U);
