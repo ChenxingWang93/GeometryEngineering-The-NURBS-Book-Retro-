@@ -2,8 +2,8 @@
 ALGORITHM A3.1:
   CurvePoint(n,p,U,P,u,C)
     { /*  Compute curve point 🧮计算 弧点 ∙ */
-      /*  Input:  n,p,U,P,u  */
-      /*  Output: C  */
+      /*  Input:  n,p,U,P,u 输入 */
+      /*  Output: C 输出 */
     span = FindSpan(n,p,u,U);
     BasisFuns(span,u,p,U,N);
     C = 0.0;
