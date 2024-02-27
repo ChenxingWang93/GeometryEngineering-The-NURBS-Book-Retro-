@@ -6,18 +6,18 @@ RemoveCurveKnot(n,p,U,Pw,u,r,s,num,t)
      /*  Output:t, new knots & ctrl pts in U & Pw 输出 */
   m = n+p+1;
   ord = p+1;
-  fout = (2*r-s-p)/2;  /* First control point out */
+  fout = (2*r-s-p)/2;  /* First control point out 第 1 控制点 出 */
   last = r-s;
   first = r-p;
   for (t=0; t<num; t++)
 { /* This loop is Eq.(5.28) */
-off = first-1;  /* Diff in index between temp and P */
+off = first-1;  /* Diff in index between temp and P temp & P 之间 索引的不同 */
 temp[0] = Pw[off];   temp[last+1-off] = Pw[last+1];
 i = first;     j=last;
 ii = 1;     jj = last-off;
 remflag = 0;
 while (j-i > t)
-  { /* Compute new control points for one removal step */
+  { /* Compute new control points for one removal step 为 1 个移除的步骤 计算 新的控制点  */
   alfi = (u-U[i])/(U[i+ord+t]-U[i]);
   alfj = (u-U[j-t])/(U[j+ord]-U[j-t]);
 
@@ -26,7 +26,7 @@ while (j-i > t)
   i = i+1;    ii = ii+1;
   j = j-1;    jj = jj-1;
   } /* End of while-loop  */
-if (j-i < t)  /* Check if knot removable */
+if (j-i < t)  /* Check if knot removable 检查 是否 结点 可移除 */
   {
   if (Distance4D(temp[ii-1],temp[jj+1]) <= TOL)
     remflag = 1;
@@ -38,10 +38,10 @@ else
                            +(1.0-alfi)*temp[ii-1]) <= TOL)
     remflag = 1;
   }
-if (remflag == 0)   /* Cannot remove any more knots */
-  break;           /* Get out of for-loop */
+if (remflag == 0)   /* Cannot remove any more knots 不能移除 更多 结点 */
+  break;           /* Get out of for-loop 跳出 for 循环 */
 else
-    {   /* successful removal. Save new cont.pts.   */
+    {   /* successful removal. Save new cont.pts. 成功 移除！保存 控制点 */
     i = first;   j = last;
     while (j-i > t)
       {
