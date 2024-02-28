@@ -11,7 +11,7 @@ Initialize array A to zero;
 for (i=0; i<=n; i++)
   {  /* Set up coefficient matrix 设置 系数 矩阵 */
   span = FindSpan(n,p,uk[i],U);
-  BasisFuns(span,uk[i],p,U,A[i][span-p]); /* Get ith row */
+  BasisFuns(span,uk[i],p,U,A[i][span-p]); /* Get ith row 获取 第i行 */
   }
 LUDecomposition(A,n+1,p-1);
 for (i=0; i<r; i++)   /* r is the number of coordinates r 为 坐标数量 */
