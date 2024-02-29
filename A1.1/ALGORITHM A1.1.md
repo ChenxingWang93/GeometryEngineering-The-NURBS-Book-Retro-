@@ -14,36 +14,6 @@ ALGORITHM A1.1
 
 ```
 
-🚩🚩🚩***Ex1.3***
-
-### n = 3. 
-
-The cubic, 三次
-```
-- C(u) = a_{0} + a_{1}u + a_{2}u^2 + a_{3}u^3
-```
-是非常通用的曲线 is a very general curve;
-
-  it can be a truly _twisted_ three-dimensional curve 是一个 ***纯粹*** 的 _扭曲_ 三维曲线，
-
-  not lying in a single plane 并不依附于一个单一的平面
-
-  可以是 拐点 an inflection point(Figure 1.8b)
-  
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/4eeb86e9-8523-4b37-ae82-1928ab9c6cd7)
-
-  可以是 奇异点 a cusp(Figure 1.8c)
-  
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7bdc1487-8668-4cd8-9a35-8b5ad401e2f2)
-
-  可以是 环 or a loop(Figure 1.8d)
-  
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/59fbf11f-a732-4049-bb11-52c3e2bd65be)
-
-The basis(blending) functions, 基础 弯曲 函数 {Bi,,(u)}, 是经典的 nth-阶 伯恩斯坦多项式 the classical nth-degree Bernstein polynomials
-
-([Bern12; Lore86])
-
 🚩🚩🚩🚩***Ex1.4***
 
 ### n = 1
