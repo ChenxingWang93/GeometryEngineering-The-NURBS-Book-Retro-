@@ -14,35 +14,6 @@ ALGORITHM A1.1
 
 ```
 
-🚩🚩🚩🚩***Ex1.4***
-
-### n = 1
-
-```
-C(u)_>BZ,n(u)Pi 0 < u < 1 
-```
-(1.7)
-
-<img width="350" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
-(1.8)
-
-```
-B_{0,1}(u) = 1 - u &B_{1,1}(u) = u
-```
-取形式 
-```
-C(u) = (1-u)P_{0} + uP_{1}, 
-```
-从 
-```
-P_{0} 
-```
-到 
-```
-P_{1}
-```
-的直线片段
-
 🚩🚩🚩🚩🚩***Ex1.5***
 
 ### n = 2.  
