@@ -8,12 +8,12 @@ Figure 1.8. Cubic curves. (a) Three-dimensional twisted;
 
 ~~![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/a54b2f8e-22e2-461e-9d21-67e50538acad)~~
 
-(b) inflection point;
+(b) Inflection point;
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/33f1ecc1-53e4-414b-9c12-520470d2a298)
 
-(c) cusp;
+(c) Cusp;
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ccd9fbad-22c8-403f-80b0-dde92a454b6d)
 
-(d) loop.
+(d) Loop.
