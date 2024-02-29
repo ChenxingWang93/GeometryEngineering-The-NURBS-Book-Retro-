@@ -45,19 +45,19 @@ a_{0},a_{1},a_{2},a_{3} 不位于 唯一的平面上 do not lie in a unique plan
 在拐点处 at an inflection point,
 
 ```
-C''(u) = 0,
+𝐶''(𝑢) = 0,
 ```
 
 or
 
 ```
-C'(u) || C''(u)
+𝐶'(𝑢) || 𝐶''(𝑢)
 ```
 
 A necessary(but not sufficient) condition for a cusp at u = u_{0} is
 
 ```
-C'(u) = 0
+𝐶'(𝑢) = 0
 ```
 (velocity zero)
 
