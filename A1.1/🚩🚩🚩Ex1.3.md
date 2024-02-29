@@ -31,3 +31,36 @@ C(u) = a_{0} + a_{1}u + a_{2}u^2 + a_{3}u^3
 
 ~~![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/59fbf11f-a732-4049-bb11-52c3e2bd65be)~~
 (Figure 1.8d)
+
+一个 扭曲 曲线结果是 如果 a twisted curve results if
+
+a_{0},a_{1},a_{2},a_{3} 不位于 唯一的平面上 do not lie in a unique plane.
+
+平面曲线上的 拐点 处的曲线是 平滑的 an inflection point on a planar curve is defined as a point where the curve is smooth(no cusp).
+
+点 处的正切线 经过 曲线 The tangent line at that point passes through the curve.
+
+这意味着 曲线改变方向的 变化 This implies a change in the turning direction of a curve.
+
+在拐点处 at an inflection point,
+
+```
+C''(u) = 0,
+```
+
+or
+
+```
+C'(u) || C''(u)
+```
+
+A necessary(but not sufficient) condition for a cusp at u = u_{0} is
+
+```
+C'(u) = 0
+```
+(velocity zero)
+
+Conditions for a loop to occur are also known.
+
+(see [Ferg66, 67, 69, 93; Forr70, 80; Wang81; Ston89; Su89]).
