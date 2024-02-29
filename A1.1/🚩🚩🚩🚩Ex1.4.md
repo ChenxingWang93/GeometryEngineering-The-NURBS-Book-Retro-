@@ -2,6 +2,8 @@
 
 ### n = 1
 
+~~An nth-degree Bezier curve is defined by~~
+
 ~~![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0b07e0f6-e31a-4530-b094-b1f4099400f3)~~
 
 Figure 1.8. Cubic curves. (a) Three-dimensional twisted;
@@ -22,4 +24,17 @@ Figure 1.8. Cubic curves. (a) Three-dimensional twisted;
 
 <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
 
-𝑢 ∊ [𝟎,𝟏].
+Eq.(𝟷.𝟾)
+
+𝑢 ∊ [𝟶,𝟷].
+
+𝙱_{𝟶,𝟷}(𝚞) = 𝟷 - 𝚞
+𝙱_{𝟷,𝟷}(𝚞) = 𝚞;
+
+Eq.(𝟷.𝟽)
+
+𝙲(𝚞) = (𝟷 - 𝚞)𝚸_{𝟶}+𝚞𝚸_{𝟷}
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cfd54eb8-cbcb-489f-a9ac-5bdca306da0d)
+
+a straight line segment from 𝚸_{𝟶} to 𝚸_{𝟷}
