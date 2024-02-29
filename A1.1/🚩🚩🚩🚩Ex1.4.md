@@ -21,3 +21,5 @@ Figure 1.8. Cubic curves. (a) Three-dimensional twisted;
 该形式的几何系数 the geometric coefficients of this form, are called control points.
 
 <img width="200" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
+
+𝑢 ∊ [𝟎,𝟏].
