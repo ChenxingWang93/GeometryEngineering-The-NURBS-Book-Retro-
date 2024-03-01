@@ -119,3 +119,7 @@ B_{𝟶,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟶,𝟷}(𝚞) + 𝚞B_{-𝟷,𝟷}(𝚞
 B_{𝟷,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟷,𝟷}(𝚞) + 𝚞B_{𝟶,𝟷}(𝚞) = (𝟷 - 𝚞)𝚞 + 𝚞(𝟷 - 𝚞) = 2𝚞(𝟷 - 𝚞)
 B_{𝟸,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟸,𝟷}(𝚞) + 𝚞B_{𝟷,𝟷}(𝚞) = 𝚞^𝟸
 ```
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5)
+
+Figure 𝟷.𝟷𝟺. The recursive definition of the Bernstein polynomial, 𝙱_{𝟷,𝟹}(𝚞).
