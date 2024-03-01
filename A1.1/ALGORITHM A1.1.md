@@ -14,52 +14,6 @@ ALGORITHM A1.1
 
 ```
 
-🚩🚩🚩🚩🚩🚩Ex1.6
-
-### n = 3.
-
-```
-C(u) = (1-u)^3P_{0} + 3u(1-u)^2P_{1} + 3u^{2}(1-u)P_{2} + u^{3}P_{3}
-```
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/f6fa2a72-212c-4152-be1e-cc9db4fda4cb)
-
-examples of cubic Bezier curves are shown above
-- the control polygons approximates the shapes of the curves;
-```
-- P_{0} = C(0) & P_{3} = C(1)
-```
-- 端点的tangent 方向平行于
-```
-P_{1} - P_{0} & P_{3} - P_{2};
-```
-
-- convex hull property凸包属性: the curves are  contained in the convex hulls of their defining control pts
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/18247197-7f24-4d44-8a42-bdd7c2624722)
-
-- variation diminishing property:差异 减少 属性 no straight line intersects a curve more times than it intersects the curve's control polygon(for a three-dimensional Bezier curve, replace the words 'straight line' with the word 'plane'). This expresses the property that a Bezier curve follows its control polygon rather closely and does not wiggle more than its control polygon.
-
-没有 直线 相交曲线的次数 多于曲线控制 多边形（对于 三维 贝塞尔曲线，替换 “直线” 为 “平面”）
-
-这表达了 贝塞尔曲线相当紧密地 遵循其控制多边形
-
-并且不会比其控制多边形摆动更多 的属性
-
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb66646a-a564-477f-a24e-7232020429d3)
-
-- initially (at u = 0) the curve is turning in the same direction as
- 
-```
-P_{0} P_{1} P_{2} 
-```
-at u = 1 it is turning in the direction 
-
-```
-P_{1} P_{2} P_{3} 
-```
-- a loop in the control polygon may or may not imply a loop in the curve. The transition between Figure 1.11e &Figure 1.11f is a curve with a cusp.
-
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de0f7a6e-05ea-4941-85f7-9d5fd157379c)![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/de21600a-5db9-454f-a33e-5f2d5dfab61d)
-
 🚩🚩🚩🚩🚩🚩🚩Ex1.7
 
 ### n = 6.
