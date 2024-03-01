@@ -23,6 +23,7 @@ P_{𝟸}
 ```
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/28287e89-0814-41a7-bbb4-049d65f5c54e)
+
 Figure 𝟷.𝟷𝟶
 
 ```
