@@ -14,56 +14,6 @@ ALGORITHM A1.1
 
 ```
 
-🚩🚩🚩🚩🚩***Ex1.5***
-
-### n = 2.  
-
-From Eqs. (1.7) &(1.8) we have
-
-```
-C(u) = (1-u)^2P_{0}+2u(1-u)P_{1}+u^2P_{2}
-```
-
-从
-```
-P_{0} 
-```
-到 
-```
-P_{2} 
-```
-的抛物线
-
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8889d711-43b6-4b87-8d9f-5162746de74e)
-
-the polygon formed by
-```
-{P_{0},P_{1},P_{2}}, 
-```
-called the control polygon, approximates the shape of the curve rather nicely;
-
-```
-P_{0} = C(0) &P_{2} = C(1);
-```
-
-- the tangent directions to the curve at its endpoints are parallel to
-```
-p_{1}-p_{0}
-```
-
-```
-p_{2}-p_{1}
-```
-(this is derived later)
-
-the curve is contained in the triangle formed by 
-
-```
-P_{0}
-P_{1}
-P_{2}
-```
-
 🚩🚩🚩🚩🚩🚩Ex1.6
 
 ### n = 3.
