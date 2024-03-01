@@ -78,7 +78,7 @@ recursive definition: 𝙱_{𝚒,𝚗}(𝚞) = (1 - 𝚞)𝙱_{𝚒,𝚗-1}(𝚞
 
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7658ed1e-07d8-40dd-931a-07168b71bfaa);
 
-we define 𝙱_{𝚒,𝚗}(𝚞) ≡ 𝟶 if 𝚒 < 𝟶 or 𝚒 > 𝚞;
+we define 𝙱_{𝚒,𝚗}(𝚞) ≡ 𝟶 if 𝚒 < 𝟶 or 𝚒 > 𝚗;
 
 ***𝙿𝟷.𝟽***
 
@@ -90,6 +90,7 @@ derivatives:
 {B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
 ```
 
+with 
 
 
 
