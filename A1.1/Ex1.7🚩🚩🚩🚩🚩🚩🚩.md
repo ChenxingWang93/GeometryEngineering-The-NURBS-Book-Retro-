@@ -37,3 +37,7 @@ Figures 𝟷.𝟷𝟹𝚌
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/00f86b4e-1ce5-4841-a75f-40fae1d620d2)
 
 Figures 𝟷.𝟷𝟹𝚍
+
+show the basis functions {𝘽_{𝚒,𝚗(𝚞)}} for 𝚗 = 𝟷,𝟸,𝟹,𝟿.
+
+These functions have these properties:
