@@ -34,7 +34,7 @@
 
 一个 扭曲 曲线结果是 如果 a twisted curve results if
 
-a_{0},a_{1},a_{2},a_{3} 不位于 唯一的平面上 do not lie in a unique plane.
+𝚊_{𝟶},𝚊_{𝟷},𝚊_{𝟸},𝚊_{𝟹} 不位于 唯一的平面上 do not lie in a unique plane.
 
 平面曲线上的 拐点 处的曲线是 平滑的 an inflection point on a planar curve is defined as a point where the curve is smooth(no cusp).
 
@@ -54,7 +54,7 @@ or
 𝐶'(𝑢) || 𝐶''(𝑢)
 ```
 
-A necessary(but not sufficient) condition for a cusp at u = u_{0} is
+A necessary(but not sufficient) condition for a cusp at 𝚞 = 𝚞_{𝟶} is
 
 ```
 𝐶'(𝑢) = 0
