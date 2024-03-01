@@ -44,10 +44,56 @@ These functions have these properties:
 
 ***𝙿𝟷.𝟷***
 
+nonegativity: 𝘽_{𝚒,𝚗(𝚞)} > 𝟶 for all 𝚒,𝚗 & 0<𝚞<𝟷;
+
 ***𝙿𝟷.𝟸***
 
+partition of unity:
+
+<img width="125" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/11449d14-9f86-4b66-9a41-5f62e1a1212f">
+
+```
+\sum_{i=0}^{n}B_{i,n}(u) = 1
+```
+for all 𝟶<𝚞<𝟷;
+
 ***𝙿𝟷.𝟹***
+```
+𝘽_{𝟶,𝚗(𝟶)} = 𝘽_{𝚗,𝚗(𝟷)} = 𝟷;
+```
 
 ***𝙿𝟷.𝟺***
+```
+𝘽_{𝚒,𝚗(𝚞)}
+```
+attains exactly one maximum on the interval [𝟶,𝟷], that is, at 𝚞 = 𝚒/𝚗;
 
 ***𝙿𝟷.𝟻***
+
+symmetry: for any 𝚗, the set of polynomial {𝙱_{𝚒,𝚗}(𝚞)} is symmetric with respect to 𝚞 = 𝟷/𝟸;
+
+***𝙿𝟷.𝟼***
+
+recursive definition: 𝙱_{𝚒,𝚗}(𝚞) = (1 - 𝚞)𝙱_{𝚒,𝚗-1}(𝚞) + 𝚞𝙱_{𝚒-1,𝚗-1}(𝚞)
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7658ed1e-07d8-40dd-931a-07168b71bfaa);
+
+we define 𝙱_{𝚒,𝚗}(𝚞) ≡ 𝟶 if 𝚒 < 𝟶 or 𝚒 > 𝚞;
+
+***𝙿𝟷.𝟽***
+
+derivatives:
+
+<img width="350" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c09e3a96-8668-45d0-a81c-8d891eecabb9">
+
+```
+{B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
+```
+
+
+
+
+
+
+
+
