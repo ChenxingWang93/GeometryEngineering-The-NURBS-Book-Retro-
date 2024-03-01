@@ -41,3 +41,13 @@ Figures 𝟷.𝟷𝟹𝚍
 show the basis functions {𝘽_{𝚒,𝚗(𝚞)}} for 𝚗 = 𝟷,𝟸,𝟹,𝟿.
 
 These functions have these properties:
+
+***𝙿𝟷.𝟷***
+
+***𝙿𝟷.𝟸***
+
+***𝙿𝟷.𝟹***
+
+***𝙿𝟷.𝟺***
+
+***𝙿𝟷.𝟻***
