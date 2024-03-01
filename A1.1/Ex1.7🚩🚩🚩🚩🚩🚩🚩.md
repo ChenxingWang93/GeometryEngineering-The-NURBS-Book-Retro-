@@ -92,9 +92,8 @@ derivatives:
 
 with 
 
+<img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
 
+Figure 𝟷.𝟷𝟻𝚊 shows the definition of `B'_{𝟸,𝟻}`,
 
-
-
-
-
+and Figure 𝟷.𝟷𝟻𝚋 illustrates all the cubic derivative functions.
