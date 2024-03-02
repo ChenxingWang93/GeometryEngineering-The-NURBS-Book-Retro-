@@ -15,3 +15,5 @@ ALGORITHM A1.4
 ```
 
 <img width="200" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/698330f5-73b8-468e-ba6d-461efd4bde8b"> = <img width="100" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/af252ed7-2ffc-4a36-aed3-e01f61498ee3">
+
+= <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/69c4202a-aef6-4e3d-828c-08fa68affcf8">
