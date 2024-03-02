@@ -13,3 +13,8 @@ ALGORITHM A1.4
 ```
 
 ```
+
+<img width="200" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/698330f5-73b8-468e-ba6d-461efd4bde8b"> = 
+
+
+
