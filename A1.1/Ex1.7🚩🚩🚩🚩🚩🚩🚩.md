@@ -123,3 +123,27 @@ B_{𝟸,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟸,𝟷}(𝚞) + 𝚞B_{𝟷,𝟷}(𝚞)
 ![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5)
 
 Figure 𝟷.𝟷𝟺. The recursive definition of the Bernstein polynomial, 𝙱_{𝟷,𝟹}(𝚞).
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7c200866-3d26-4063-9b60-ea3959c5bf24)
+
+![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/972ee139-16f7-40a2-a5b3-35e72735a7bb)
+
+Figure 𝟷.𝟷𝟻. Derivatives. 
+
+(a) The derivative B_{𝟸,𝟻}(𝚞) in terms of B_{𝚒,𝚊}(𝚞) & B_{𝟸,𝟺}(𝚄);
+
+(b) The derivative of the four cubic Bernstein polynomials 
+
+𝙱_{𝟶,𝟹}(𝚞)
+
+𝙱_{𝟷,𝟹}(𝚞)
+
+𝙱_{𝟸,𝟹}(𝚞)
+
+𝙱_{𝟹,𝟹}(𝚞)
+
+Property ***𝙿𝟷.𝟼*** yields simple algorithms to compute values of the Bernstein polynomials at fixed values of 𝚞.
+
+Algorithm A𝟷.𝟸 computes the value B_{𝚒}(𝚞) for fixed 𝚞. 
+
+The computation of 𝙱_{𝟷,𝟹} is depicted in Table 𝟷.𝟷.
