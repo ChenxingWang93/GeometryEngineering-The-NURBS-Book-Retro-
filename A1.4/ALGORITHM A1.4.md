@@ -18,4 +18,4 @@ ALGORITHM A1.4
 
 = <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/69c4202a-aef6-4e3d-828c-08fa68affcf8">
 
-= <img width="220" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0686f254-60a0-4723-9bc1-4bf010dd2f71">
+= <img width="210" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0686f254-60a0-4723-9bc1-4bf010dd2f71">
