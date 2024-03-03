@@ -1,11 +1,11 @@
 ``` C++
 ALGORITHM A9.12
   FitWithCubic(ks,ke,Q,Ts,Te,E,P1,P2)
-    {  /*  Fit to tolerance E with cubic segment  */
-       /*  Input:  ks,ke,Q,Ts,Te,E  */
-       /*  Output: P1,P2  */
+    {  /*  Fit to tolerance E with cubic segment 以 立方 部分 适配 容差 E */
+       /*  Input:  ks,ke,Q,Ts,Te,E 输入 */
+       /*  Output: P1,P2 输出 */
     if (ke-ks == 1)
-      {  /* No interior points to interpolate */
+      {  /* No interior points to interpolate 无 内部点 插入 */
       Compute 𝛼 and 𝛽 by Eqs.(9.93),(9.94).
       Set P_{1} = Q_{k_{s}} + 𝛼T_{s}
       and P_{2} = Q_{k_{e}} + 𝛽T_{e}
@@ -23,7 +23,7 @@ for (k=1; k<dk; k++)
   {  
   Get plane 𝜋 defined by Q[ks],Q[ke],Ts.
   if (Line(Q[k+ks],Te) lies in 𝜋)
-    {  /* Coplanar case */
+    {  /* Coplanar case 共面 情况 */
     Compute u_{k} by Eq.(9.103) and load into uh[k].
     Set up Eqs.(9.107) and (9.108) and solve for 𝛼_{𝒌} and 𝛽_{𝒌};
         (by least squares).
@@ -35,7 +35,7 @@ for (k=1; k<dk; k++)
         return(0);
     }
     else
-  {  /* Noncoplanar case */
+  {  /* Noncoplanar case 非共面 情况 */
   Pd = Intersection of 𝜋 with Line(Q[k+ks],Te);
   Pc = Intersection of Line (Q[ks],Q[ke]-Q[ks]) with
       Line(Pd,Ts);
@@ -50,26 +50,26 @@ for (k=1; k<dk; k++)
       to get alfak[k] and betak[k].
     }
   }
-}  /* End of for-loop: k=1,...,dk-1 */
+}  /* End of for-loop: k=1,...,dk-1 for-循环 结束 */
   /* Step 2: average the 𝛼_{𝒌}𝑠 */
 alpha = beta = 0.0;
 for (k=1; k<dk; k++)
   {  alpha = alpha+alfak[k];   beta = beta+betak[k];
 alpha = alpha/(dk-1);    beta = beta/(dk-1);
 P1 = Q[ks]+alpha*Ts;    P2 = Q[ke]+beta*Te;
-    /* Step 3: check deviations */
+    /* Step 3: check deviations 步骤 3: 检查 偏差 */
   }
 for (k=1; k<dk; k++)
   {
   u = uh[k];
   if (Eq.[9.110] less than E)   continue;
     else
-    {  /* Must do Newton iterations. u is start value */
+    {  /* Must do Newton iterations. u is start value 牛顿 迭代 u 为 开始 值 */
     Project Q[k+ks] to curve to get error ek.
     if (ek > E)   break;
     }
   }
-if (k == dk)   return(1);   /* segment within tolerance */
-  else         return(0);   /* not within tolerance */
+if (k == dk)   return(1);   /* segment within tolerance 容差 内 部分 */
+  else         return(0);   /* not within tolerance 不在 容差 内 */
 }
 ```
