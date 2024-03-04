@@ -36,7 +36,16 @@ ALGORITHM A10.1
       Compute the transformation matrix 𝑨(ṽ_{k}) transforming the
         global system into {𝒐,𝒙,𝒚,𝒛}(ṽ_{k}).
       Apply 𝑨(ṽ_{k}) to the scaled 𝑸_{𝑖}.
-      
+      Reapply the weights 𝑤_{𝑖}, and denote the resulting
+        weighted control points by 𝑸_{𝒌,𝒊}^{𝑤}.
       }
+  Determine ṽ_{0},...,ṽ_{k}, the v-parameters for the
+    v-directional interpolations (Eqs.[𝟷𝟶.𝟾] or [𝟷𝟶.𝟷𝟺]).
+  Given 𝑞 and the ṽ_{k}, compute the knot vector 𝑽 by averaging
+    (Eq.[𝟿.𝟾]).
+  for (i = 0 i<=n; i++)
+    {
+    interpolate across 𝑸_{𝟶,𝒊}^{𝑤},...,𝑸_{𝒌,𝒊}^{𝑤} to obtain 𝑷_{𝟶,𝒊}^{𝑤},...,𝑷_{𝒌,𝒊}^{𝑤}.
+    }
 }
 ```
