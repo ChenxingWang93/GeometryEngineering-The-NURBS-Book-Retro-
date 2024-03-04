@@ -45,7 +45,7 @@ ALGORITHM A10.1
     (Eq.[𝟿.𝟾]).
   for (i = 0 i<=n; i++)
     {
-    interpolate across 𝑸_{𝟶,𝒊}^{𝑤},...,𝑸_{𝒌,𝒊}^{𝑤} to obtain 𝑷_{𝟶,𝒊}^{𝑤},...,𝑷_{𝒌,𝒊}^{𝑤}.
+    interpolate across 𝑸_{𝟶,𝒊}^{𝑤},...,𝑸_{nsect-1,𝒊}^{𝑤} to obtain 𝑷_{𝟶,𝒊}^{𝑤},...,𝑷_{nsect-1,𝒊}^{𝑤}.
     }
 }
 ```
