@@ -27,6 +27,10 @@ ALGORITHM A10.1
     ṽ_{nsect-1} = 𝐓(𝑣)'s maximum parameter value.
     for (k=1; k<nsect-1; k++)        /* Compute parameters by */
       ṽ_{k} = (𝚟_{k+1}+...+𝚟_{k+q})/q/* averaging knots */
-    for ()
+    for (k=0; k<nsect; k++)
+      {  /* Transform and position section control points  */
+      Let 𝑸_{𝑖} and 𝜔_{𝑖} be the control points and weights
+        of 𝐶(𝑢)
+      }
 }
 ```
