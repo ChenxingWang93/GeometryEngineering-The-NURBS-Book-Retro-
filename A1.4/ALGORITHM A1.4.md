@@ -18,4 +18,11 @@ ALGORITHM A1.4
 
 = <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/69c4202a-aef6-4e3d-828c-08fa68affcf8">
 
-= <img width="210" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0686f254-60a0-4723-9bc1-4bf010dd2f71">    (1.9)
+= <img width="210" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/0686f254-60a0-4723-9bc1-4bf010dd2f71">    (𝟷.𝟿)
+
+From Eq.(𝟷.𝟿) we easily obtain formulas for the end derivatives of a Bezier curve, e.g.
+
+|||
+|------------------------|-----------------------------------------|
+|𝙲'(𝟶) = 𝚗(𝗣_{𝟷} - 𝗣_{𝟶})|𝙲''(𝟶) = 𝚗(𝚗 - 𝟷)(𝗣_{𝟶} - 𝟸𝗣_{𝟷} + 𝗣_{𝟸})|
+|𝙲'(𝟷) = 𝚗(𝗣_{𝚗} - 𝗣_{𝚗 - 𝟷})|𝙲''(𝟷) = 𝚗(𝚗 - 𝟷)(𝗣_{𝚗} - 𝟸𝗣_{𝚗 - 𝟷}) + 𝗣_{𝚗 - 𝟸}|    (𝟷.𝟷𝟶)
