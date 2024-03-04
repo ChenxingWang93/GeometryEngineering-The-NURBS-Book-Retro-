@@ -30,5 +30,6 @@ From Eq.(𝟷.𝟿) we easily obtain formulas for the end derivatives of a Bezie
 Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
 
 - the derivative of an nth-degree Bezier curve is an (𝚗 - 𝟷)th-degree Bezier curve;
-- 
-- 
+- the expressions for the end derivatives at 𝚞 = 𝟷 &𝚞 = 𝟶 are symmetric (due, of course, to the symmetry of the basis functions);
+- the 𝚔th derivative at an endpoint depends(in a geometrically intuitive manner) solely on the 𝚔 + 𝟷 control point at the end.
+
