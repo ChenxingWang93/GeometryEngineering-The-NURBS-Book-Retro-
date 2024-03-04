@@ -1,4 +1,4 @@
-``` C++
+``` C
 ALGORITHM A10.1
   SweepSurface1(T,C,Bv,sv,K,V,Pw)
     {  /*  Swept surface.  Trajectory interpolated.  */
@@ -30,7 +30,13 @@ ALGORITHM A10.1
     for (k=0; k<nsect; k++)
       {  /* Transform and position section control points  */
       Let 𝑸_{𝑖} and 𝜔_{𝑖} be the control points and weights
-        of 𝐶(𝑢)
+        of 𝐶(𝑢), 𝑖 = 𝟶,...,𝑛.
+      Scale the control points 𝑸_{𝑖} by sv.
+      Compute {𝒐,𝒙,𝒚,𝒛}(ṽ_{k}) from Eqs.(𝟷𝟶.𝟸𝟶)-(𝟷𝟶.𝟸𝟸).
+      Compute the transformation matrix 𝑨(ṽ_{k}) transforming the
+        global system into {𝒐,𝒙,𝒚,𝒛}(ṽ_{k}).
+      Apply 𝑨(ṽ_{k}) to the scaled 𝑸_{𝑖}.
+      
       }
 }
 ```
