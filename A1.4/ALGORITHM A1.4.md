@@ -33,3 +33,8 @@ Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
 - the expressions for the end derivatives at 𝚞 = 𝟷 &𝚞 = 𝟶 are symmetric (due, of course, to the symmetry of the basis functions);
 - the 𝚔th derivative at an endpoint depends(in a geometrically intuitive manner) solely on the 𝚔 + 𝟷 control point at the end.
 
+```
+𝙲(𝚞) = (𝟷 - 𝚞)^2𝗣_{𝟶} + 𝟸𝚞(𝟷 - 𝚞)𝗣_{𝟷} + 𝚞^2𝗣_{𝟸}
+     = (𝟷 - 𝚞)((𝟷 - 𝚞)𝗣_{𝟶} + 𝚞𝗣_{𝟷}) + 𝚞((𝟷 - 𝚞)𝗣_{𝟷} + 𝚞𝗣_{2})
+```
+
