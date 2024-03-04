@@ -38,3 +38,5 @@ Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
      = (𝟷 - 𝚞)((𝟷 - 𝚞)𝗣_{𝟶} + 𝚞𝗣_{𝟷}) + 𝚞((𝟷 - 𝚞)𝗣_{𝟷} + 𝚞𝗣_{2})
 ```
 
+Thus, 𝙲(𝚞) is obtained as the linear interpolation of two first-degree Bezier curves;
+in particular, any point on 𝙲(𝚞) is obtained by three linear interpolations.
