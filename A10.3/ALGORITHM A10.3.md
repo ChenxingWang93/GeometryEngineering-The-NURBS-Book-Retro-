@@ -1,9 +1,9 @@
 ``` C++
 ALGORITHM A10.3
   GordonSurface(Ck,Cl,ul,vk,r,s,pl,ql,pt,qt,n,m,p,q,U,V,Pij)
-    {  /*  Create Gordon surface.  */
-       /*  Input:  Ck,Cl,ul,vk,r,s,pl,ql,pt,qt  */
-       /*  Output: n,m,p,q,U,V,Pij  */
+    {  /*  Create Gordon surface. 创建 戈登 曲面 */
+       /*  Input:  Ck,Cl,ul,vk,r,s,pl,ql,pt,qt 输入 */
+       /*  Output: n,m,p,q,U,V,Pij 输出 */
     pc = degree of the Ck curves.
     qc = degree of the Cl curves.
     Choose a suitable U1 and loft to obtain L1(u,v)
