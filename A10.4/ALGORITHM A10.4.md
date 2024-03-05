@@ -1,9 +1,9 @@
 ``` C++
 ALGORITHM A10.4
   BicubicBlendCoons(Ck,Cl,Dk,Dl,n,m,p,q,U,V,Pij)
-    {  /*  Create bicubically blended Coons surface.  */
-       /*  Input:  Ck,Cl,Dk,Dl  */
-       /*  Output: n,m,p,q,U,V,Pij  */
+    {  /*  Create bicubically blended Coons surface. 创建 双三次 混合 浣熊 曲面 */
+       /*  Input:  Ck,Cl,Dk,Dl 输入 */
+       /*  Output: n,m,p,q,U,V,Pij 输出 */
     Compute the ctrl pts of 𝑺_{𝟷}(𝑢,𝑣) (Eq.10.40)
     Compute the ctrl pts of 𝑺_{𝟸}(𝑢,𝑣) (Eq.10.41)
     Compute the ctrl pts of 𝑇_(𝑢,𝑣) (Eq.10.42)
