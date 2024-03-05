@@ -1,14 +1,14 @@
 ``` C
 ALGORITHM A10.1
   SweepSurface1(T,C,Bv,sv,K,V,Pw)
-    {  /*  Swept surface.  Trajectory interpolated.  */
-       /*  Input:  T,C,Bv,sv,K  */
-       /*  Output: V,Pw  */
+    {  /*  Swept surface.  Trajectory interpolated. 扫掠. 轨迹 插入 */
+       /*  Input:  T,C,Bv,sv,K 输入 */
+       /*  Output: V,Pw 输出 */
     q = degree of 𝐓(𝑣).
     ktv = number of knots of 𝐓(𝑣).
     nsect = K+1;
     if (ktv <= nsect+q)
-      {  /* Must refine 𝐓(𝑣)'s knot vector */
+      {  /* Must refine 𝐓(𝑣)'s knot vector 提炼 结点 向量 */
       m = nsect+q-ktv+1;
       Insert m more knots into 𝐓(𝑣)'s knot vector.  Locations
         are not critical, recursively insert at the midpoint of
@@ -18,17 +18,17 @@ ALGORITHM A10.1
       The resulting knot vector V is inherented by Ŝ(𝑢,𝑣).
       }
       else
-      {  /* 𝐓(𝑣)'s knot vector will do */
+      {  /* 𝐓(𝑣)'s knot vector will do 结点 向量 */
       V = 𝐓(𝑣)'s knot vector.
-      if (ktv > nsect+q+1)   /* Must increase number of */
-        nsect = ktv-q-1;     /* instances of 𝐶(𝑢) */
+      if (ktv > nsect+q+1)   /* Must increase number of 必须 增加 数量 */
+        nsect = ktv-q-1;     /* instances of 𝐶(𝑢) 𝐶(𝑢) 实例 */
       }
     ṽ_{0} = 𝐓(𝑣)'s minimum parameter value.
     ṽ_{nsect-1} = 𝐓(𝑣)'s maximum parameter value.
-    for (k=1; k<nsect-1; k++)        /* Compute parameters by */
-      ṽ_{k} = (𝚟_{k+1}+...+𝚟_{k+q})/q/* averaging knots */
+    for (k=1; k<nsect-1; k++)        /* Compute parameters by 计算 参数 */
+      ṽ_{k} = (𝚟_{k+1}+...+𝚟_{k+q})/q/* averaging knots 平均 结点 */
     for (k=0; k<nsect; k++)
-      {  /* Transform and position section control points  */
+      {  /* Transform and position section control points 变换 &定位 截面 控制点 */
       Let 𝑸_{𝑖} and 𝜔_{𝑖} be the control points and weights
         of 𝐶(𝑢), 𝑖 = 𝟶,...,𝑛.
       Scale the control points 𝑸_{𝑖} by sv.
