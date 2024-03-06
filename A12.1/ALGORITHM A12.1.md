@@ -1,1 +1,30 @@
-
+``` C++
+ALGORITHM A12.1
+  UnclampCurve(n,p,U,Pw)
+    {  /*  Uclamp a clamped curve  */
+       /*  Input: n,p,U,Pw  */
+       /*  Output:U,Pw  */
+    for (i=0; i<=p-2; i++)  /* Uclamp at left end */
+      {
+      U[p-i-1] = U[p-i] - (U[n-i+1]-U[n-i]);
+      k = p-1;
+      for (j=i; j>=0; j--)
+        {
+        alfa = (U[p]-U[k])/(U[p+j+1]-U[k]);
+        Pw[j] = (Pw[j]-alfa*Pw[j+1])/(1.0-alfa);
+        k = k-1;
+        }
+      }
+    U[0] = U[1] - (U[n-p+2]-U[n-p+1]);   /* Set first knot */
+    for (i=0; i<=p-2; i++)   /* Unclamp at right end */
+      {
+      U[n+i+2] = U[n+i+1] + (U[p+i+1]-U[p+i]);
+      for (j=i; j>=0; j--)
+        {
+        alfa = (U[n+1]-U[n-j])/(U[n-j+i+2]-U[n-j]);
+        Pw[n-j] = (Pw[n-j]-(1.0-alfa)*Pw[n-j-1])/alfa;
+        }
+      }
+    U[n+p+1] = U[n+p] + (U[2*p]-U[2*p-1]);  /* Set last knot */
+    }
+```
