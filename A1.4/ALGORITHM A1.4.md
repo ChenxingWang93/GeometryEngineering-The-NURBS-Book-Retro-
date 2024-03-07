@@ -40,3 +40,10 @@ Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
 
 Thus, 𝙲(𝚞) is obtained as the linear interpolation of two first-degree Bezier curves;
 in particular, any point on 𝙲(𝚞) is obtained by three linear interpolations.
+
+Assuming a fixed 𝑢 = 𝑢_{𝟶} & letting
+
+𝗣_{𝟷,𝟶} = (𝟷 - 𝑢_{𝟶})𝗣_{𝟶} + 𝑢_{𝟶}𝗣_{𝟷},
+𝗣_{𝟷,𝟷} = (𝟷 - 𝑢_{𝟶})𝗣_{𝟷} + 𝑢_{𝟶}𝗣_{𝟸}, &
+𝗣_{𝟸,𝟶} = (𝟷 - 𝑢_{𝟶})𝗣_{𝟷,𝟶} + 𝑢_{𝟶}𝗣_{𝟷,𝟷},
+𝐂(𝑢_{𝟶}) = 𝗣_{𝟸,𝟶}.
