@@ -4,7 +4,7 @@ ALGORITHM A1.7
     {  /*  Compute a point on a Bezier surface 贝塞尔曲面上 🧮计算一个点 ∙  */
        /*  by the deCasteljau. deCasteljau 递推 */
        /*  Input:  P,n,m,u0,v0 输入 */
-       /*  Output: 输出 S*/
+       /*  Output: S 输出 */
     if (n <= m)
       {
       for (j=0; j<=m; j++)   /* P[j][] is jth row 第 jth 行 */
