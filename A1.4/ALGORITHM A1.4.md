@@ -52,3 +52,8 @@ Assuming a fixed 𝑢 = 𝑢_{𝟶} & letting
 𝐂(𝑢_{𝟶}) = 𝗣_{𝟸,𝟶}.
 
 The situation is depicted in Figure 1.16,
+  Denoting a general nth-degree Bezier curve by 
+  
+𝐂_{𝑛}(𝐏_{𝟶},...,𝐏_{𝑛}) = (𝟷 - 𝚞)𝑪_{𝑛 - 𝟷}(𝐏_{𝟶},...,𝐏_{𝑛 - 𝟷})
+
++ 𝚞𝐂_{𝑛 - 𝟷}(𝐏_{𝟷},...,𝐏_{𝑛})
