@@ -42,9 +42,9 @@ for (r=1; r<=R; r++)
           if (alf >= 0)  B[brow][alf] = Funs[k][l][i][j];
           }
       brow = brow+1;
-      }  /* End of loop through each type of constraint */    
-    }  /* End of for-loop: r=1,...,R */
-  if (M > N)  return(1);   /* system overdetermined */
+      }  /* End of loop through each type of constraint 穿过 每种 类型 约束 */
+    }  /* End of for-loop: r=1,...,R 结束 for 循环 */
+  if (M > N)  return(1);   /* system overdetermined 系统 超定 */
   if (M == N)
     if (𝐵 singular)    return(2);
       else
