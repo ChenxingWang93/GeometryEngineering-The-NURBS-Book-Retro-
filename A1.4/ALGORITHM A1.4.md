@@ -37,6 +37,7 @@ Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
 𝙲(𝚞) = (𝟷 - 𝚞)^2𝗣_{𝟶} + 𝟸𝚞(𝟷 - 𝚞)𝗣_{𝟷} + 𝚞^2𝗣_{𝟸}
      = (𝟷 - 𝚞)((𝟷 - 𝚞)𝗣_{𝟶} + 𝚞𝗣_{𝟷}) + 𝚞((𝟷 - 𝚞)𝗣_{𝟷} + 𝚞𝗣_{2})
 ```
+(𝟷.𝟷𝟶)
 
 Thus, 𝙲(𝚞) is obtained as the linear interpolation of two first-degree Bezier curves;
 in particular, any point on 𝙲(𝚞) is obtained by three linear interpolations.
@@ -52,6 +53,7 @@ Assuming a fixed 𝑢 = 𝑢_{𝟶} & letting
 𝐂(𝑢_{𝟶}) = 𝗣_{𝟸,𝟶}.
 
 The situation is depicted in Figure 1.16,
+
   Denoting a general nth-degree Bezier curve by 
   
 𝐂_{𝑛}(𝐏_{𝟶},...,𝐏_{𝑛}) = (𝟷 - 𝚞)𝑪_{𝑛 - 𝟷}(𝐏_{𝟶},...,𝐏_{𝑛 - 𝟷})
