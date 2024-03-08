@@ -27,7 +27,7 @@ From Eq.(𝟷.𝟿) we easily obtain formulas for the end derivatives of a Bezie
 |𝙲'(𝟶) = 𝚗(𝗣_{𝟷} - 𝗣_{𝟶})|𝙲''(𝟶) = 𝚗(𝚗 - 𝟷)(𝗣_{𝟶} - 𝟸𝗣_{𝟷} + 𝗣_{𝟸})|
 |𝙲'(𝟷) = 𝚗(𝗣_{𝚗} - 𝗣_{𝚗 - 𝟷})|𝙲''(𝟷) = 𝚗(𝚗 - 𝟷)(𝗣_{𝚗} - 𝟸𝗣_{𝚗 - 𝟷}) + 𝗣_{𝚗 - 𝟸}|    (𝟷.𝟷𝟶)
 
-Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that
+Eqs.(𝟷.𝟿) &(𝟷.𝟷𝟶) that𝑷
 
 - the derivative of an nth-degree Bezier curve is an (𝚗 - 𝟷)th-degree Bezier curve;
 - the expressions for the end derivatives at 𝚞 = 𝟷 &𝚞 = 𝟶 are symmetric (due, of course, to the symmetry of the basis functions);
@@ -59,3 +59,5 @@ The situation is depicted in Figure 1.16,
 𝐂_{𝑛}(𝐏_{𝟶},...,𝐏_{𝑛}) = (𝟷 - 𝚞)𝑪_{𝑛 - 𝟷}(𝐏_{𝟶},...,𝐏_{𝑛 - 𝟷})
 
 + 𝚞𝐂_{𝑛 - 𝟷}(𝐏_{𝟷},...,𝐏_{𝑛})
+
+𝗣_{𝑘,𝑖}(𝑢_{𝟶}) = (𝟷 - 𝑢_{𝟶})𝗣_{𝑘-𝟷,𝑖+𝟷}(𝑢_{𝟶}) for 
