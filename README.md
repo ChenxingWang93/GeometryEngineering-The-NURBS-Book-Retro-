@@ -1,4 +1,4 @@
-# ComputationalGeometry
+# GeometryEngineering
 
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
