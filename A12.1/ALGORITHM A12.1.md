@@ -15,8 +15,8 @@ ALGORITHM A12.1
         k = k-1;
         }
       }
-    U[0] = U[1] - (U[n-p+2]-U[n-p+1]);   /* Set first knot */
-    for (i=0; i<=p-2; i++)   /* Unclamp at right end */
+    U[0] = U[1] - (U[n-p+2]-U[n-p+1]);   /* Set first knot 设定 第一个 结点 */
+    for (i=0; i<=p-2; i++)   /* Unclamp at right end 在右侧 松开 */
       {
       U[n+i+2] = U[n+i+1] + (U[p+i+1]-U[p+i]);
       for (j=i; j>=0; j--)
@@ -25,6 +25,6 @@ ALGORITHM A12.1
         Pw[n-j] = (Pw[n-j]-(1.0-alfa)*Pw[n-j-1])/alfa;
         }
       }
-    U[n+p+1] = U[n+p] + (U[2*p]-U[2*p-1]);  /* Set last knot */
+    U[n+p+1] = U[n+p] + (U[2*p]-U[2*p-1]);  /* Set last knot 设定 最后 结点 */
     }
 ```
