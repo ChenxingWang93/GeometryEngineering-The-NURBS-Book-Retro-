@@ -1,10 +1,10 @@
 ``` C++
 ALGORITHM A12.1
   UnclampCurve(n,p,U,Pw)
-    {  /*  Uclamp a clamped curve  */
-       /*  Input: n,p,U,Pw  */
-       /*  Output:U,Pw  */
-    for (i=0; i<=p-2; i++)  /* Uclamp at left end */
+    {  /*  Uclamp a clamped curve 松开 一个 被夹紧 的 曲线 */
+       /*  Input: n,p,U,Pw 输入 */
+       /*  Output:U,Pw 输出 */
+    for (i=0; i<=p-2; i++)  /* Uclamp at left end 在 左侧 端点 松开 */
       {
       U[p-i-1] = U[p-i] - (U[n-i+1]-U[n-i]);
       k = p-1;
