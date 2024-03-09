@@ -52,14 +52,26 @@ Assuming a fixed 𝑢 = 𝑢_{𝟶} & letting
 
 𝐂(𝑢_{𝟶}) = 𝗣_{𝟸,𝟶}.
 
-The situation is depicted in Figure 1.16,
+The situation is depicted in Figure 𝟷.𝟷𝟼,
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/26959ac0-29b4-4018-8ae4-582c5a2a6de0)
 
   Denoting a general nth-degree Bezier curve by 
   
 𝐂_{𝑛}(𝐏_{𝟶},...,𝐏_{𝑛}) = (𝟷 - 𝚞)𝑪_{𝑛 - 𝟷}(𝐏_{𝟶},...,𝐏_{𝑛 - 𝟷})
 
-+ 𝚞𝐂_{𝑛 - 𝟷}(𝐏_{𝟷},...,𝐏_{𝑛})
++ 𝚞𝐂_{𝑛 - 𝟷}(𝐏_{𝟷},...,𝐏_{𝑛})(𝟷.𝟷𝟷)
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/82fe361b-e489-4398-9d81-ab79da3d7b29)
+
+Figure 𝟷.𝟷𝟽. A point on a cubic Bezier curve by repeated linear interpolation at 𝑢𝟶 = 𝟸/𝟻
+
+This follows from the recursive definition of the basis functions (see P𝟷.𝟼).Fixing 𝑢=𝑢𝟶
+
+& denoting P𝑖 by P𝟶,Eq.(𝟷.𝟷𝟷) yields a recursive algorithm for computing the point 𝐂(𝑢𝟶) = P𝟶(𝑢𝟶) on an nth-degree Bezier curve, i.e.
 
 𝗣_{𝑘,𝑖}(𝑢_{𝟶}) = (𝟷 - 𝑢_{𝟶})𝗣_{𝑘-𝟷,𝑖+𝟷}(𝑢_{𝟶}) for 𝑘 = 𝟷,...,𝑛
 
                                                   𝑖 = 𝟶,...,𝑛 - 𝑘 (𝟷.𝟷𝟸)
+
+  Equation(𝟷.𝟷𝟸) is called deCasteljau Algorithm (see[Boeh84;deCa86;93]). It is a corner-cutting process(Figure 𝟷.𝟷𝟼 &Figure 𝟷.𝟷𝟽) which yields the triangular table of points shown in Table 𝟷.𝟷𝟹
