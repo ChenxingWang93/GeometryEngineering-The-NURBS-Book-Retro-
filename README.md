@@ -1,5 +1,7 @@
 # GeometryEngineering
 
+### The NURBS Book 2nd Edition
+
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
@@ -127,7 +129,8 @@
   - 13.9 Additional Structures
   - 13.10 System Structure
 
-### 《SISL The SINTEF Spline Library Reference Manual》
+### SISL The SINTEF Spline Library Reference Manual
+
 ### TOC
 - ***1 Preface*** _前言_
   -  1.1 The structure of this document _该文档📄 结构_
