@@ -10,7 +10,7 @@ and the major and minor radii are 𝟸 and 𝟷,
 
 respectively
 
-<img width="100" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ffdc3ef7-acbc-45b4-aeab-f39ff241e4cb">
+<img width="200" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ffdc3ef7-acbc-45b4-aeab-f39ff241e4cb">
 
 
 ``` Latex
