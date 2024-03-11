@@ -22,3 +22,26 @@ Ex1.11🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 
 Define an nth-degree rational Bezier curve by (see[Forr68;Pieg86;Fari83,89])
 
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ff175e17-f85a-4af8-9db0-0083a0476bf8"> (1.14)
+
+``` Latex
+C(u)=\frac{\sum_{i=0}^{n}B_{i,n}(u)w_{i}P_{i}}{\sum_{i=0}^{n}B_{i,n}(u)w_{i}} 0<=u<=1
+```
+
+The Pi = (xi, yi, zi) and Bi,n(u) are as before; the wi are scalars, called the weights, Thus, W(u) = E oBi,n(u)wi is the common denominator function. Except where explicitly stated otherwise, we assume that wi > 0 for all i. This ensures that W(u) > 0 for all u c[0,1]. We
+write 
+
+<img width="250" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/750a21fa-9094-4187-9bd7-92860adc1b06"> (1.15) 
+
+
+``` Latex
+C(u)=\sum_{i=0}^{n}R_{i,n}(u)P_{i} 0<=u<=1
+```
+
+where 
+
+<img width="200" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/8eefdb0a-6d57-41be-9cdc-3fa2e9cc3f26">
+
+The Ri,n(u) are the rational basis functions for this curve form. Figure 1.18a shows an example of cubic basis functions, and Figure 1.18b a corresponding cubic rational Bezier curve.
+
+  The Ri,n(u) have properties which can be easily derived from Eq.(1.15) and the corresponding properties of the Bi,n(u):
