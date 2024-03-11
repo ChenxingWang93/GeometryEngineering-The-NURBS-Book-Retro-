@@ -68,4 +68,10 @@ P1.16 endpoint interpolation: C(0) = Po and C(1) = Pn;
 
 P1.17 the kth derivative at u = 0 (u = 1) depends on the first (last) k + 1 control points and weights; in particular, C'(0) and C'(1) are parallel to P1 - P0 and P. - Pn_li respectively;
 
-P1.18 polynomial Bezier curves are a special case of rational Bezier curves.
+P1.18 Polynomial Bezier curves are a special case of rational Bezier curves.
+
+Figure 1.18
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/31abb5ce-5cf8-4c5a-873c-ec4a299658bd) (a)Basis functions;
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/8059ac96-18e4-4000-8b05-d61c988e2043) (b)Bezier curve.
