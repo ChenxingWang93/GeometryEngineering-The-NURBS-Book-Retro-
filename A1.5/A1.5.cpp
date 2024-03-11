@@ -4,7 +4,7 @@ void deCasteljau1(double* P, int n, double u, double* C) {
     // Copy P into Q
     for (int i = 0; i <= n; i++)
     {
-        /* code */
+        /* Copy P into Q */
         Q[i] = P[i];
     }
 
@@ -19,5 +19,5 @@ void deCasteljau1(double* P, int n, double u, double* C) {
     }
     
     C[0] = Q[0];
-    
+
 }
