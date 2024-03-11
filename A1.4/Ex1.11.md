@@ -45,3 +45,25 @@ where
 The Ri,n(u) are the rational basis functions for this curve form. Figure 1.18a shows an example of cubic basis functions, and Figure 1.18b a corresponding cubic rational Bezier curve.
 
   The Ri,n(u) have properties which can be easily derived from Eq.(1.15) and the corresponding properties of the Bi,n(u):
+
+P1.8
+
+P1.9
+
+P1.10
+
+P1.11
+
+P1.12
+
+P1.13
+
+P1.14
+
+P1.15
+
+P1.16
+
+P1.17
+
+P1.18
