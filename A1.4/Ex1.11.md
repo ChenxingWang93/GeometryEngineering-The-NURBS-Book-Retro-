@@ -46,24 +46,26 @@ The Ri,n(u) are the rational basis functions for this curve form. Figure 1.18a s
 
   The Ri,n(u) have properties which can be easily derived from Eq.(1.15) and the corresponding properties of the Bi,n(u):
 
-P1.8
+P1.8 nonnegativity: Ri,n(u) > 0 for all i,n and 0<u<1;
 
-P1.9
+P1.9 partition of unity: o Ri,n(u) = 1 for all 0<u<1;
 
-P1.10
+P1.10 Ro,n(0) = Rn,n(1) = 1;
 
-P1.11
+P1.11 Ri,n(u) attains exactly one maximum on the interval [0,1];
 
-P1.12
+P1.12 if wi = 1 for all i, then Ri,n(u)
 
-P1.13
+These yield the following geometric properties of rational Bezier curves:
 
-P1.14
+P1.13 convex hull property: the curves are contained in the convex hulls of their defining control points(the Pi);
 
-P1.15
+P1.14 Transformation invariance: rotations, translations, and scaling are applied to the curve by applying them to the control points;
 
-P1.16
+P1.15 variation diminishing property: same as for polynomial Bezier curves (see previous section);
 
-P1.17
+P1.16 endpoint interpolation: C(0) = Po and C(1) = Pn;
 
-P1.18
+P1.17 the kth derivative at u = 0 (u = 1) depends on the first (last) k + 1 control points and weights; in particular, C'(0) and C'(1) are parallel to P1 - P0 and P. - Pn_li respectively;
+
+P1.18 polynomial Bezier curves are a special case of rational Bezier curves.
