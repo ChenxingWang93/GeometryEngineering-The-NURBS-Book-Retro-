@@ -1,3 +1,4 @@
+
 void deCasteljau2(double** P, int n, int m, double u0, double v0, double S) {
     double Q[m+1];
     if (n <= m)
