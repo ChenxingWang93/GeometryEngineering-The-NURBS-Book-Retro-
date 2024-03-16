@@ -22,7 +22,7 @@ Ex1.11🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 
 Define an nth-degree rational Bezier curve by (see[Forr68;Pieg86;Fari83,89])
 
-<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ff175e17-f85a-4af8-9db0-0083a0476bf8"> (1.14)
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ff175e17-f85a-4af8-9db0-0083a0476bf8"> (𝟷.𝟷𝟺)
 
 ``` Latex
 C(u)=\frac{\sum_{i=0}^{n}B_{i,n}(u)w_{i}P_{i}}{\sum_{i=0}^{n}B_{i,n}(u)w_{i}} 0<=u<=1
@@ -31,7 +31,7 @@ C(u)=\frac{\sum_{i=0}^{n}B_{i,n}(u)w_{i}P_{i}}{\sum_{i=0}^{n}B_{i,n}(u)w_{i}} 0<
 The Pi = (xi, yi, zi) and Bi,n(u) are as before; the wi are scalars, called the weights, Thus, W(u) = E oBi,n(u)wi is the common denominator function. Except where explicitly stated otherwise, we assume that wi > 0 for all i. This ensures that W(u) > 0 for all u c[0,1]. We
 write 
 
-<img width="250" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/750a21fa-9094-4187-9bd7-92860adc1b06"> (1.15) 
+<img width="250" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/750a21fa-9094-4187-9bd7-92860adc1b06"> (𝟷.𝟷𝟻) 
 
 
 ``` Latex
