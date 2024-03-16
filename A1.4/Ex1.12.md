@@ -20,12 +20,31 @@ Figure 1.19. representation of the unit circle.
 
 (a) 
 
-x(u) = (1-u^{2})/(1+u^{2})
+<img width="100" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/bae304e1-168a-45bf-b7d8-0d56fca3cb4e">
 
-y(u) = (2u)/(1+u^{2}) for one quadrant;
+
+``` Latex
+x(u) = \frac{1-u^{2}}{1+u^{2}}
+```
+
+<img width="100" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/93db0a3c-e587-4e69-9835-64919789348a">
+
+``` Latex
+y(u) = \frac{2u}{1+u^{2}}
+```
+
+for one quadrant;
 
 ![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/4b97482f-6098-409d-9fb7-efd1255a18a1)
 
 (b)
 
-the Bezier representation corresponding to Figure 1.19a (w_{o}, wl = 1, w2 = 2).
+the Bezier representation corresponding to Figure 1.19a
+
+<img width="50" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/055a98a0-601e-45fc-a0f1-d4eff075aead"> \\
+
+<img width="50" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/91328ad5-15f9-453f-8174-56ec8ca8029e"> \\
+
+<img width="50" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/766dc06f-648e-4ace-9253-bc60c7bd5ebb">
+
+
