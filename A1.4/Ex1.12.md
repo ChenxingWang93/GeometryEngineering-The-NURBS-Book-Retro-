@@ -47,4 +47,10 @@ the Bezier representation corresponding to Figure 1.19a
 
 <img width="50" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/766dc06f-648e-4ace-9253-bc60c7bd5ebb">
 
+substituting 𝚞 = 𝟶 yields 𝚠_{𝟶} = 𝟷
 
+𝚞 = 𝟷 yields 𝚠_{𝟸} = 𝟸
+
+Finally, substituting 𝚞 = 𝟷/𝟸 yields 𝟻/𝟺 = 𝟷/𝟺𝚠_{𝟶} + 𝟷/𝟸𝚠_{𝟷} + 𝟷/𝟺𝚠_{𝟸}
+
+using 𝚠_{𝟶} = 𝟷 &𝚠_{𝟸} = 𝟸 yields 𝚠_{𝟷} = 𝟷 (see Figure 1.19b)
