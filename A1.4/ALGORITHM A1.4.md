@@ -72,6 +72,7 @@ This follows from the recursive definition of the basis functions (see P𝟷.�
 
 𝗣_{𝑘,𝑖}(𝑢_{𝟶}) = (𝟷 - 𝑢_{𝟶})𝗣_{𝑘-𝟷,𝑖+𝟷}(𝑢_{𝟶}) for 𝑘 = 𝟷,...,𝑛
 
-                                                  𝑖 = 𝟶,...,𝑛 - 𝑘 (𝟷.𝟷𝟸)
+                                                  𝑖 = 𝟶,...,𝑛 - 𝑘
+(𝟷.𝟷𝟸)
 
   Equation(𝟷.𝟷𝟸) is called deCasteljau Algorithm (see[Boeh84;deCa86;93]). It is a corner-cutting process(Figure 𝟷.𝟷𝟼 &Figure 𝟷.𝟷𝟽) which yields the triangular table of points shown in Table 𝟷.𝟷𝟹
