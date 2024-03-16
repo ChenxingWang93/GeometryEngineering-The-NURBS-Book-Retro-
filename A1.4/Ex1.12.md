@@ -83,5 +83,5 @@ C^{w}(u) = \sum_{i=0}^{n}B_{i,n}(u)P_{i}^{w}
 
 Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form.
 
-  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of [Eq.(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.(𝟷.𝟷𝟽), we get
+  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.(𝟷.𝟷𝟽), we get
 
