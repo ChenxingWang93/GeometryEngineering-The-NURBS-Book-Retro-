@@ -54,3 +54,31 @@ substituting 𝚞 = 𝟶 yields 𝚠_{𝟶} = 𝟷
 Finally, substituting 𝚞 = 𝟷/𝟸 yields 𝟻/𝟺 = 𝟷/𝟺𝚠_{𝟶} + 𝟷/𝟸𝚠_{𝟷} + 𝟷/𝟺𝚠_{𝟸}
 
 using 𝚠_{𝟶} = 𝟷 &𝚠_{𝟸} = 𝟸 yields 𝚠_{𝟷} = 𝟷 (see Figure 1.19b)
+
+
+This mapping, denoted by 𝑯, is a perspective map with center at the origin 
+
+𝑷 = 𝑯{𝑷^{𝑤}} = 𝑯{(𝑿,𝒀,𝒁,𝑾)} = { (𝑿/𝑾,𝒀/𝑾,𝒁/𝑾)   if 𝑾 ≠ 0 
+
+                                  direction (𝑿,𝒀,𝒁) if 𝑾 = 0 (𝟷.𝟷𝟼)
+
+Notice that for arbitrary x,y,z, 𝐖1, 𝐰2, where 𝐰1 ∼ 𝐖2
+
+𝑯{𝑷^{𝑤_{1}}} = 𝑯{(𝑤_{1}𝑥,𝑤_{1}𝑦,𝑤_{1}𝑧,𝑤_{1})} = (𝑥,𝑦,𝑧)
+
+              = 𝑯{(𝑤_{2}𝑥,𝑤_{2}𝑦,𝑤_{2}𝑧,𝑤_{2})} = 𝑯{𝑷^{𝑤_{2}}}
+
+  Now for a given set of control points, {𝑷𝑖}, and weights, {𝑤𝑖}, construct the weighted
+control points, 𝑷𝑤 = (𝑤𝑖𝑥𝑖, 𝑤𝑖𝑦𝑖, 𝑤𝑖𝑧𝑖, 𝑤𝑖). Then define the nonrational (polynomial) Bezier
+curve in four-dimensionl space 
+
+<img width="200" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/5e842112-18de-421b-9fbb-9193b3d36c20"> (𝟷.𝟷𝟽)
+
+
+``` Latex
+C^{w}(u) = \sum_{i=0}^{n}B_{i,n}(u)P_{i}^{w}
+```
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/5cc76ded-894e-4170-a5fa-0085e1f35ad9)
+
+Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form.
