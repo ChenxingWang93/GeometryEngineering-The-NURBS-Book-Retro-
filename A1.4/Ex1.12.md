@@ -102,6 +102,7 @@ Locating the curve in three-dimensional space yields
 
 <img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/b2828ceb-dddd-4c23-b247-6d2fca2058c0">
 
+Using [vector normal 𝟷.𝟻](https://github.com/ChenxingWang93/GeometryEngineering/edit/main/A1.1/Ex1.1.md), we get 
 
-
+<img width="400" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/3df35a4d-d52b-4a88-b8fd-6ed03a9ab964">
 
