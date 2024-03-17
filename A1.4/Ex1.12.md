@@ -111,4 +111,4 @@ Using [vector normal 𝟷.𝟻](https://github.com/ChenxingWang93/GeometryEngine
 ![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/9a18c2e2-71de-444b-bbfe-a561f8f1a024)
 
 Figure 𝟷.𝟸𝟷. A geometric construction of a rational Bezier curve.
-  For algorithms in this book we primarily use the form given by Eq. (𝟷.𝟷𝟽)
+  For algorithms in this book we primarily use the form given by Eq. (𝟷.𝟷𝟽), and an analogous form for rational B-spline curves. Thus, nonrational forms are processed in four-dimensional space, and the results are located in three dimensional space using the map 𝑯. We refer interchangeably to either 𝑪'(𝑢) &𝑪(𝑢) as the rational Bezier (or B-spline) curve, although strictly speaking, 𝑪'(𝑢)is not a rational curve.
