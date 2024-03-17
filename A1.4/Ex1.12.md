@@ -85,3 +85,23 @@ Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form.
 
   Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.(𝟷.𝟷𝟽), we get
 
+<img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/e10e1141-cf65-4f18-84c5-ec0c044a6396"> \\
+
+<img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/fcde54a9-ced9-44bb-b577-886061b88108"> \\
+
+<img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/d8b03bd6-b04a-49f5-940d-aeb305158888"> \\
+
+<img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/202edef5-5f30-4a25-b400-c8c3f603341f">
+
+
+Locating the curve in three-dimensional space yields 
+
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/1fa5cec6-69b1-47b8-a360-ed54c301c9b4"> \\
+
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/7cada52c-252d-495b-9d08-bc002e7644c0"> \\
+
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/b2828ceb-dddd-4c23-b247-6d2fca2058c0">
+
+
+
+
