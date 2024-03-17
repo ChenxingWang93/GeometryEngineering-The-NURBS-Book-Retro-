@@ -83,7 +83,7 @@ C^{w}(u) = \sum_{i=0}^{n}B_{i,n}(u)P_{i}^{w}
 
 Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form.
 
-  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.(𝟷.𝟷𝟽), we get
+  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.[(𝟷.𝟷𝟽)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.12.md), we get
 
 <img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/e10e1141-cf65-4f18-84c5-ec0c044a6396"> \\
 
@@ -104,5 +104,10 @@ Locating the curve in three-dimensional space yields
 
 Using [vector normal 𝟷.𝟻](https://github.com/ChenxingWang93/GeometryEngineering/edit/main/A1.1/Ex1.1.md), we get 
 
-<img width="400" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/3df35a4d-d52b-4a88-b8fd-6ed03a9ab964">
+<img width="450" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/01ca3b53-f105-4ec7-b2fc-7203cee9ca27"> \\
 
+<img width="150" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/b5dad1b6-3b86-4c53-97c3-96ccc4b99970"> (𝟷.𝟷𝟾)
+
+![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/9a18c2e2-71de-444b-bbfe-a561f8f1a024)
+
+Figure 𝟷.𝟸𝟷. A geometric construction of a rational Bezier curve.
