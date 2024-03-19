@@ -72,9 +72,12 @@ This follows from the recursive definition of the basis functions (see P𝟷.�
 
 & denoting P𝑖 by P𝟶,Eq.(𝟷.𝟷𝟷) yields a recursive algorithm for computing the point 𝐂(𝑢𝟶) = P𝟶(𝑢𝟶) on an nth-degree Bezier curve, i.e.
 
+<img width="400" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/2d9d62e8-2539-4430-a312-575d9c34d606"> (𝟷.𝟷𝟸)
+
+
 𝗣_{𝑘,𝑖}(𝑢_{𝟶}) = (𝟷 - 𝑢_{𝟶})𝗣_{𝑘-𝟷,𝑖+𝟷}(𝑢_{𝟶}) for 𝑘 = 𝟷,...,𝑛
 
                                                   𝑖 = 𝟶,...,𝑛 - 𝑘
-(𝟷.𝟷𝟸)
+
 
   Equation(𝟷.𝟷𝟸) is called deCasteljau Algorithm (see[Boeh84;deCa86;93]). It is a corner-cutting process(Figure 𝟷.𝟷𝟼 &Figure 𝟷.𝟷𝟽) which yields the triangular table of points shown in Table 𝟷.𝟷𝟹
