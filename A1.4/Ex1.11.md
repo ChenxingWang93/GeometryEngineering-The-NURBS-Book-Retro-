@@ -22,7 +22,7 @@ Ex1.11🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩
 
 Define an nth-degree rational Bezier curve by (see[Forr68;Pieg86;Fari83,89])
 
-<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ff175e17-f85a-4af8-9db0-0083a0476bf8"> (1.14)
+<img width="300" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/ff175e17-f85a-4af8-9db0-0083a0476bf8"> (𝟷.𝟷𝟺)
 
 ``` Latex
 C(u)=\frac{\sum_{i=0}^{n}B_{i,n}(u)w_{i}P_{i}}{\sum_{i=0}^{n}B_{i,n}(u)w_{i}} 0<=u<=1
@@ -31,7 +31,7 @@ C(u)=\frac{\sum_{i=0}^{n}B_{i,n}(u)w_{i}P_{i}}{\sum_{i=0}^{n}B_{i,n}(u)w_{i}} 0<
 The Pi = (xi, yi, zi) and Bi,n(u) are as before; the wi are scalars, called the weights, Thus, W(u) = E oBi,n(u)wi is the common denominator function. Except where explicitly stated otherwise, we assume that wi > 0 for all i. This ensures that W(u) > 0 for all u c[0,1]. We
 write 
 
-<img width="250" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/750a21fa-9094-4187-9bd7-92860adc1b06"> (1.15) 
+<img width="250" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/750a21fa-9094-4187-9bd7-92860adc1b06"> (𝟷.𝟷𝟻) 
 
 
 ``` Latex
@@ -46,29 +46,29 @@ The Ri,n(u) are the rational basis functions for this curve form. Figure 1.18a s
 
   The Ri,n(u) have properties which can be easily derived from Eq.(1.15) and the corresponding properties of the Bi,n(u):
 
-P1.8 nonnegativity: Ri,n(u) > 0 for all i,n and 0<u<1;
+P𝟷.𝟾 nonnegativity: Ri,n(u) > 0 for all i,n and 0<u<1;
 
-P1.9 partition of unity: o Ri,n(u) = 1 for all 0<u<1;
+P𝟷.𝟿 partition of unity: o Ri,n(u) = 1 for all 0<u<1;
 
-P1.10 Ro,n(0) = Rn,n(1) = 1;
+P𝟷.𝟷𝟶 Ro,n(0) = Rn,n(1) = 1;
 
-P1.11 Ri,n(u) attains exactly one maximum on the interval [0,1];
+P𝟷.𝟷𝟷 Ri,n(u) attains exactly one maximum on the interval [0,1];
 
-P1.12 if wi = 1 for all i, then Ri,n(u)
+P𝟷.𝟷𝟸 if wi = 1 for all i, then Ri,n(u)
 
 These yield the following geometric properties of rational Bezier curves:
 
-P1.13 convex hull property: the curves are contained in the convex hulls of their defining control points(the Pi);
+P𝟷.𝟷𝟹 convex hull property: the curves are contained in the convex hulls of their defining control points(the Pi);
 
-P1.14 Transformation invariance: rotations, translations, and scaling are applied to the curve by applying them to the control points;
+P𝟷.𝟷𝟺 Transformation invariance: rotations, translations, and scaling are applied to the curve by applying them to the control points;
 
-P1.15 variation diminishing property: same as for polynomial Bezier curves (see previous section);
+P𝟷.𝟷𝟻 variation diminishing property: same as for polynomial Bezier curves (see previous section);
 
-P1.16 endpoint interpolation: C(0) = Po and C(1) = Pn;
+P𝟷.𝟷𝟼 endpoint interpolation: C(0) = Po and C(1) = Pn;
 
-P1.17 the kth derivative at u = 0 (u = 1) depends on the first (last) k + 1 control points and weights; in particular, C'(0) and C'(1) are parallel to P1 - P0 and P. - Pn_li respectively;
+P𝟷.𝟷𝟽 the kth derivative at u = 0 (u = 1) depends on the first (last) k + 1 control points and weights; in particular, C'(0) and C'(1) are parallel to P1 - P0 and P. - Pn_li respectively;
 
-P1.18 Polynomial Bezier curves are a special case of rational Bezier curves.
+P𝟷.𝟷𝟾 Polynomial Bezier curves are a special case of rational Bezier curves.
 
 Figure 1.18
 
