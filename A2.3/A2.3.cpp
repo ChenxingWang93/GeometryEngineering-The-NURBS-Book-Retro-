@@ -82,7 +82,7 @@ int main() {
     vector<vector<double>> ders(n + 1, vector<double>(p + 1, 0.0));
 
     DersBasisFuns(i, u, p, n, U, ders);
-
+    
     // Display the results 展示结果
     for (int k = 0; k <= n; k++)
     {
