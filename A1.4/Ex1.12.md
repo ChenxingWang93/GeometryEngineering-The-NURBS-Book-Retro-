@@ -56,7 +56,7 @@ Finally, substituting 𝚞 = 𝟷/𝟸 yields 𝟻/𝟺 = 𝟷/𝟺𝚠_{𝟶} +
 using 𝚠_{𝟶} = 𝟷 &𝚠_{𝟸} = 𝟸 yields 𝚠_{𝟷} = 𝟷 (see Figure 1.19b)
 
 
-This mapping, denoted by 𝑯, is a perspective map with center at the origin 
+This mapping, denoted by 𝑯, is a perspective map with center at the origin 中心点 在原点 的透视 映射 标记为 𝑯
 
 𝑷 = 𝑯{𝑷^{𝑤}} = 𝑯{(𝑿,𝒀,𝒁,𝑾)} = { (𝑿/𝑾,𝒀/𝑾,𝒁/𝑾)   if 𝑾 ≠ 0 
 
@@ -68,9 +68,9 @@ Notice that for arbitrary x,y,z, 𝐖1, 𝐰2, where 𝐰1 ∼ 𝐖2
 
               = 𝑯{(𝑤_{2}𝑥,𝑤_{2}𝑦,𝑤_{2}𝑧,𝑤_{2})} = 𝑯{𝑷^{𝑤_{2}}}
 
-  Now for a given set of control points, {𝑷𝑖}, and weights, {𝑤𝑖}, construct the weighted
-control points, 𝑷𝑤 = (𝑤𝑖𝑥𝑖, 𝑤𝑖𝑦𝑖, 𝑤𝑖𝑧𝑖, 𝑤𝑖). Then define the nonrational (polynomial) Bezier
-curve in four-dimensionl space 
+  Now for a given set of control points, {𝑷𝑖},对于给定的 控制点集 and weights, {𝑤𝑖},权重 construct the weighted
+control points,构造带权重的 控制点 𝑷𝑤 = (𝑤𝑖𝑥𝑖, 𝑤𝑖𝑦𝑖, 𝑤𝑖𝑧𝑖, 𝑤𝑖). Then define the nonrational (polynomial) Bezier
+curve in four-dimensionl space 定义了 在四维空间 中的 非有理（多项式）贝塞尔 曲线
 
 <img width="200" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/5e842112-18de-421b-9fbb-9193b3d36c20"> (𝟷.𝟷𝟽)
 
@@ -81,9 +81,9 @@ C^{w}(u) = \sum_{i=0}^{n}B_{i,n}(u)P_{i}^{w}
 
 ![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/5cc76ded-894e-4170-a5fa-0085e1f35ad9)
 
-Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form.
+Figure 𝟷.𝟸𝟶 A representation of Euclidean points in homogeneous form. 同质 形式 的欧几里德点 表示法
 
-  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷), that is, writing out the coordinate functions of Eq.[(𝟷.𝟷𝟽)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.12.md), we get
+  Then, applying the perspective map, 𝑯, to ~~𝑪(𝑢)^{0}~~ yields the corresponding rational Bezier curve of Eq.[(𝟷.𝟷𝟺)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.11.md) (see Figure 𝟷.𝟸𝟷),运用 透视法 映射 推出对应的 有理 贝塞尔曲线 that is, writing out the coordinate functions of Eq.[(𝟷.𝟷𝟽)](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.4/Ex1.12.md), we get 
 
 <img width="170" alt="image" src="https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/e10e1141-cf65-4f18-84c5-ec0c044a6396"> \\
 
