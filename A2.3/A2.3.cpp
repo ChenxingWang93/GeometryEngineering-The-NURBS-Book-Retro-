@@ -1,8 +1,7 @@
 #include <iostream>
 #include <vector>
-#include <ders>
 using namespace std;
-void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vector<double>>, ders) {
+void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vector<double>> ders) {
     vector<vector<double>> ndu(p + 1, vector<double>(p + 1, 0.0));
     vector<double> left(p + 1, 0.0);
     vector<double> right(p + 1, 0.0);
