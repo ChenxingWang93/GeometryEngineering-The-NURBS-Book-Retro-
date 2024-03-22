@@ -26,4 +26,7 @@ Then 𝑪''(𝑢)_(1-u)^{2}P_{0} + 2u(1-u)P_{i} + u^{2}PZ is a parabolic arc(non
 
 which projects onto a circular arc on the 𝑾 = 1 plane (see Figure 1.22)
 
+```
+```
+
 ![image](https://github.com/ChenxingWang93/GeometryEngineering/assets/31954987/578204f5-6a57-4d6e-9e63-8c85700bf3a9)
