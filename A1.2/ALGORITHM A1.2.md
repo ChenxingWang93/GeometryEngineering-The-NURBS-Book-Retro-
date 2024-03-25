@@ -16,7 +16,3 @@ ALGORITHM A1.2
     B = temp[n];
     }
 ```
-
-```
-
-```
