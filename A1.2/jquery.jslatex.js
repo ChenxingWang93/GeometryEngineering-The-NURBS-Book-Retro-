@@ -66,4 +66,3 @@
         url: 'http://latex.codecogs.com/{f}.latex?{e}'
     };
 }(jQuery));
-
