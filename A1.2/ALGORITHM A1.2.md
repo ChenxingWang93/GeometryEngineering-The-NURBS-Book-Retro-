@@ -1,5 +1,3 @@
-
-
 ``` C++
 ALGORITHM A1.2
   Bernstein(i,n,u,B)
