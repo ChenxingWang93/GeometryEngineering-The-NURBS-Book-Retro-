@@ -1,0 +1,165 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="jquery.jslatex.js"></script>
+<script>
+$(function () {
+    $(".latex").latex();
+});
+</script>
+<p>
+  The 2 most common methods of representing curves and surfaces in geometric modelling
+</p>
+<p>
+  implicit equations of a curve lying in the 
+</p>
+<div class="latex">
+  x and y
+</div>
+<p>
+  plane has the form
+</p>
+<div class="latex">
+  f(x,y) = 0
+</div>
+<p>
+  this equation describes an implicit relationship between the
+</p>
+<div class="latex">
+  x and y
+</div>
+<p>
+  coordinates of the points lying on the curve. For a given curve the equation is unique up to a multiplicative constant. An example is the circle of unit radius centered at the origin, specified by the equation
+</p>
+<div class="latex">
+  f(x,y) = x^{2} + y^{2} - 1 = 0
+</div>
+<p>
+  (Figure 1.1)
+</p>
+<p>
+  In parametric form, each of the coordinates of a point on the curve is represented separately as an explicit function of an independent function of an independent parameter
+</p>
+<div class="latex">
+  C(u) = (x(u),y(u))
+</div>
+<div class="latex">
+  a<=u<=b
+</div>
+<p>
+  Thus,
+</p>
+<div class="latex">
+  C(u)
+</div>
+<p>
+  is a vector-valued function of the independent variable,
+</p>
+<div class="latex">
+  u.
+</div>
+<p>
+  Although the interval 
+</p>
+<div class="latex">
+  [a,b]
+</div>
+<p>
+  is arbitrary, it is usually normalized to
+</p>
+<div class="latex">
+  [0,1].
+</div>
+<p>
+  The first quadrant of the circle shown in (Figure 1.1) is defined by the parametric functions
+</p>
+<div class="latex">
+  x(u) = cos(u)
+
+  y(u) = sin(u)
+</div>
+<div class="latex">
+  0<=u<=𝛑/2
+</div>
+<p>
+  (1.1)
+</p>
+<p>
+  Setting
+</p>
+<div class="latex">
+  t = tan(\frac{u}{2}),
+</div>
+<p>
+  double-angle formula
+</p>
+<p>
+  one can derive the alternate representation
+</p>
+<div class="latex">
+  x(t) = \frac{1-t^{2}}{1+t^{2}}
+</div>
+<div class="latex">
+  y(t) = \frac{2t}{1+t^{2}}     0 <= t <= 1
+</div>
+<p>
+  Thus, the parametric representation of a curve is not unique.
+</p>
+<div class="latex">
+  C(u) = (x(u),y(u))
+</div>
+<p>
+  as the path traced out by a particle as a function of time;
+</p>
+<div class="latex">
+  u
+</div>
+<p>
+  is the time variable,
+</p>
+<div class="latex">
+  [a,b]
+</div>
+<p>
+  is the time interval 
+</p>
+<div class="latex">
+  C'(u):
+</div>
+<p>
+  the velocity
+</p>
+<div class="latex">
+  C''(u):
+</div>
+<p>
+  the acceleration of the particle
+</p>
+<div class="latex">
+  C''(u) = (x'(u),y'(u)) = (-sin(u),cos(u))
+</div>
+<div class="latex">
+  C'(t) = (x'(t),y'(t)) = (\frac{-4t}{1+t^{2}},\frac{2(1-t^{2})}{(1+t^{2})^{2}})
+</div>
+<p>
+  The magnitude of the velocity vector,
+</p>
+<div class="latex">
+  C'(u),
+</div>
+<p>
+  is a constant
+</p>
+<div class="latex">
+  |C'(u)| = \sqrt{sin^{2}(u)+cos^{2}(u)} = 1
+</div>
+<div class="latex">
+  x(u,v) = sin(u)cos(v)
+</div>
+<div class="latex">
+  y(u,v) = sin(u)sin(v)
+</div>
+<div class="latex">
+  z(u,v) = cos(u)
+</div>
+<div class="latex">
+  0<=u<=𝛑, 0<=u<=𝟸𝛑
+</div>
