@@ -16,7 +16,7 @@
             src: this.src
         });
     },
-    /* formats:Creates an object formats that maps different output formats ('gif','png','swf') to corresponding formatting functions */
+    /* formats: Creates an object formats that maps different output formats ('gif','png','swf') to corresponding formatting functions */
         formats = {
         'gif': attachToImage,
         'png': attachToImage,
