@@ -1,4 +1,4 @@
-void deCasteljau1(double* P, int n, double u, double* C) {
+void deCasteljau1(double *P, int n, double u, double *C) {
     double Q[n+1];
 
     // Copy P into Q
