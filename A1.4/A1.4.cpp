@@ -1,3 +1,4 @@
+#include "../AllBernstein.h"
 void PointOnBezierCurve(double* P, int n, double u, double* C) {
     double B[n+1];
     AllBernstein(n, u, B);
