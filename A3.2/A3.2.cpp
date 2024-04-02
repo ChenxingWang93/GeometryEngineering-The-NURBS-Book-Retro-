@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "../findSpan.h"
+#include "../DersBasisFuns.h"
 using namespace std;
 
 void CurveDerivsAlg1(int n, int p, vector<double> U, vector<double> P, double u, int d, vector<double> CK) {
@@ -50,4 +51,4 @@ int main() {
     std::cout << std::endl;
     
     return 0;
-} 
+}

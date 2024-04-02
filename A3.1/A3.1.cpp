@@ -1,4 +1,6 @@
 #include <vector>
+#include "../findSpan.h"
+#include "../BasisFuns.h"
 using namespace std;
 void CurvePoint(int n, int p, const vector<double>& U, const vector<double>& C)
 {
