@@ -14,8 +14,7 @@ uspan = FindSpan(n,p,u,U);
 AllBasisFuns(uspan,u,p,U,Nu);
 vspan = FindSpan(u,q,v,V);
 AllBasisFuns(vspan,v,q,V,Nv);
-SurfaceDerivCpts(n,p,U,m,q,V,P,d,uspan-p,uspan,
-                                        vspan-q,vspan,PKL);
+SurfaceDerivCpts(n,p,U,m,q,V,P,d,uspan-p,uspan,vspan-q,vspan,PKL);
 for (k=0; k<=du; k++)
   {
   dd = min(d-k,dv);
