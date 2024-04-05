@@ -1,3 +1,21 @@
+/* ARGUMENTS
+ *     Input Arguments: 
+ *         `CurvePoint`-    is the function name.
+ *         `n`         -    is the degree of the curve.
+ *         `p`         -    is the degree of the basis function.
+ *         `U`         -    is the knot vector.
+ *         `P`         -    is the control points.
+ *         `u`         -    is the parameter at which to evaluate the curve.
+ *         `C`         -    is the computed curve point.
+ * Steps:
+ *         
+ *         The function first finds the span of the knot vector where the parameter
+ *         `u` lies using `FindSpan` function. Then, it computes the basis functions
+ *         `N` at the given parameter `u` and stores them in the array `N`
+ *         Finally, it computes the curve point `C` by summing up the product of each basis function value
+ *         `N[i]` and its corresponding control point `P[span-p+i]`.
+ */
+
 #include <vector>
 #include "../findSpan.h"
 #include "../BasisFuns.h"
