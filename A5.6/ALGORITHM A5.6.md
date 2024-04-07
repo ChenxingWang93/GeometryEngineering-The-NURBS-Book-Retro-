@@ -9,6 +9,5 @@ ALGORITHM A5.6
     b = p+1;
     nb = 0;
     for (i=0; i<=p; i++)    Qw[nb][i] = Pw[i];
-  
 }
 ```
