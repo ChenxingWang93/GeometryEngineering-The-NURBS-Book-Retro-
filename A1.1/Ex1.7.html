@@ -1,149 +1,436 @@
-Ex1.7🚩🚩🚩🚩🚩🚩🚩
-
-### n = 6.
-
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/fc774b45-46d8-4595-b1c6-1d88ff9abe69)
-
-shows a sixth-degree, closed Bezier curve.
-
-The curve is smooth at 
-
-𝙲(𝟶) ( = 𝙲(𝟷)) because `P_{𝟷} - P_{𝟶}` is parallel to `P_{𝟼} - P_{𝟻}`
-
-By smooth we mean that the tangent vectors at `𝚞 = 𝟶` &`𝚞 = 𝟷` have the same direction.
-
-In addition to the previously mentioned properties, Bezier curves are invariant under the usual transformations 
-
-such as rotations, translations, and scalings; that is, one applies the transformation to the curve by applying it to the control polygon.
-
-We present this concept more rigorously in Chapter 𝟹 for B-spline curves(of which Bezier curves are a special case).
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="jquery.jslatex.js"></script>
+<script>
+$(function () {
+    $(".latex").latex();
+});
+</script>
+<p>
+  <b>
+    Ex1.7🚩🚩🚩🚩🚩🚩🚩
+  </b>
+</p>
+<p>
+  n = 6.
+</p>
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/fc774b45-46d8-4595-b1c6-1d88ff9abe69" alt="image">
+<p>
+  shows a sixth-degree, closed Bezier curve. <sub>显示6次闭合贝塞尔曲线</sub>
+</p>
+<p>
+  The curve is smooth at <sub>曲线平滑于</sub>
+</p>
+<div class="latex">
+  C(0) ( = C(1))
+</div>
+<P>
+  because
+</P>
+<div class="latex">
+  C(0) ( = C(1))
+</div>
+<div class="latex">
+  P_{1} - P_{0}
+</div>
+<p>
+  is parallel to <sub>平行于</sub>
+</p>
+<div class="latex">
+  P_{6} - P_{5}
+</div>
+<p>
+  By smooth we mean that the tangent vectors at <sub>平滑意味着切向量</sub>
+</p>
+<div class="latex">
+  u = 0 and u = 1
+</div>
+<p>
+  have the same direction. <sub>有相同方向</sub>
+</p>
+<p>
+  In addition to the previously mentioned properties, Bezier curves are invariant under the usual transformations <sub></sub>
+</p>
+<p>
+  <sub>
+    除了前面提到的属性外，贝塞尔曲线在通常变化下是不变的
+  </sub>
+</p>
+<p>
+  such as rotations, translations, and scalings; that is, one applies the transformation to the curve by applying it to the control polygon.
+</p>
+<p>
+  <sub>
+    例如旋转、平移和缩放；也就是说，通过将变换应用于控制多边形来将变换应用于曲线。
+  </sub>
+</p>
+<p>
+  We present this concept more rigorously in Chapter 3 for B-spline curves(of which Bezier curves are a special case).
+</p>
+<p>
+  <sub>
+    我们在第3章中针对B样条曲线(贝塞尔曲线是一个特例)更严格地介绍了这个概念
+  </sub>
+</p>
+<p>
   In any curve(or surface) representation scheme, the choice of basis functions determines the geometric characteristics of the scheme. 
+</p>
+<p>
+  <sub>
+    在任何曲线(或曲面)表示方案中，基函数的选择决定了该方案的几何特性。
+  </sub>
+</p>
 
-Figures 𝟷.𝟷𝟹𝚊-𝚍
+<p>
+  <sub>
+    Figures 1.13a-d
+  </sub>
+</p>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/a3c96c1c-807f-4a9e-b27c-2e14fe523c36)
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/a3c96c1c-807f-4a9e-b27c-2e14fe523c36" alt="image">
+<p>
+  <sub>
+    Figures 1.13a
+  </sub>
+</p>
 
-Figures 𝟷.𝟷𝟹𝚊
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/3637e53b-af83-4a21-b63e-93a6f277a925" alt="image">
+<p>
+  <sub>
+    Figures 1.13b
+  </sub>
+</p>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/3637e53b-af83-4a21-b63e-93a6f277a925)
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb673e33-f323-4377-b48c-510525ebb526" alt="image">
+<p>
+  <sub>
+    Figures 1.13c
+  </sub>
+</p>
 
-Figures 𝟷.𝟷𝟹𝚋
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/00f86b4e-1ce5-4841-a75f-40fae1d620d2" alt="image">
+<p>
+  <sub>
+    Figures 1.13d
+  </sub>
+</p>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/cb673e33-f323-4377-b48c-510525ebb526)
+<p>
+  show the basis functions
+</p>
 
-Figures 𝟷.𝟷𝟹𝚌
+<div class="latex">
+  {B_{i,n(u)}}
+</div>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/00f86b4e-1ce5-4841-a75f-40fae1d620d2)
+<p>
+  for
+</p>
 
-Figures 𝟷.𝟷𝟹𝚍
-
-show the basis functions {𝘽_{𝚒,𝚗(𝚞)}} for 𝚗 = 𝟷,𝟸,𝟹,𝟿.
-
-These functions have these properties:
-
-***𝙿𝟷.𝟷***
-
-nonegativity: 𝘽_{𝚒,𝚗(𝚞)} > 𝟶 for all 𝚒,𝚗 & 0<𝚞<𝟷;
-
-***𝙿𝟷.𝟸***
-
-partition of unity:
+<div class="latex">
+  n = 1,2,3,9.
+</div>
+<p>
+  These functions have these properties: <sub>这些函数具有以下属性</sub>
+</p>
+<p>
+  <b>P1.1</b>
+</p>
+<p>
+  nonegativity: <sub>非负性</sub>
+</p>
+<div class="latex">
+  B_{i,n(u)} > 0
+</div>
+<p>
+  for all <sub>对于所有的</sub>
+</p>
+<div class="latex">
+  i,n
+</div>
+<p>
+  and
+</p>
+<div class="latex">
+  0 < n < 1;
+</div>
+<p>
+  <b>
+    P1.2
+  </b>
+</p>
+<p>
+  partition of unity:
+</p>
 
 <img width="125" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/11449d14-9f86-4b66-9a41-5f62e1a1212f">
 
-```
-\sum_{i=0}^{n}B_{i,n}(u) = 1
-```
-for all 𝟶<𝚞<𝟷;
+<div class="latex">
+  \sum_{i=0}^{n}B_{i,n}(u) = 1
+</div>
+<p>
+  for all <sub>对于所有的</sub>
+</p>
+<div class="latex">
+  0 < n < 1;
+</div>
 
-***𝙿𝟷.𝟹***
-```
-𝘽_{𝟶,𝚗(𝟶)} = 𝘽_{𝚗,𝚗(𝟷)} = 𝟷;
-```
+<p>
+  <b>
+    P1.3
+  </b>
+</p>
+<div class="latex">
+  B_{0,n(0)} = B_{n,n(1)} = 1;
+</div>
 
-***𝙿𝟷.𝟺***
-```
-𝘽_{𝚒,𝚗(𝚞)}
-```
-attains exactly one maximum on the interval [𝟶,𝟷], that is, at 𝚞 = 𝚒/𝚗;
+<p>
+  <b>
+    P1.4
+  </b>
+</p>
+<div class="latex">
+  B_{i,n(u)}
+</div>
+<p>
+  attains exactly one maximum on the interval <sub>恰好达到区间上的一个最大值</sub>
+</p>
 
-***𝙿𝟷.𝟻***
+<div class="latex">
+  [0,1],
+</div>
+<p>
+  that is, at
+</p>
+<div class="latex">
+  u = i/n;
+</div>
 
-symmetry: for any 𝚗, the set of polynomial {𝙱_{𝚒,𝚗}(𝚞)} is symmetric with respect to 𝚞 = 𝟷/𝟸;
+<p>
+  <b>
+    P1.5
+  </b>
+</p>
+<p>
+  symmetry: for any
+</p>
+<div class="latex">
+  n,
+</div>
+<p>
+  the set of polynomial
+</p>
+<div class="latex">
+  {B_{i,n}(u)}
+</div>
+<p>
+  is symmetric with respect to
+</p>
+<div class="latex">
+  u = 1/2;
+</div>
 
-***𝙿𝟷.𝟼***
+<p>
+  <b>
+    P1.6
+  </b>
+</p>
+<P>
+  recursive definition:
+</P>
+<div class="latex">
+  B_{i,n}(u) = (1 - u)B_{i,n-1}(u) + uB_{i-1,n-1}(u)
+</div>
 
-recursive definition: 𝙱_{𝚒,𝚗}(𝚞) = (1 - 𝚞)𝙱_{𝚒,𝚗-1}(𝚞) + 𝚞𝙱_{𝚒-1,𝚗-1}(𝚞)
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7658ed1e-07d8-40dd-931a-07168b71bfaa" alt="image">
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7658ed1e-07d8-40dd-931a-07168b71bfaa);
-
-we define 𝙱_{𝚒,𝚗}(𝚞) ≡ 𝟶 if 𝚒 < 𝟶 or 𝚒 > 𝚗;
-
-***𝙿𝟷.𝟽***
-
-derivatives:
-
+<p>
+  we define
+</p>
+<div class="latex">
+  B_{i,n}(u) ≡ 0
+</div>
+<p>
+  if
+</p>
+<div class="latex">
+  i < 0 or i > n;
+</div>
+<p>
+  <b>
+    P1.7
+  </b>
+</p>
+<P>
+  derivatives:
+</P>
 <img width="350" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c09e3a96-8668-45d0-a81c-8d891eecabb9">
 
-```
-{B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
-```
-
-with 
-
+<div class="latex">
+  {B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
+</div>
+<p>
+  with
+</p>
 <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
 
-From Eq. (𝟷.𝟾)
+<p>
+  <sub>
+    From Eq. (1.8)
+  </sub>
+</p>
+<p>
+  <sub>
+    Figure 1.15a
+  </sub>
+</p>
+<p>
+  shows the definition of
+</p>
+<div class="latex">
+  B'_{2,5},
+</div>
 
-Figure 𝟷.𝟷𝟻𝚊 shows the definition of `B'_{𝟸,𝟻}`,
+<p>
+  and
+</p>
+<p>
+  <sub>
+    Figure 1.15b
+  </sub>
+</p>
 
-and Figure 𝟷.𝟷𝟻𝚋 illustrates all the cubic derivative functions.
-
-From Eq. (𝟷.𝟾)
-
+<p>
+  illustrates all the cubic derivative functions. From
+</p>
+<p>
+  <sub>
+    Eq. (1.8)
+  </sub>
+</p>
 <img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
 
-we have
+<p>
+  we have
+</p>
 
-```
-B_{𝟶,𝟶}(𝚞) = 𝟷
-```
+<div class="latex">
+  B_{0,0}(u) = 1
+</div>
+<p>
+  Using property
+</p>
+<p>
+  <b>
+    P1.6,
+  </b>
+</p>
+<p>
+  the linear & quadratic Bernstein polynomials are
+</p>
 
-Using property ***P𝟷.𝟼***, the linear & quadratic Bernstein polynomials are
+<div class="latex">
+  B_{0,1}(u) = (1 - u)B_{0,0}(u) + uB_{-1,0}(u) = 1 - u <br>
 
-```
-B_{𝟶,𝟷}(𝚞) = (𝟷 - 𝚞)B_{𝟶,𝟶}(𝚞) + 𝚞B_{-𝟷,𝟶}(𝚞) = 𝟷 - 𝚞
-B_{𝟷,𝟷}(𝚞) = (𝟷 - 𝚞)B_{𝟷,𝟶}(𝚞) + 𝚞B_{𝟶,𝟶}(𝚞)  = 𝚞
-B_{𝟶,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟶,𝟷}(𝚞) + 𝚞B_{-𝟷,𝟷}(𝚞) = (𝟷 - 𝚞)^𝟸
-B_{𝟷,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟷,𝟷}(𝚞) + 𝚞B_{𝟶,𝟷}(𝚞)  = (𝟷 - 𝚞)𝚞 + 𝚞(𝟷 - 𝚞) = 2𝚞(𝟷 - 𝚞)
-B_{𝟸,𝟸}(𝚞) = (𝟷 - 𝚞)B_{𝟸,𝟷}(𝚞) + 𝚞B_{𝟷,𝟷}(𝚞)  = 𝚞^𝟸
-```
+  B_{1,1}(u) = (1 - u)B_{1,0}(u) + uB_{0,0}(u)  = u <br>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5)
+  B_{0,2}(u) = (1 - u)B_{0,1}(u) + uB_{-1,1}(u) = (1 - u)^2 <br>
 
-Figure 𝟷.𝟷𝟺. The recursive definition of the Bernstein polynomial, 𝙱_{𝟷,𝟹}(𝚞).
+  B_{1,2}(u) = (1 - u)B_{1,1}(u) + uB_{0,1}(u)  = (1 - u)u + u(1 - u) = 2u(1 - u) <br>
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7c200866-3d26-4063-9b60-ea3959c5bf24)
+  B_{2,2}(u) = (1 - u)B_{2,1}(u) + uB_{1,1}(u)  = u^2 <br>
+</div>
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5" alt="image">
 
-![image](https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/972ee139-16f7-40a2-a5b3-35e72735a7bb)
+<p>
+  <sub>
+    Figure 1.14.
+  </sub>
+</p>
+<p>
+  The recursive definition of the Bernstein polynomial,
+</p>
+<div class="latex">
+  B_{1,3}(u).
+</div>
 
-Figure 𝟷.𝟷𝟻. Derivatives. 
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7c200866-3d26-4063-9b60-ea3959c5bf24" alt="image">
 
-(a) The derivative B_{𝟸,𝟻}(𝚞) in terms of B_{𝚒,𝚊}(𝚞) & B_{𝟸,𝟺}(𝚄);
+<img width="250" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/972ee139-16f7-40a2-a5b3-35e72735a7bb" alt="image">
 
-(b) The derivative of the four cubic Bernstein polynomials 
+<p>
+  <b>
+    Figure 1.15.
+  </b>
+</p>
+<p>
+  Derivatives. 
+</p>
 
-𝙱_{𝟶,𝟹}(𝚞)
+<p>
+  (a) The derivative
+</p>
+<div class="latex">
+  B_{2,5}(u)
+</div>
+<p>
+  in terms of
+</p>
 
-𝙱_{𝟷,𝟹}(𝚞)
+<div class="latex">
+  B_{1,4}(u) & B_{2,4}(u);
+</div>
+<p>
+  (b) The derivative of the four cubic Bernstein polynomials 
+</p>
 
-𝙱_{𝟸,𝟹}(𝚞)
+<div class="latex">
+  B'_{0,3}(u)
 
-𝙱_{𝟹,𝟹}(𝚞)
+  B'_{1,3}(u)
 
-Property ***𝙿𝟷.𝟼*** yields simple algorithms to compute values of the Bernstein polynomials at fixed values of 𝚞.
+  B'_{2,3}(u)
 
-Algorithm A𝟷.𝟸 computes the value B_{𝚒}(𝚞) for fixed 𝚞. 
+  B'_{3,3}(u)
+</div>
 
-The computation of 𝙱_{𝟷,𝟹} is depicted in Table 𝟷.𝟷.
+<p>
+  Property <b>P1.6</b>
+</p>
+<P>
+  yields simple algorithms to compute values of the Bernstein polynomials at fixed values of
+</P>
+
+<div class="latex">
+  u.
+</div>
+<p>
+  Algorithm
+</p>
+<div class="latex">
+  A1.2
+</div>
+<p>
+  computes the value
+</p>
+<div class="latex">
+  B_{i}(u)
+</div>
+<p>
+  for fixed
+</p>
+<div class="latex">
+  u.
+</div>
+<p>
+  The computation of
+</p>
+<div class="latex">
+  B_{1,3}
+</div>
+<p>
+  is depicted in Table
+</p>
+
+<div class="latex">
+  1,1.
+</div>
