@@ -21,24 +21,6 @@ ALGORITHM A1.3
 ``` 
 algorithm a1.3 computes the n+1 degree Bernstein polynomials 计算🧮 n+1 度的 伯恩斯坦多项式 which are nonzero at fixed u 在固定 u 处为 非0⃣️, avoids unnecessary computation of zero terms 避免了对 0 项的 不必要计算
 
-```
-Table 1.1. The computation of B_{1,3}.
------------------------------------------
-0=B_{-2,0}            B_{-1,2}
-            ⬊
-            B_{-1,1}              B_{0,3}
-            ⬈         ⬊
-0=B_{-1,0}            B_{0,2}
-            ⬊         ⬈           ⬊
-            B_{0,1}               B_{1,3}
-            ⬈         ⬊           ⬈
-1=B_{0,0}             B_{1,2}
-            ⬊         ⬈
-            B_{1,1}               B_{2,3}
-            ⬈
-0=B_{1,0}             B_{2,2}
------------------------------------------
-```
 table 1.2 depicted its cubic case.
 
 ```

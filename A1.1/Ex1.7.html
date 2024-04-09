@@ -115,7 +115,7 @@ $(function () {
 </p>
 
 <p>
-  show the basis functions
+  show the basis functions <sub>展示了基函数</sub>
 </p>
 
 <div class="latex">
@@ -133,10 +133,10 @@ $(function () {
   These functions have these properties: <sub>这些函数具有以下属性</sub>
 </p>
 <p>
-  <b>P1.1</b>
+  <b>P1.1</b><sub>非负性</sub>
 </p>
 <p>
-  nonegativity: <sub>非负性</sub>
+  nonegativity: 
 </p>
 <div class="latex">
   B_{i,n(u)} > 0
@@ -151,19 +151,16 @@ $(function () {
   and
 </p>
 <div class="latex">
-  0 < n < 1;
+  0 \le n \le 1;
 </div>
 <p>
   <b>
-    P1.2
+    P1.2 <sub>规范性</sub>
   </b>
 </p>
 <p>
-  partition of unity:
+  partition of unity: 
 </p>
-
-<img width="125" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/11449d14-9f86-4b66-9a41-5f62e1a1212f">
-
 <div class="latex">
   \sum_{i=0}^{n}B_{i,n}(u) = 1
 </div>
@@ -171,13 +168,15 @@ $(function () {
   for all <sub>对于所有的</sub>
 </p>
 <div class="latex">
-  0 < n < 1;
+  0 \le n \le 1;
 </div>
 
 <p>
   <b>
-    P1.3
+    P1.3 <sub>端点性质</sub>
   </b>
+</p>
+<p>
 </p>
 <div class="latex">
   B_{0,n(0)} = B_{n,n(1)} = 1;
@@ -185,7 +184,7 @@ $(function () {
 
 <p>
   <b>
-    P1.4
+    P1.4 <sub>最大值</sub>
   </b>
 </p>
 <div class="latex">
@@ -207,47 +206,45 @@ $(function () {
 
 <p>
   <b>
-    P1.5
+    P1.5 <sub>对称性</sub>
   </b>
 </p>
 <p>
-  symmetry: for any
+  symmetry: for any <sub>对称性：对于任意</sub>
 </p>
 <div class="latex">
-  n,
+  n > 0,
 </div>
 <p>
-  the set of polynomial
+  the set of polynomial <sub>多项式集合</sub>
 </p>
 <div class="latex">
   {B_{i,n}(u)}
 </div>
 <p>
-  is symmetric with respect to
+  is symmetric with respect to <sub>是关于对称</sub>
 </p>
 <div class="latex">
   u = 1/2;
 </div>
-
 <p>
   <b>
     P1.6
   </b>
 </p>
 <P>
-  recursive definition:
+  recursive definition: <sub>递归定义：</sub>
 </P>
 <div class="latex">
   B_{i,n}(u) = (1 - u)B_{i,n-1}(u) + uB_{i-1,n-1}(u)
 </div>
 
 <img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7658ed1e-07d8-40dd-931a-07168b71bfaa" alt="image">
-
 <p>
-  we define
+  we define <sub>我们定义</sub>
 </p>
 <div class="latex">
-  B_{i,n}(u) ≡ 0
+  B_{i,n}(u) \equiv 0
 </div>
 <p>
   if
@@ -261,35 +258,28 @@ $(function () {
   </b>
 </p>
 <P>
-  derivatives:
+  derivatives: <sub>求导</sub>
 </P>
-<img width="350" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/c09e3a96-8668-45d0-a81c-8d891eecabb9">
-
 <div class="latex">
-  {B_{i,n}(u)} = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
+  B'_{i,n}(u) = \frac{dB_{i,n}(u)}{du} = n(B_{i-1,n-1}(u)-B_{i,n-1}(u))
 </div>
 <p>
   with
 </p>
-<img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
-
-<p>
-  <sub>
-    From Eq. (1.8)
-  </sub>
-</p>
+<div class="latex">
+  B_{-,n-1}(u) \equiv B_{n,n-1}(u) \equiv 0
+</div>
 <p>
   <sub>
     Figure 1.15a
   </sub>
 </p>
 <p>
-  shows the definition of
+  shows the definition of <sub>定义</sub>
 </p>
 <div class="latex">
   B'_{2,5},
 </div>
-
 <p>
   and
 </p>
@@ -298,17 +288,44 @@ $(function () {
     Figure 1.15b
   </sub>
 </p>
-
 <p>
-  illustrates all the cubic derivative functions. From
+  illustrates all the cubic derivative functions. From <sub>展示了4个3次导数函数</sub>
 </p>
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7c200866-3d26-4063-9b60-ea3959c5bf24" alt="image">
+<p>
+  The Derivative <sub>得到 导数</sub>
+</p>
+<div class="latex">
+  B_{2,5}(u)
+</div>
+<p>
+  in terms of <sub>由</sub>
+</p>
+<div class="latex">
+  B_{1,4}(u) and B_{2,4}(u)
+</div>
+<img width="250" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/972ee139-16f7-40a2-a5b3-35e72735a7bb" alt="image">
+<p>
+<p>
+  the derivatives of the four cubic Bernstein polynomials, <sub>4个3次伯恩斯坦多项式的导函数</sub>
+</p>
+<div class="latex">
+  B'_{0,3}(u), B'_{1,3}(u), B'_{2,3}(u), B'_{3,3}(u)
+</div>
+</p>
+<p>
+  <sub>
+    From Eq. (1.8)
+  </sub>
+</p>
+<div class="latex">
+  B_{i,n}(u) = \frac{n!}{i!(n-i)!}u^{i}(1-u)^{n-i}
+</div>
 <p>
   <sub>
     Eq. (1.8)
   </sub>
 </p>
-<img width="250" alt="image" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/8d842894-eaa9-45cd-8c8e-b167692646c3">
-
 <p>
   we have
 </p>
@@ -317,7 +334,7 @@ $(function () {
   B_{0,0}(u) = 1
 </div>
 <p>
-  Using property
+  Using property <sub>由性质</sub>
 </p>
 <p>
   <b>
@@ -325,49 +342,108 @@ $(function () {
   </b>
 </p>
 <p>
-  the linear & quadratic Bernstein polynomials are
+  the linear & quadratic Bernstein polynomials are <sub>线性与2次伯恩斯坦多项式</sub>
 </p>
-
 <div class="latex">
   B_{0,1}(u) = (1 - u)B_{0,0}(u) + uB_{-1,0}(u) = 1 - u <br>
-
+</div>
+<div class="latex">
   B_{1,1}(u) = (1 - u)B_{1,0}(u) + uB_{0,0}(u)  = u <br>
-
+</div>
+<div class="latex">
   B_{0,2}(u) = (1 - u)B_{0,1}(u) + uB_{-1,1}(u) = (1 - u)^2 <br>
-
+</div>
+<div class="latex">
   B_{1,2}(u) = (1 - u)B_{1,1}(u) + uB_{0,1}(u)  = (1 - u)u + u(1 - u) = 2u(1 - u) <br>
-
+</div>
+<div class="latex">
   B_{2,2}(u) = (1 - u)B_{2,1}(u) + uB_{1,1}(u)  = u^2 <br>
 </div>
-<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5" alt="image">
+<p>
+  Property <b>P1.6</b>
+</p>
+<P>
+  yields simple algorithms to compute values of the Bernstein polynomials at fixed values of
+</P>
+<p>
+  <sub>
+    产生简单的算法来计算固定值的伯恩斯坦多项式的值
+  </sub>
+</p>
+<div class="latex">
+  u.
+</div>
+<p>
+  Algorithm <sub>算法</sub>
+</p>
+<div class="latex">
+  A1.2
+</div>
+<p>
+  computes the value <sub>计算 值</sub>
+</p>
+<div class="latex">
+  B_{i}(u)
+</div>
+<p>
+  for fixed <sub>对于固定</sub>
+</p>
+<div class="latex">
+  u.
+</div>
+<p>
+  The computation of <sub>计算过程</sub>
+</p>
+<div class="latex">
+  B_{1,3}
+</div>
+<p>
+  is depicted in Table <sub>表 1.1 给出了</sub>
+</p>
+<div class="latex">
+  1,1.
+</div>
+```
+Table 1.1. The computation of B_{1,3}.
+-----------------------------------------
+0=B_{-2,0}            B_{-1,2}
+            ⬊
+            B_{-1,1}              B_{0,3}
+            ⬈         ⬊
+0=B_{-1,0}            B_{0,2}
+            ⬊         ⬈           ⬊
+            B_{0,1}               B_{1,3}
+            ⬈         ⬊           ⬈
+1=B_{0,0}             B_{1,2}
+            ⬊         ⬈
+            B_{1,1}               B_{2,3}
+            ⬈
+0=B_{1,0}             B_{2,2}
+-----------------------------------------
+```
 
+<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/ef2e88dc-abb1-46f2-af38-d855b5b618f5" alt="image">
 <p>
   <sub>
     Figure 1.14.
   </sub>
 </p>
 <p>
-  The recursive definition of the Bernstein polynomial,
+  The recursive definition of the Bernstein polynomial, <sub>伯恩斯坦多项式的递归定义</sub>
 </p>
 <div class="latex">
   B_{1,3}(u).
 </div>
-
-<img width="300" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/7c200866-3d26-4063-9b60-ea3959c5bf24" alt="image">
-
-<img width="250" src="https://github.com/ChenxingWang93/ComputationalGeometry/assets/31954987/972ee139-16f7-40a2-a5b3-35e72735a7bb" alt="image">
-
 <p>
   <b>
-    Figure 1.15.
+    <sub>Figure 1.15.</sub>
   </b>
 </p>
 <p>
-  Derivatives. 
+  Derivatives. <sub>导数</sub>
 </p>
-
 <p>
-  (a) The derivative
+  (a) The derivative 
 </p>
 <div class="latex">
   B_{2,5}(u)
@@ -375,14 +451,18 @@ $(function () {
 <p>
   in terms of
 </p>
-
 <div class="latex">
-  B_{1,4}(u) & B_{2,4}(u);
+  B_{1,4}(u)
+</div>
+<p>
+  &
+</p>
+<div class="latex">
+  B_{2,4}(u);
 </div>
 <p>
   (b) The derivative of the four cubic Bernstein polynomials 
 </p>
-
 <div class="latex">
   B'_{0,3}(u)
 
@@ -391,46 +471,4 @@ $(function () {
   B'_{2,3}(u)
 
   B'_{3,3}(u)
-</div>
-
-<p>
-  Property <b>P1.6</b>
-</p>
-<P>
-  yields simple algorithms to compute values of the Bernstein polynomials at fixed values of
-</P>
-
-<div class="latex">
-  u.
-</div>
-<p>
-  Algorithm
-</p>
-<div class="latex">
-  A1.2
-</div>
-<p>
-  computes the value
-</p>
-<div class="latex">
-  B_{i}(u)
-</div>
-<p>
-  for fixed
-</p>
-<div class="latex">
-  u.
-</div>
-<p>
-  The computation of
-</p>
-<div class="latex">
-  B_{1,3}
-</div>
-<p>
-  is depicted in Table
-</p>
-
-<div class="latex">
-  1,1.
 </div>
