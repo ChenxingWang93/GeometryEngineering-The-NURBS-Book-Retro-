@@ -5,10 +5,15 @@ $(function () {
     $(".latex").latex();
 });
 </script>
-<p>An nth-degree power basis curve is given by 一条 n 次曲线的幂基表示形式</p>
+<p>An nth-degree power basis curve is given by <sub>一条 n 次曲线的幂基表示形式</sub></p>
 <div class="latex">
-    C(u)=(x(u),y(u),z(u))=\sum^{n}_{i=0}a_{i}u^{i} 0<=u<=1      (1.5)
+    C(u)=(x(u),y(u),z(u))=\sum^{n}_{i=0}a_{i}u^{i} 0<=u<=1
 </div>
+<p>
+    <sub>
+        (1.5)
+    </sub>
+</p>
 <p>
     The
 </p>
@@ -16,7 +21,7 @@ $(function () {
     a_{i}=(x_{i},y_{i},z_{i})
 </div>
 <p>
-    are vectors, hence 为向量，因此
+    are vectors, hence <sub>为向量，因此</sub>
 </p>
 <div class="latex">
     x(u)=\sum_{i=0}^{n}x_{i}u^{i}
@@ -28,7 +33,7 @@ $(function () {
     z(u)=\sum_{i=0}^{n}z_{i}u^{i}
 </div>
 <p>
-    In matrix form Eq.(1.5) 写成矩阵形式(1.5)为
+    In matrix form <sub>Eq.(1.5) 写成矩阵形 式(1.5) 为</sub>
 </p>
 <div class="latex">
     C(u)=
@@ -43,19 +48,23 @@ $(function () {
     .\\
     u^{n}
     \end{bmatrix}=
-    [a_{i}]^{T}[u_{i}]      
-    (1.6)
+    [a_{i}]^{T}[u_{i}]
 </div>
+<p>
+    <sub>
+        (1.6)
+    </sub>
+</p>
 <p>
     (We write a row vector as the transpose of a column vector.)Differentiating 
     Eq.(1.5) yields
-    我们将行向量写为列向量的转置，对Eq.(1.5)求导推出
+    <sub>我们将行向量写为列向量的转置, 对Eq.(1.5)求导推出</sub>
 </p>
 <div class="latex">
     a_{i} = \frac{C^{i}(u)|_{u=0}}{i!}
 </div>
 <p>
-    Where 其中
+    Where <sub>其中</sub> 
 </p>
 <div class="latex">
     C^{i}(u)|_{u=0}
@@ -67,7 +76,7 @@ $(function () {
     i
 </div>
 <p>
-    th derivative of 阶导数
+    th derivative of <sub>阶导数</sub> 
 </p>
 <div class="latex">
     C(u)
@@ -85,19 +94,19 @@ $(function () {
     n + 1
 </div>
 <p>
-    functions, 函数
+    functions, <sub>函数</sub> 
 </p>
 <div class="latex">
     {u^{i}},
 </div>
 <p>
-    are called the basis functions, and the 称为基函数，
+    are called the basis functions, and the <sub>称为基函数，</sub> 
 </p>
 <div class="latex">
     {a_{i}}
 </div>
 <p>
-    the coefficients of the power basis representation. 幂基表示形式的系数 
+    the coefficients of the power basis representation. <sub>幂基表示形式的系数</sub> 
 </p>
 <p>
     Given
@@ -106,13 +115,13 @@ $(function () {
     u_{0}
 </div>
 <p>
-    The point 给 定点
+    The point <sub>给 定点</sub> 
 </p>
 <div class="latex">
     C(u_{0})
 </div>
 <p>
-    on a power basis curve is most efficiently computed using Horner's method 在一个幂基曲线上最有效率的计算是使用霍纳方法
+    on a power basis curve is most efficiently computed using Horner's method <sub>在一个幂基曲线上最有效率的计算是使用霍纳方法</sub> 
 </p>
 <div class="latex">
     degree = 1 : C(u_{0}) = a_{1}u_{0} + a_{0}
@@ -134,5 +143,5 @@ $(function () {
     degree = n : C(u_{0}) = ((...(a_{n}u_{0} + a_{n-1})u_{0} + a_{n-2})u_{0} + ... + a_{0}
 </div>
 <p>
-    The general algorithm is 具体算法如下
+    The general algorithm is <sub>具体算法如下</sub>
 </p>
