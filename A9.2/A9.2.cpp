@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 /* Function to compute the basis functions */
 void BasisFuns(int span, double u, int p, vector<double>& U, vector<double>& N) {
     /* Implementation of BasisFuns function goes here */
@@ -55,4 +54,5 @@ int main() {
     /* Print or use the computed values of P as needed */
 
     return 0;
+
 }

@@ -2,7 +2,6 @@
 #include <vector>
 #include <cmath>
 using namespace std;
-
 /* Function to calculate the 3D distance between two points */
 double Distance3D(vector<double>& point1,vector<double>& point2) {
     /* Implementation of Distance3D function goes here */
@@ -74,4 +73,5 @@ int main() {
     /* Print or use the computed values of uk and vl as needed */
 
     return 0;
+
 }
