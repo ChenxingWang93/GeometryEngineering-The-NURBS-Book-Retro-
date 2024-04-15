@@ -12,7 +12,7 @@ ALGORITHM A12.2
     }
   if (𝑝<𝑝_𝑚𝑖𝑛)
     {
-    DegreeElevateCurve(𝐶);      /*  */
+    DegreeElevateCurve(𝐶);      /* to degree 𝑝_𝑚𝑖𝑛 */
     return;
     }
   Let 𝑚 be the minimum order continuity allowed in System B
