@@ -28,4 +28,5 @@ ALGORITHM A12.2
     to the segment coefficients required by System B
     (reparameterization may be necessary).
   If applicable, load the global breakpoints into System B.
+  
 ```
