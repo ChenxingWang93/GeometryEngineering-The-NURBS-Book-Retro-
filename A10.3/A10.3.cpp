@@ -23,3 +23,4 @@ GordanSurface(Ck,Cl,ul,vk,r,s,pl,ql,pt,qt,n,m,p,q,U,V,Pij) {
     m = (number of v-knots) - q - 2;
 
     /* Compute surface control points Pij by Eq.(10.33) */
+}
