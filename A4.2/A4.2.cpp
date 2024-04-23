@@ -29,7 +29,7 @@ int main() {
     /* Example degree of the curve 弧形的度 */
     int d = 2;
 
-    /* Initialize list to store derivatives of C(u) */
+    /* Initialize list to store derivatives of C(u) 初始化列表存储 C(u) 的导数 */
     vector<double> CK(d+1, 0.0);
 
     RatCurveDerivs(Aders, wders, d, CK);

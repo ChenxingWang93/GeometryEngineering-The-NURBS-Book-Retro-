@@ -24,12 +24,12 @@
 #include <vector>
 using namespace std;
 
-/* Function to compute S(u, v) derivatives from Sw(u, v) derivatives */
+/* Function to compute S(u, v) derivatives from Sw(u, v) derivatives 从 Sw(u, v) 导数 中 计算 S(u, v) 导数 */
 void RatSurfaceDerivs(vector<vector<double>>& Aders, vector<vector<double>>& wders, int d, vector<vector<double>>& SKL) {
-    /* Define Bin array containing binomial coefficients */
+    /* Define Bin array containing binomial coefficients 定义 Bin 阵列 包含二项式 系数 */
     vector<vector<double>> Bin(d+1, vector<double>(d+1, .));
 
-    /* Initialize Bin array with binomial coefficients */
+    /* Initialize Bin array with binomial coefficients 初始化带有 二项式 系数 的Bin阵列 */
 
     /* Iterate over each combination of indices k and l */
     for (int k = ; k <= d; k++)

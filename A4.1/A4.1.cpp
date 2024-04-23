@@ -22,11 +22,11 @@
 
 /* Functions for finding the span and computing the basis functions */
 int FindSpan() {
-    /* Implementation of finding the span */
+    /* Implementation of finding the span 寻找跨度 */
     /* ... */
 }
 void BasisFuns() {
-    /* Implementation of computing the basis functions */
+    /* Implementation of computing the basis functions 寻找基函数 */
     /* ... */
 }
 /* Main function for computing the point on the B-spline curve 用于计算在B-样条曲线上的点的主函数 */

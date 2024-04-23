@@ -37,7 +37,7 @@ void SurfaceDerivsAlgs2(int n, int p, double* U, int m, int q, double* V, double
             }
         }
     }
-    /* Clean up memory */
+    /* Clean up memory 清理🧹内存 */
     for (int k = 0; k <= p; k++)
     {
         delete[] Nu[k];
