@@ -5,24 +5,24 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
-  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.1/1.1Implicit%20%26Parametric%20Form.md) _隐式 &参数形式_
-  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.2/1.2Power%20Basis%20Form%20of%20a%20Curve.md) _一 曲线 幂基 形式_
-  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.3/1.3Bezier%20Curves.md) _贝塞尔 曲线_
-  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.4/1.4Rational%20Bezier%20Curves.md) _有理 贝塞尔 曲线_
-  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) _张量 积 曲面_
+  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.1/1.1Implicit%20%26Parametric%20Form.md) 
+  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.2/1.2Power%20Basis%20Form%20of%20a%20Curve.md) 
+  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.3/1.3Bezier%20Curves.md) 
+  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.4/1.4Rational%20Bezier%20Curves.md) 
+  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) 
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) _简介_
-  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 定义与 属性_
-  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 Derivatives_
-  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) _基础函数的 近一属性_
-  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) _计算🧮 算法_
+  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) 
+  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) 
+  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) 
+  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) 
+  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) 
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
   - 3.1[Introduction]()
-  - 3.2[The Definition and Properties of B-spline Curves]() _B-Spline 曲线的 定义与 属性_
-  - 3.3[The Derivatives of a B-spline Curve]() _B-Spline 曲线的 衍生物_
-  - 3.4[Definition and Properties of B-spline Surfaces]() _B-Spline 曲面的 定义与 属性_
-  - 3.5[Derivatives of a B-spline Surface]() _B-Spline 曲面的 衍生物_
+  - 3.2[The Definition and Properties of B-spline Curves]() 
+  - 3.3[The Derivatives of a B-spline Curve]() 
+  - 3.4[Definition and Properties of B-spline Surfaces]() 
+  - 3.5[Derivatives of a B-spline Surface]() 
     - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
   - 4.1Introduction
