@@ -23,20 +23,20 @@ using namespace std;
 
 void CurvePoint(int n, int p, const vector<double>& U, const vector<double>& C)
 {
-    /* Compute curve point */
+    /* 计算弧线点Compute curve point */
     /* 输入Input:  n,p,U,P,u */
     /* 输出Output: C */
     
     int span;
     vector<double> N(p + 1);
 
-    /* Find the span of the knot vector */
+    /* Find the span of the knot vector 找到结点向量的跨度 */
     span = FindSpan(n, p, u, U);
 
-    /* Compute the basis functions */
+    /* Compute the basis functions 计算基函数 */
     BasisFuns(span, u, p, U, N);
 
-    /* Initialize C to store the computed curve point */
+    /* Initialize C to store the computed curve point 初始化 C 存储已计算的弧形点 */
     C.assign(P.size(), 0.0);
     
     /**/

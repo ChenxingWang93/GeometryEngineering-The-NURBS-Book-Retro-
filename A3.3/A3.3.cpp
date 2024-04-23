@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 void CurveDerivsCpts(int n, int p, vector<double> U, vector<vector<double>> P, int d, int r1, int r2, vector<vector<double>>& PK) {
-    /* Compute control points of curve derivatives */
+    /* 计算曲线导数控制点Compute control points of curve derivatives */
     /* 输入Input:  n,p,U,P,d,r1,r2 */
     /* 输出Output: PK */
     int r = r2 - r1;
