@@ -60,7 +60,7 @@ void SurfaceDerivsAlg1(int n, int p, vector<double> U, int m, int q, vector<doub
 }
 
 int main() {
-    /* Input values for n, p, U, m, q, V, P, u, v, d */
+    /* 输入值Input values for n, p, U, m, q, V, P, u, v, d */
     int n = 3, p = 2, m = 4, q = 3;
     vector<double> U = {0.0, 0.0, 0.0, 0.5, 1.0, 1.0, 1.0};
     vector<double> V = {0.0, 0.0, 0.0, 1.0, 1.0, 1.0};
@@ -68,13 +68,13 @@ int main() {
     double u = 0.5, v = 0.5;
     int d = 3;
 
-    /* Initialize SKL matrix */
+    /* Initialize SKL matrix 初始化 SKL矩阵 */
     vector<vector<double>> SKL(d + 1, vector<double>(d + 1, 0.0));
 
-    /* Call Function to compute surface derivatives */
+    /* Call Function to compute surface derivatives Call 函数计算曲面导数 */
     SurfaceDerivsAlg1(n, p, U, m, q, V, P, u, v, d, SKL);
 
-    /* Output SKL matrix */
+    /* Output SKL matrix 输出 SKL 矩阵*/
     for (int i = 0; i <= d; i++)
     {
         for (int j = 0; j <= d - i; j++)

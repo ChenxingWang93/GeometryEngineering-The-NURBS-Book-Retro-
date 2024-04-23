@@ -29,7 +29,7 @@ void BasisFuns() {
     /* Implementation of computing the basis functions */
     /* ... */
 }
-/* Main function for computing the point on the B-spline curve */
+/* Main function for computing the point on the B-spline curve 用于计算在B-样条曲线上的点的主函数 */
 void CurvePoint(int n, int p, vector<double>& U, vector<double>& Pw, double u, vector<double>& C) {
     int span = FindSpan(n, p, u, U);
     vector<double> N(p+1);
@@ -44,7 +44,7 @@ void CurvePoint(int n, int p, vector<double>& U, vector<double>& Pw, double u, v
     double weight = w != 0.0 ? Cw / w : 0.0;
     for (int i = 0; i < C.size(); i++)
     {
-        C[i] = Pw[span-p+i] * weight; /* Divide by weight */
+        C[i] = Pw[span-p+i] * weight; /* Divide by weight 除以权重 */
     }
 }
 int main() {
@@ -56,7 +56,7 @@ int main() {
     double u = 0.25;
     vector<double> C(n);
     CurvePoint(n, p, U, Pw, u, C);
-    /* Print the resulting point on the curve */
+    /* Print the resulting point on the curve 打印结果点在曲线上 */
     for (int i = 0; i < C.size; i++)
     {
         cout << "C[" << i << "] = " << C[i] << endl;

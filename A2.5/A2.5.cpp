@@ -1,34 +1,34 @@
 #include <vector>
 using namespace std;
-void DersOnBasisFun(int p, int m, vector<double>& U, int i, double u, int n, vector<double>& ders) {
-    if (u < U[i] || u >= U[i + p + 1])
+void DersOneBasisFun(int p, int m, vector<double>& U, int i, double u, int n, vector<double>& ders) {
+    /* Compute derivatives of basis function Nip */
+    /* 输入Input: p,m,U,i,u,n */
+    /* 输出Output: ders */
+
+    if (u < U[i] || u >= U[i + p + 1])              /* Local property */
     {
         /* Local property not satisfied, set derivatives to zero */
         for (int k = 0; k <= n; k++)
         {
-            /* code */
             ders[k] = 0.0;
         }
         return;
     }
     vector<double> N(p + 1, 0.0);
 
-    /* Initialize zeroth-degree functions */
-    for (int j = 0; j <= p; j++)
+
+    for (int j = 0; j <= p; j++)                    /* Initialize zeroth-degree functions */
     {
-        /* code */
         if (u >= U[i + j] && u < U[i + j + 1])
-            /* code */
             N[j] = 1.0;
     }
 
     vector<double> ND(n + 1, 0.0);
     vector<double> saved(p + 1, 0.0);
     
-    /* Compute the full triangular table */
-    for (int k = 1; k <= p; k++)
+    
+    for (int k = 1; k <= p; k++)                    /* Compute full triangular table */
     {
-        /* code */
         if (N[0] == 0.0)
             saved[0] = 0.0;
         else
@@ -50,15 +50,14 @@ void DersOnBasisFun(int p, int m, vector<double>& U, int i, double u, int n, vec
         }
     }
 
-    ders[0] = N[p]; // The function value
+    ders[0] = N[p];                                 /* The function value */ 
 
-    // Compute the derivatives
-    for (int k = 1; k <= n; k++)
+    for (int k = 1; k <= n; k++)                    /* Compute the derivatives */
     {
-        for (int j = 0; j <= k; j++)
+        for (int j = 0; j <= k; j++)                /* Load appropriate column */
             ND[j] = N[j + p - k];
 
-        for (int jj = 1; jj <= k; jj++)
+        for (int jj = 1; jj <= k; jj++)             /* Compute table of width k */
         {
             if (ND[0] == 0.0)
                 saved[0] = 0.0;
@@ -80,7 +79,6 @@ void DersOnBasisFun(int p, int m, vector<double>& U, int i, double u, int n, vec
                 }
             }
         }
-
-        ders[k] = ND[0]; // kth derivative kth
+        ders[k] = ND[0];                            /* kth derivative */ 
     }
 }

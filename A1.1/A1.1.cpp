@@ -14,9 +14,9 @@ double Horner1(vector<double>& a, int n, double u0) {
 
 int main() {
     /* Example usage */
-    vector<double> coefficients = {1, 2, 3};    //Example coefficients
-    int degree = 2;     //Example degree
-    double point = 2.5;     //Example point
+    vector<double> coefficients = {1, 2, 3};    /* Example coefficients */
+    int degree = 2;     /* Example degree */
+    double point = 2.5;     /* Example point */
     double result = Horner1(coefficients, degree, point);
     cout << "Result: " << result << endl;
     return 0;

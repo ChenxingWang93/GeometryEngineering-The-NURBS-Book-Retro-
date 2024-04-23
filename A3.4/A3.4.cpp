@@ -4,11 +4,13 @@ using namespace std;
 #include "../findSpan.h"
 
 void CurveDerivsAlg2(int n, int p, vector<double> &U, vector<vector<double>> &P, double u, int d, vector<double> &CK) {
+    /* Compute curve derivatives */
+    /* 输入Input:  n,p,U,P,u,d */
+    /* 输出Output: CK */
     int du = min(d, p);
 
     for (int k = p + 1; k <= d; k++)
     {
-        /* code */
         CK[k] = 0.0;
     }
     
@@ -20,18 +22,16 @@ void CurveDerivsAlg2(int n, int p, vector<double> &U, vector<vector<double>> &P,
 
     for (int k = 0; k <= du; k++)
     {
-        /* code */
         CK[k] = 0.0;
         for (int j = 0; j < p - k; j++)
         {
-            /* code */
             CK[k] += N[j][p - k] * PK[k][j];
         }
     }
 }
 
 int main() {
-    /* Define input parameters */
+    /* Define input parameters 定义输入参数 */
     int n = 5;
     int p = 2;
     vector<double> U = {0.0, 0.25, 0.5, 0.75, 1.0};
@@ -39,15 +39,14 @@ int main() {
     double u = 0.5;
     int d = 3;
 
-    /* Initialize CK vector */
+    /* Initialize CK vector 初始化 CK 向量 */
     vector<double> CK(d + 1, 0.0);
 
-    /* Call CurveDerivsAlg2 function */
+    /* Call CurveDerivsAlg2 function Call 弧形导数算法2函数 */
     CurveDerivsAlg2(n, p, U, P, u, d, CK);
 
     for (int i = 0; i <= d; i++)
     {
-        /* code */
         cout << "CK[" << i << "] = " << CK[i] << endl;
     }
     

@@ -23,6 +23,10 @@ using namespace std;
 
 void CurvePoint(int n, int p, const vector<double>& U, const vector<double>& C)
 {
+    /* Compute curve point */
+    /* 输入Input:  n,p,U,P,u */
+    /* 输出Output: C */
+    
     int span;
     vector<double> N(p + 1);
 
@@ -34,14 +38,14 @@ void CurvePoint(int n, int p, const vector<double>& U, const vector<double>& C)
 
     /* Initialize C to store the computed curve point */
     C.assign(P.size(), 0.0);
-
+    
     /**/
     for (int i = 0; i <= p; i++)
     {
         for (int j = 0; j < P.size(); j++)
         {
             C[j] += N[i] * P[span - p + i];
-            /*C = C + N[i] * P[span - p + i];*/
+            /* C = C + N[i] * P[span - p + i]; */
         }
     }
 }

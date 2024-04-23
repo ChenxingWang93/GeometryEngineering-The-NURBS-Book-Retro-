@@ -2,39 +2,36 @@
 #include <vector>
 using namespace std;
 void OneBasisFun(int p, int m, vector<double>& U, int i, double u, double &Nip) {
-    /* Compute the basis function Nip */
-    /* Input: p, m, U, i, u */
-    /* Output: Nip */
+    /* Compute the basis function Nip 计算基函数 Nip */
+    /* 输入Input: p, m, U, i, u */
+    /* 输出Output: Nip */
     vector<double> N(p + 1, 0.0);
-    if ((i == 0 && u == U[0]) || (i == m - p - 1 && u == U[m]))
+    if ((i == 0 && u == U[0]) || 
+        (i == m - p - 1 && u == U[m]))      /* Special Cases */
     {
-        /* code */
         Nip = 1.0;
         return;
     }
 
-    if (u < U[i] || u >= U[i + p + 1])
+    if (u < U[i] || u >= U[i + p + 1])      /* Local property */
     {
-        /* code */
         Nip = 0.0;
         return;
     }
     
     double saved, temp, Uleft, Uright;
-    vector<double> N(p + 1); // Array to store basis functions
+    vector<double> N(p + 1); /* Array to store basis functions 存储基函数的阵列 */
 
-    for (int j = 0; j <= p; j++)
+    for (int j = 0; j <= p; j++)            /* Initialize zeroth-degree functs 初始化 零度 函数 */
     {
-        /* code */
         if (u >= U[i + j] && u < U[i + j + 1])
             N[j] = 1.0;
         else
             N[j] = 0.0;
     }
 
-    for (int k = 1; k <= p; k++)
+    for (int k = 1; k <= p; k++)            /* Compute triangular table 计算 三角 表格 */
     {
-        /* code */
         double saved;
         if (N[0] == 0.0)
             saved = 0.0;
@@ -44,10 +41,9 @@ void OneBasisFun(int p, int m, vector<double>& U, int i, double u, double &Nip) 
         {
             double Uleft = U[i + j + 1];
             double Uright = U[i + j + k + 1];
-
+            
             if (N[j + 1] == 0.0)
             {
-                /* code */
                 N[j] = saved;
                 saved = 0.0;
             }

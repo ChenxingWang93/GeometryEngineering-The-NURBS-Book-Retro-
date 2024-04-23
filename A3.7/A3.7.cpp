@@ -3,10 +3,10 @@
 #include <algorithm>
 using namespace std;
 
-/* Function declaration for CurveDerivCpts */
+/* Function declaration for CurveDerivCpts 曲面导控制点函数的声明 */
 void CurveDerivCpts(int n, int p, double* U, double** P, int d, int r1, int r2, vector<vector<double>>& temp);
 
-/* Function to compute control points of derivative surfaces */
+/* Function to compute control points of derivative surfaces 计算导曲面上的控制点 */
 void SurfaceDerivCpts(int n, int p, double* U, int m, int q, double* V, double** P, int d, int r1, int r2, int s1, int s2, vector<vector<vector<vector<double>>>>& PKL) {
     int du = min(d, p);
     int dv = min(d, p);
@@ -27,7 +27,7 @@ void SurfaceDerivCpts(int n, int p, double* U, int m, int q, double* V, double**
             }
         }
     }
-
+    
     for (int k = 0; k < du; k++)
     {
         for (int i = 0; i <= r - k; i++)
@@ -46,13 +46,13 @@ void SurfaceDerivCpts(int n, int p, double* U, int m, int q, double* V, double**
     }
 }
 
-/* Dummy implementation of CurveDerivCpts */
+/* Dummy implementation of CurveDerivCpts 曲面导控制点的实施 */
 void CurveDerivCpts(int n, int p, double* U, double** P, int d, int r1, int r2, vector<vector<double>>& temp) {
     /* Dummy implementation */
 }
 
 int main() {
-    /* Example usage of SurfaceDerivCpts */
+    /* Example usage of SurfaceDerivCpts 曲面导数控制点 */
     int n = 3, p = 2, m = 3, q = 2, d = 1, r1 = 0, r2 = 2, s1 = 0, s2 = 2;
     double U[] = {0.0, 0.0, 0.0, 1.0, 1.0, 1.0};
     double V[] = {0.0, 0.0, 1.0, 1.0};

@@ -14,5 +14,4 @@ void Bernstein(int i, int n, double u, double B) {
     }
     
     B = temp[n];
-    
 }

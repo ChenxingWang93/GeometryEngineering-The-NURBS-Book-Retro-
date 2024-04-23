@@ -4,11 +4,9 @@ void AllBernstein(int n, double u, double B[]) {
 
     for (int j = 1; j <= n; j++)
     {
-        /* code */
         double saved = 0.0;
         for (int k = 0; k < j; k++)
         {
-            /* code */
             double temp = B[k];
             B[k] = saved + u1 * temp;
             saved = u * temp;

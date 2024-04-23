@@ -13,6 +13,9 @@ void BasisFuns(int span, double u, int p, vector<double>& U, vector<double>& Nu)
 }
 
 void SurfacePoint(int n, int p, vector<double>& U, int m, int q, vector<double>& V, vector<vector<double>>& P, double u, double v, vector<vector<double>>& S) {
+    /*  Compute surface point计算曲面上的点  */
+    /*  输入Input:  n,p,U,m,q,V,P,u,v  */
+    /*  输出Output: S  */
     int uspan = FindSpan(n, p, u, U);
     vector<double> Nu(p+1, 0.0);
     BasisFuns(uspan, u, p, U, Nu);
@@ -22,23 +25,21 @@ void SurfacePoint(int n, int p, vector<double>& U, int m, int q, vector<double>&
     BasisFuns(vspan, v, q, V, Nv);
 
     int uind = uspan - p;
-    S.assign(3, vector<double>(3, 0.0)); // Assuming S is a 3x3 matrix
+    S.assign(3, vector<double>(3, 0.0)); /* Assuming S is a 3x3 matrix 假设S为一个3x3矩阵 */
 
     for (int l = 0; l <= q; l++)
     {
-        /* code */
         double temp = 0.0;
         int vind = vspan - q + l;
         for (int k = 0; k <= p; k++)
         {
-            /* code */
+
             temp += Nu[k] * P[uind + k][vind];
         }
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
             {
-                /* code */
                 S[i][j] +=Nv[l] * temp;
             }
         }
