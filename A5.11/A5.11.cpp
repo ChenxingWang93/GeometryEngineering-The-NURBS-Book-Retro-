@@ -147,3 +147,4 @@ void DegreeReduceCurve(int n, int p, double* U, double* Qw, int nh, double* Uh, 
     nh = mh - ph - 1;
     return 0;
 }
+
