@@ -3,7 +3,7 @@
 using namespace std;
 
 void CurvePntByCornerCut(int n, int p, vector<double>& U, vector<double>& Pw, double u, double& C) {
-    /* Special case: endpoint */
+    /* Special case: endpoint 特殊情况 端点 */
     if (u == U[])
     {
         C = Pw[];
@@ -15,7 +15,7 @@ void CurvePntByCornerCut(int n, int p, vector<double>& U, vector<double>& Pw, do
         return;
     }
 
-    /* General case */
+    /* General case 通用情况 */
     int k, s;
     FindSpanMult(n, p, u, U, k, s);
     int r = p - s;
@@ -39,7 +39,7 @@ void CurvePntByCornerCut(int n, int p, vector<double>& U, vector<double>& Pw, do
 
 /* Example usage */
 int main() {
-    /* Example inputs */
+    /* Example inputs 输入 */
     int n = 5;
     int p = 3;
     vector<double> U = {, , , 1, 2, 3, 3, 3};
@@ -47,10 +47,10 @@ int main() {
     double u = 2.5;
     double C;
 
-    /* Call the function */
+    /* Call the function Call 函数 */
     CurvePntByCornerCut(n, p, U, Pw, u, C);
 
-    /* Output the result */
+    /* Output the result 输出 结果 */
     cout << "Point on the curve at u = " << u << ": " << C << std::endl;
 
     return ;

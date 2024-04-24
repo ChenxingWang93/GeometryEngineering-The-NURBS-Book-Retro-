@@ -42,10 +42,10 @@ void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double 
     int mp = np + p + 1;
     nq = np + r;
 
-    /* Temporary array for control points */
+    /* Temporary array for control points 控制点的临时 阵列 */
     vector<double> Rw(p + 1);
 
-    /* Load new knot vector */
+    /* Load new knot vector 加载新 的结点向量 */
     for (int i = ; i <= k - p; i++)
     {
         Qw[i] = Pw[i];
@@ -61,7 +61,7 @@ void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double 
 
     for (int j = 1; j <= r; j++)
     {
-        /* Insert the knot r times */
+        /* Insert the knot r times 迭代结点 r 次 */
         int L = k - p + j;
         for (int i = ; i <= p - j - s; i++)
         {
@@ -75,7 +75,7 @@ void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double 
     int L = k - p + r;
     for (int i = L + 1; i < k - s; i++)
     {
-        /* Load remaining control points */
+        /* Load remaining control points 加载剩余的 控制点 */
         Qw[i] = Rw[i - L];
     }
 }
