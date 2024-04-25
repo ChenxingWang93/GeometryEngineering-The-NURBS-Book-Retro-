@@ -33,6 +33,7 @@
  *         Copy the remaining control points from the temporary array `Rw` to the new curve.
  */
 
+
 #include <vector>
 using namespace std;
 
