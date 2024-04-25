@@ -56,12 +56,12 @@ void DegreeReduceCurve(int n, int p, double* U, double* Qw, int nh, double* Uh, 
             }
         }
 
-        /* Degree reduce Bezier segment */
+        /* Degree reduce Bezier segment 贝塞尔线段的度数减少 */
         BezDegreeReduce(bpts, rbpts, MaxErr);
         e[a] = e[a] + MaxErr;
 
         if (e[a] > TOL)
-            /* Curve not degree reducible */
+            /* Curve not degree reducible 曲线不是度可约 */
             return 1;
         
         /* Remove knot U[a] older times */
