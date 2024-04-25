@@ -11,7 +11,7 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
     double Nextbpts[MAX_SIZE];
     double ebpts[MAX_SIZE];
 
-    /* Compute Bezier degree elevation coefficients */
+    /* Compute Bezier degree elevation coefficients 计算贝塞尔度 评估系数 */
     bezalfs[0][0] = bezalfs[ph][p] = 1.0;
     for (int i = 1; i < ph2; i++)
     {
@@ -71,7 +71,7 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
             rbz = ph;
         }
         
-        /* Insert knot to get Bezier segment */
+        /* Insert knot to get Bezier segment 插入结点得到 贝塞尔线段 */
         if (r > 0)
         {
             double numer = ub - ua;
@@ -102,7 +102,7 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
             }
         }
 
-        /* Further implementation for knot removal and loading control points into Qw can be added here */
+        /* Further implementation for knot removal and loading control points into Qw can be added here 结点移除 并加载控制点 到 Qw */
         if (b < m)
         {
             for (int j = 0; j < r; j++)
