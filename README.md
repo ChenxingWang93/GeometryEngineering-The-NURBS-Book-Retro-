@@ -5,24 +5,24 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
-  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.1/1.1Implicit%20%26Parametric%20Form.md) _隐式 &参数形式_
-  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.2/1.2Power%20Basis%20Form%20of%20a%20Curve.md) _一 曲线 幂基 形式_
-  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.3/1.3Bezier%20Curves.md) _贝塞尔 曲线_
-  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.4/1.4Rational%20Bezier%20Curves.md) _有理 贝塞尔 曲线_
-  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) _张量 积 曲面_
+  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.1/1.1Implicit%20%26Parametric%20Form.md) 
+  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.2/1.2Power%20Basis%20Form%20of%20a%20Curve.md) 
+  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.3/1.3Bezier%20Curves.md) 
+  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.4/1.4Rational%20Bezier%20Curves.md) 
+  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) 
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) _简介_
-  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 定义与 属性_
-  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) _B-Spline 基础函数的 Derivatives_
-  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) _基础函数的 近一属性_
-  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) _计算🧮 算法_
+  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) 
+  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) 
+  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) 
+  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) 
+  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) 
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
   - 3.1[Introduction]()
-  - 3.2[The Definition and Properties of B-spline Curves]() _B-Spline 曲线的 定义与 属性_
-  - 3.3[The Derivatives of a B-spline Curve]() _B-Spline 曲线的 衍生物_
-  - 3.4[Definition and Properties of B-spline Surfaces]() _B-Spline 曲面的 定义与 属性_
-  - 3.5[Derivatives of a B-spline Surface]() _B-Spline 曲面的 衍生物_
+  - 3.2[The Definition and Properties of B-spline Curves]() 
+  - 3.3[The Derivatives of a B-spline Curve]() 
+  - 3.4[Definition and Properties of B-spline Surfaces]() 
+  - 3.5[Derivatives of a B-spline Surface]() 
     - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
   - 4.1Introduction
@@ -133,18 +133,18 @@
 
 ### TOC
 - ***1 Preface*** _前言_
-  -  1.1 The structure of this document _该文档📄 结构_
-  -  1.2 The structure of the software package _软件包 结构_
-  -  1.3 Licensing information _许可 信息_
+  -  1.1 The structure of this document
+  -  1.2 The structure of the software package 
+  -  1.3 Licensing information 
 - ***2 General Introduction*** _总体 介绍_
-  - 2.1 C Syntax Used in Manual _手册中的 C 句法_
-  - 2.2 Dynamic Allocation in SISL _动态 分配_
-  - 2.3 Creating the library _创建 库_
-  - 2.4 An Example Program _样例 程序_
-  - 2.5 B-spline Curves _B-样条 曲线_
-    - 2.5.1 ~~[B-spline](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.1%20B-splines.md)_B样条_~~
-    - 2.5.2 ~~[The Control Polygon](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.2%20The%20Control%20Polygon.md)_控制 多边形_~~
-    - 2.5.3 ~~[The Knot Vector](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.3%20The%20Knot%20Vector.md)_结向量_~~
+  - 2.1 C Syntax Used in Manual 
+  - 2.2 Dynamic Allocation in SISL 
+  - 2.3 Creating the library 
+  - 2.4 An Example Program
+  - 2.5 B-spline Curves 
+    - 2.5.1 ~~[B-spline](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.1%20B-splines.md)~~
+    - 2.5.2 ~~[The Control Polygon](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.2%20The%20Control%20Polygon.md)~~
+    - 2.5.3 ~~[The Knot Vector](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.3%20The%20Knot%20Vector.md)~~
     - 2.5.4 ~~[NURBS Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/2.5/2.5.4%20NURBS%20Curves.md)~~
   - 2.6 B-spline Surfaces _B-样条 曲面_
     - 2.6.1 ~~The Basis Functions~~
@@ -206,9 +206,9 @@
     - 4.9.2
     - 4.9.3 
   - 4.10 Normal Cone ***常规 圆锥体***
-    - 4.10.1 ~~Normal cone object~~ _常规 圆锥体 对象_
-    - 4.10.2 ~~Create &initialize a curve/surface direction instance~~ _创建 &初始化 一个曲线/ 曲面 方向 实例_
-    - 4.10.3 ~~Find the direction cone of a curve~~ _找到 曲线 方向锥_
+    - 4.10.1 ~~Normal cone object~~
+    - 4.10.2 ~~Create &initialize a curve/surface direction instance~~
+    - 4.10.3 ~~Find the direction cone of a curve~~
 - ***5 Curve Analysis*** _曲线 分析_
   - 5.1 Curvature Evaluation ***曲率 评估***
     - 5.1.1 ~~Evaluate the curvature of a curve at given parameter values~~
