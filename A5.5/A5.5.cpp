@@ -42,11 +42,11 @@ using namespace std;
 void RefineKnotVectSurface(int n, int p, vector<double>& U, int m, int q, vector<double>& V, vector<vector<double>>& Pw, vector<double>& X, int r, int dir, vector<double>& Ubar, vector<double>& Vbar, vector<vector<double>>& Qw) {
     if (dir == 0)
     {
-        /* Refining in U direction 在 U-方向 精制 */
+        /* Refining in U direction 在 U-方向 精製 */
         int a, b;
         
-        /* Find indexes a and b 找到 a &b指针 */
-        /* Save unaltered control points 保存 不变的 控制点 */
+        /* Find indexes a and b 找到 a &b指針 */
+        /* Save unaltered control points 保存 不變的 控制點 */
         for (int row = 0; row <= m; row++)
         {
             for (int k = 0; k <= a - p; k++)
@@ -63,7 +63,7 @@ void RefineKnotVectSurface(int n, int p, vector<double>& U, int m, int q, vector
             int i = n + 1;
             while (X[j] <= U[i] && i > a)
             {
-                /* Compute Ubar 计算 U-bar */
+                /* Compute Ubar 計算 U-bar */
                 int k = n + p;
                 for (int row = 0; row <= m; row++)
                 {
@@ -88,7 +88,7 @@ void RefineKnotVectSurface(int n, int p, vector<double>& U, int m, int q, vector
                         Qw[ind - 1][row] = Qw[ind][row];
                     } 
                 } else {
-                    /* Compute alfa 计算alfa */
+                    /* Compute alfa 計算 alfa */
                     for (int row = 0; row <= m; row++)
                     {
                         Qw[ind - 1][row] = alfa * Qw[ind - 1][row] + (1.0 - alfa) * Qw[ind][row];
