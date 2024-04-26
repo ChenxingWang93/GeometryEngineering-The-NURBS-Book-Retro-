@@ -1,10 +1,10 @@
 ``` C++
 ALGORITHM A5.2
   CurvePntByCornerCut(n,p,U,Pw,u,C)
-    {  /*  Compute point on rational b- spline curve 计算🧮 在有理b- 样条曲线上的点 */
-       /*  Input:  n,p,U,Pw,u 输入 */
-       /*  Output: C 输出 */
-    if (u == U[0])  /* Endpoints are special cases 终 点为 特殊情况 */
+    {  /*  Compute point on rational b- spline curve 計算🧮 在有理b- 樣條曲線上的點 */
+       /*  Input:  n,p,U,Pw,u 輸入 */
+       /*  Output: C 輸出 */
+    if (u == U[0])  /* Endpoints are special cases 終點 爲 特殊情況 */
       {
       C = Pw[0]/w;   return;
       }
@@ -12,7 +12,7 @@ ALGORITHM A5.2
   {
   C = Pw[n]/w;   return;
   }
-FindSpanMult(n,p,u,U,&k,&s);    /* General case 普遍情况 */
+FindSpanMult(n,p,u,U,&k,&s);    /* General case 普遍情況 */
 r = p-s;
 for (i=0; i<=r; i++)   Rw[i] = Pw[k-p+i];
 for (j=1; j<=r; j++)

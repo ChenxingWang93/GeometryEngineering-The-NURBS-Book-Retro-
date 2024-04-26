@@ -15,6 +15,27 @@ ALGORITHM A5.4
     i = b+p-1;    k = b+p+r;
     for (j=r; j>=0; j--)
     {
-}
-}
+    while (X[j] <= U[i] && i > a)
+      {
+        Qw[k-p-1] = Pw[i-p-1];
+        Ubar[k] = U[i];
+        k = k-1;    i = i-1;
+      }
+    Qw[k-p-1] = Qw[k-p];
+    for (l=1; l<=p; l++)
+      {
+        ind = k-p+l;
+        alfa = Ubar[k+1]-X[j];
+        if (abs(alfa) == 0.0)
+          Qw[ind-1] = Qw[ind];
+        else
+        {
+          alfa = alfa/(Ubar[k+l]-U[i-p+l]);
+          Qw[ind-1] = alfa*Qw[ind-1] + (1.0-alfa)*Qw[ind];
+        }
+      }
+    Ubar[k] = X[j];
+    k = k-1;
+    }
+  }
 ```
