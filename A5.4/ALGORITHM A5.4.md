@@ -1,9 +1,9 @@
 ```C++
 ALGORITHM A5.4
   RefineKnotVectCurve(n,p,U,Pw,X,r,Ubar,Qw)
-    {  /*  Refine curve knot vector 细化 曲线 结向量 */
-       /*  Input:  n,p,U,Pw,X,r 输入 */
-       /*  Output: Ubar, Qw  */
+    {  /*  Refine curve knot vector 細化 曲線 結向量 */
+       /*  Input:  n,p,U,Pw,X,r 輸入 */
+       /*  Output: Ubar, Qw 輸出 */
     m = n+p+1;
     a = FindSpan(n,p,X[0],U);
     b = FindSpan(n,p,X[r],U);
@@ -38,4 +38,5 @@ ALGORITHM A5.4
     k = k-1;
     }
   }
+  
 ```
