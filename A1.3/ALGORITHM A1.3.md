@@ -18,6 +18,7 @@ ALGORITHM A1.3
      B[j] = saved;
      }
    }
+   
 ``` 
 algorithm a1.3 computes the n+1 degree Bernstein polynomials 计算🧮 n+1 度的 伯恩斯坦多项式 which are nonzero at fixed u 在固定 u 处为 非0⃣️, avoids unnecessary computation of zero terms 避免了对 0 项的 不必要计算
 

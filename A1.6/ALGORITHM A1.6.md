@@ -1,7 +1,7 @@
 ``` C++
 ALGORITHM A1.6
   Horner2(a,n,m,u0,v0,S)
-    {  /*  Compute point on a power basis surface. 🧮计算 势函数 曲面 上的点 ∙  */
+    {  /*  Compute point on a power basis surface. 🧮计算 幂基函数 曲面 上的点 ∙  */
        /*  Input:  a, n, m, u0, v0 输入 */
        /*  Output: S 输出 */
     for (i=0; i<=n; i++)

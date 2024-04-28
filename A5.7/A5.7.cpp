@@ -11,6 +11,7 @@ void DecomposeSurface(int n, int p, vector<float> U, int m, int q, vector<float>
         int a = p;
         int b = p + 1;
         nb = 0;
+
         for (int i = 0; i <= p; i++)
         {
             for (int row = 0; row <= m; row++)
@@ -22,51 +23,56 @@ void DecomposeSurface(int n, int p, vector<float> U, int m, int q, vector<float>
         {
             int mult;
             /* get mult */
+            /* get the numerator and the alphas */
+            
             if (mult < p) {
                 for (int j = 1; j <= p - mult; j++)
                 {
-                    float save, s;
-                    /* save = ...; */
-                    /* s = ...; */
-                }
-                for (int k = p; k >= s; k--)
-                {
-                    float alfa;
-                    /* get alfa */
-                    for (int row = 0; row < /* specify row condition */; row++)
+                    int save = ...;
+                    int s = ...;
+
+                    for (int k = p; k >= s; k--)
                     {
-                        Qw[nb][k][row] = alfa * Qw[nb][k][row] + (1.0 - alfa) * Qw[nb][k - 1][row];
+                        float alfa;
+                        /* get alfa */
+                        for (int row = 0; row < /* specify row condition */; row++)
+                        {
+                            Qw[nb][k][row] = alfa * Qw[nb][k][row] + (1.0 - alfa) * Qw[nb][k - 1][row];
+                        }
+                    }
+
+                    if (b < m)
+                    {
+                        for (int row = 0; row < /* specify row condition */; row++)
+                        {
+                            Qw[nb + 1][save][row] = Qw[nb][p][row];
+                        }
                     }
                 }
+
+                nb++;
+            
                 if (b < m)
                 {
-                    for (int row = 0; row < /* specify row condition */; row++)
+                    for (int i = p - mult; i <= p; i++)
                     {
-                        Qw[nb + 1][save][row] = Qw[nb][p][row];
+                        for (int row = 0; row < /* specify row condition */; row++)
+                        {
+                            Qw[nb][i][row] = Pw[b - p + i][row];
+                        }
                     }
+                    a = b;
+                    b = b + 1;
                 }
-            }
-            nb++;
-            if (b < m)
-            {
-                for (int i = p - mult; i <= p; i++)
-                {
-                    for (int row = 0; row < /* specify row condition */; row++)
-                    {
-                        Qw[nb][i][row] = Pw[b - p + i][row];
-                    }
-                }
-                a = b;
-                b = b + 1;
             }
         }
     }
+    
     else if (dir == V_DIRECTION)
     {
-        /* Similar logic as above, but with u- and v-directional parameters switched */
+        /* Similar logic as above, but with u- and v-directional parameters switched 与上述逻辑类似，但 u- & v- 方向 参数互换 */
     }
 }
-
 
 int main() {
     /* Example usage */

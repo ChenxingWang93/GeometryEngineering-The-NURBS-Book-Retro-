@@ -2,15 +2,15 @@
 #include <vector>
 using namespace std;
 
-/* Define tolerance */
+/* Define tolerance 定义容差 */
 const double TOL = 0.0001;
 
-/* Function to compute distance in 4D space */
+/* Function to compute distance in 4D space 计算 4D 空间中距离 的函数 */
 double Distance4D() {
-    /* Implement distance calculation for 4D space */
-    /* (Assuming implementation of Distance4D function) */
+    /* Implement distance calculation for 4D space 实施 4D 空间中的 距离计算 */
+    /* (Assuming implementation of Distance4D function) 假设 Distance4D 函数的 实施 */
 
-    /* Placeholder, replace with actual calculation */
+    /* Placeholder, replace with actual calculation 占位符 */
     return 0.0;
 }
 

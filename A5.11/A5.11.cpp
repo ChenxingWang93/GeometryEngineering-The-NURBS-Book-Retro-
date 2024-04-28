@@ -95,7 +95,7 @@ void DegreeReduceCurve(int n, int p, double* U, double* Qw, int nh, double* Uh, 
                     Br = Distance4D(Pw[i - 1], A);
                 }
                 
-                /* Update the error vector */
+                /* Update the error vector 更新错误向量 */
                 int K = a + oldr - k;
                 int q = (2 * q - k + 1) / 2;
                 int L = K - q;
@@ -112,7 +112,7 @@ void DegreeReduceCurve(int n, int p, double* U, double* Qw, int nh, double* Uh, 
             cind = i - 1;
         }
 
-        /* Load knot vector and control points */
+        /* Load knot vector and control points 加载结点向量与控制点 */
         if (a != p)
         {
             for (int i = 0; i < ph - oldr; i++)
