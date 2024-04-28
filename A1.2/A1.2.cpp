@@ -30,10 +30,10 @@
 using namespace std;
 
 void Bernstein(int i, int n, double u, double& B) {
-    /* Temporary array to store values */
+    /* Temporary array to store values 存儲值的臨時陣列 */
     vector<double> temp(n + 1, 0.0);
 
-    /* Initialize the temporary array */
+    /* Initialize the temporary array 初始化臨時陣列 */
     temp[n + i] = 1.0;
 
     for (int j = 0; j <= n; j++) {
@@ -43,14 +43,14 @@ void Bernstein(int i, int n, double u, double& B) {
     temp[n - i] = 1.0;
     double u1 = 1.0 - u;
 
-    /* Compute the values of the Bernstein polynomial */
+    /* Compute the values of the Bernstein polynomial 計算多項式係數值 */
     for (int k = 1; k <= n; k++) {
         for (int j = n; j >= k; j--) {
             temp[j] = u1 * temp[j] + u * temp[j - 1];
         }
     }
     
-    /* Set the output value B to the computed value at u */
+    /* Set the output value B to the computed value at u 將u處計算所得輸出到值B */
     B = temp[n];
 }
 
