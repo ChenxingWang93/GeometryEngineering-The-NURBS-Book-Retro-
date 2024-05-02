@@ -142,7 +142,7 @@ int main() {
 
     /* Sample knot vector */
     vector<double> U = {0.0, 1.0, 2.0, 3.0, 4.0};
-
+    
     /* Allocate memory for storing basis functions and derivatives */
     vector<vector<double>> ders(n + 1, vector<double>(p + 1, 0.0));
 

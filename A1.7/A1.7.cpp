@@ -38,7 +38,7 @@
 #include "../deCasteljau1.h"
 using namespace std;
 
-void deCasteljau1(const vector<double>&P, int n, double u, double& C) {
+void deCasteljau1(const vector<double>& P, int n, double u, double& C) {
     /* Initialize Q with the control points P */
     vector<double> Q(P);
 
@@ -63,9 +63,9 @@ void deCasteljau2(const vector<vector<double>>& P, int n, int m, double u0, doub
     {
         for (int j = 0; j <= m; j++)
         {
-            deCasteljau1(P[j], n, u0, &Q[j]); /* P[j][] is jth row */
+            deCasteljau1(P[j], n, u0, Q[j]); /* P[j][] is jth row */
         }
-        deCasteljau1(Q, m, v0, &S);
+        deCasteljau1(Q, m, v0, S);
     } else {
         for (int i = 0; i <= n; i++)
         {
@@ -95,7 +95,7 @@ int main() {
 
     /* Control points of the Bezier surface */
     vector<vector<double>> P = {{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}, {7.0, 8.0, 9.0}};
-
+    double S;
     /* Call the deCasteljau2 function */
     deCasteljau2(P, n, m, u0, v0, S);
 
