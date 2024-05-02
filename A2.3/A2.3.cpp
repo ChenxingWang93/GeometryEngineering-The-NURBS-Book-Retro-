@@ -1,3 +1,45 @@
+/* ARGUMENTS
+ *     Input Arguments:
+ *         `i`        -        The knot span index.
+ *         `u`        -        The parameter value.
+ *         `p`        -        The degree of the basis functions.
+ *         `n`        -        The maximum order of derivatives.
+ *         `U`        -        An array representing the knot vector.
+ * 
+ *     Output Arguments:
+ *         `ders`     -        An array storing the computed derivatives of the basis functions.
+ * 
+ * Steps:
+ * 
+ *     i. Initialize `ndu[0][0]` to 1.0.
+ * 
+ *     ii. Compute the nonvanishing basis functions using a modified version of the A2.2 algorithm, storing intermediate values in the `ndu` array.
+ * 
+ *     iii. Load the basis functions into the `ders` array.
+ * 
+ *     iv. Compute the derivatives of the basis functions using the algorithm described in the subsequent section of the code.
+ * 
+ *     v. Multiply the computed derivatives by the correct factors to obtain the final derivative values.
+ * 
+ * Explanation:
+ * 
+ *     The algorithm first calculates the nonvanishing basis function using a mofified version of the
+ *     A2.2 algorithm, storing intermediate values in the `ndu` array.
+ * 
+ *     It then computes the derivatives of the basis functions using a formula described in the
+ *     subsequent section of the code.
+ *     
+ *     The algorithm efficiently computes the derivatives of the basis functions up to the specified order
+ *     `n`, providing essential values for various spline calculations.
+ * 
+ *     Finally, it multiplies the computed derivatives by the correct factors to obtain the final derivative
+ *     values.
+ * 
+ * By following these steps, the algorithm computes the nonzero basis functions and their derivatives,
+ * essential for spline calculations involving higher-order derivatives.
+ * 
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -15,11 +57,13 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
     vector<double> N(p + 1, 0.0);
     
     ndu[0][0] = 1.0;
+
     for (int j = 1; j <= p; j++)
     {
         left[j] = n - U[i + 1 - j];
         right[j] = U[i + 1 - j];
         double saved = 0.0;
+
         for (int r = 0; r < j; r++)
         {                                               /* Lower triangle */
             ndu[j][r] = right[r + 1] + left[j - r];
@@ -28,7 +72,8 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
             ndu[r][j] = saved + right[r + 1] * temp;
             saved = left[j - r] * temp;
         }
-    ndu[j][j] = saved;
+
+        ndu[j][j] = saved;
     }
 
     for (int j = 0; j <= p; j++)    /* Load the basis functions 加载基函数 */
@@ -47,17 +92,27 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
         {
             double d = 0.0;
             int rk = r - k, pk = p - k;
+
             if (r >= k) {
                 a[s2][0] = a[s1][0] / ndu[pk + 1][rk];
                 d = a[s2][0] * ndu[rk][pk];
             }
+
             int j1 = (rk >= -1) ? 1 : -rk;
             int j2 = (r - 1 <= pk) ? k - 1 : p - r;
+
             for (int j = j1; j < j2; j++)
             {
                 a[s2][j] = (a[s1][j] - a[s1][j - 1]) / ndu[pk + 1][rk + j];
                 d += a[s2][j] * ndu[rk + j][pk];
             }
+
+            if (r <= pk)
+            {
+                a[s2][k] = -a[s1][k - 1] / ndu[pk + 1][r];
+                d += a[s2][k] * ndu[r][pk];
+            }
+
             ders[k][r] = d;
             int temp = s1;
             s1 = s2;
@@ -66,6 +121,7 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
     }
 
     int r = p;
+
     for (int k = 1; k <= n; k++)
     {
         for (int j = 0; j <= p; j++)
@@ -77,13 +133,24 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
 }
 
 int main() {
-    int i = 0, p = 2, n = 3;
+
+    /* Sample input values */
+    int i = 0;
+    int p = 2;
+    int n = 3;
     double u = 0.5;
+
+    /* Sample knot vector */
     vector<double> U = {0.0, 1.0, 2.0, 3.0, 4.0};
+
+    /* Allocate memory for storing basis functions and derivatives */
     vector<vector<double>> ders(n + 1, vector<double>(p + 1, 0.0));
 
+    /* Call the function to compute basis functions and derivatives */
     DersBasisFuns(i, u, p, n, U, ders);
     
+    /* Output the computed values */
+    cout << "Nonvanishing basis functions and their derivatives:" << endl;
     /* Display the results 展示结果 */
     for (int k = 0; k <= n; k++)
     {
@@ -92,5 +159,12 @@ int main() {
             cout << "ders[" << k << "][" << j << "] = " << ders[k][j] << endl;
         }
     }
+
+    for (int k = 0; k <= n; k++)
+    {
+        delete[] ders[k];
+    }
+    delete[] ders;
+    
     return 0;
 }

@@ -19,6 +19,22 @@
  *                    Calculate `temp` as `N[r] / (right[r+1] + left[j-r])`.
  *                    Update `saved` as `left[j-r] * temp`.
  *             d. Set `N[j]` to `saved`.
+ * Explanation:
+ *     
+ *     The algorithm starts by setting the first basis function `N[0]` to 1.0.
+ *      
+ *     It then iterates over the remaining basis functions from 1 to `p`.
+ * 
+ *     For each basis function, it calculates the `left` and `right` values based on the knot vector and parameter.
+ * 
+ *     It computes the nonvanishing basis functions using a recurrence relation involving previously
+ *     computed values.
+ * 
+ *     The algorithm efficiently calculates the nonvanishing basis functions required for various
+ *     computations in spline algorithms.
+ * 
+ * By following these steps, the algorithm computes the nonvanishing basis functions efficiently,
+ * providing essential values for further spline calculations.
  * 
  */
 

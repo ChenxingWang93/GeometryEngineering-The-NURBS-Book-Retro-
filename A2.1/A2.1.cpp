@@ -26,6 +26,16 @@
  *              Once the while loop exits, return the final `mid` value, which represents the knot span index
  *              where the parameter value `u` lies.
  * 
+ * Example:
+ * 
+ *     Suppose we have `n = 5`, `p = 2`, `u = 0.4`, and `U = {0, 0, 0, 0.5, 1, 1, 1}`.
+ * 
+ *     The algorithm will determine the knot span index for the parameter value `u = 0.4` in the given
+ *     knot vector `U` using binary search and return the appropriate knot span index.
+ * 
+ * This algorithm efficiently finds the knot span index for a given parameter value `u` in the context of 
+ * B-spline curves, which is crucial for further B-spine curve calculations.
+ * 
  */ 
 
 int FindSpan(int n, int p, double u, double* U) {
