@@ -1,5 +1,5 @@
 /* ARGUMENTS
- *     Input Arguments: 
+ *     Input Arguments:
  *         `n`        -       Number of control points in the curve.
  *         `p`        -       Degree of the curve.
  *         `U`        -       Knot vector of the curve.
