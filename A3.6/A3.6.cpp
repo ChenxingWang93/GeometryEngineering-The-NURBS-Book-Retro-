@@ -1,3 +1,57 @@
+/* ARGUMENTS
+ *     Input Arguments:
+ *          Parameters:
+ *         `n`        -         Degree of the B-spline curve in the u-direction.
+ *         `p`        -         Degree of the B-spline curve in the v-direction.
+ *         `U`        -         Knot vector in the u-direction with `(n+1)` knots.
+ *         `m`        -         Degree of the B-spline curve in the v-direction.
+ *         `q`        -         Degree of the B-spline curve in the v-direction.
+ *         `V`        -         Knot vector in the v-direction with `(m+1)` knots.
+ *         `P`        -         Control points of the B-spline surface, typically given as a 2D array.
+ *         `u`,`v`    -         Parameters at which the surface derivatives are to be computed.
+ *         `d`        -         Maximum order of derivatives to compute.
+ * 
+ *     Output Arguments:
+ *  Surface Derivatives:
+ *         `SKL`      -         Array storing the surface derivatives up to order `d`.
+ * 
+ * Steps:
+ *     i. Initialize Variables:
+ *            Compute `du = min(d,p)`.
+ *            Compute `dv = min(d,q)`.
+ * 
+ * 
+ *     ii. Initialize Higher Order Derivatives:
+ *             For `k` from `p+1` to `d` and `l` from `0` to `d-k`,set `SKL[k][l] = 0.0`.
+ *             For `l` from `q+1` to `d` and `k` from `0` to `d-l`,set `SKL[k][l] = 0.0`.
+ * 
+ * 
+ *     iii. Find Spans and Compute Basis Functions:
+ *              Compute `uspan = FindSpan(n,p,u,U)` and `vspan = FindSpan(m,q,v,V)`.
+ *              Compute basis functions and their derivatives:
+ *                  `DersBasisFuns(uspan,u,p,du,U,Nu)`: Compute basis functions and their derivatives in the u-direction.
+ *                  `DersBasisFuns(vspan,v,q,dv,V,Nv)`: Compute basis functions and their derivatives in the v-direction.
+ * 
+ *     iv. Iterate to Compute Surface Derivatives:
+ *             For `k` from `0` to `du`:
+ *                 For `s` from `0` to `q`:
+ *                     Initialize `temp[s] = 0.0`.
+ *                     For `r` from `0` to `p`:
+ *                         Update `temp[s]` by adding `Nu[k][r]*P[uspan-p+r][vspan-q+s]`.
+ *             Compute `dd = min(d-k,dv)`.
+ *             For `l` from `0` to `dd`:
+ *                 Initialize `SK[k][l] = 0.0`.
+ *                 For `s` from `0` to `q`:
+ *                     Update `SKL[k][l]` by adding `Nv[l][s]*temp[s]`.
+ *     v. Output:
+ *        The computed surface derivatives stored in the array `SKL`.
+ * 
+ * Algorithm A3.6 computes surface derivatives up to a specified order `d`. It initializes variables, find spans,
+ * computes basis functions and their derivatives, and iterates through nested loops to compute surface derivatives.
+ * The resulting derivatives are stored in the array `SKL`.
+ * 
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -28,6 +82,7 @@ void SurfaceDerivsAlg1(int n, int p, const vector<double>& U, int m, int q, cons
             SKL[k][l] = 0.0;
         }
     }
+
     for (int l = q + 1; l <= d; l++)
     {
         for (int k = 0; k <= d - l; k++)
@@ -88,10 +143,10 @@ int main() {
                                 {2.0, 2.0, 2.0}, 
                                 {3.0, 3.0, 3.0},
                                 {4.0, 4.0, 4.0},
-                                {5.0, 5.0, 35.0}}; /*  */
-    double u = 0.5; /*  */
-    double v = 0.5;
-    int d = 3;
+                                {5.0, 5.0, 35.0}}; /* Control points */
+    double u = 0.5; /* Parameter in u-direction */
+    double v = 0.5; /* Parameter in v-direction */
+    int d = 3; /* Maximum derivative order */
 
     /* Initialize SKL matrix 初始化 SKL矩阵 */
     vector<vector<double>> SKL(d + 1, vector<double>(d + 1, 0.0));
