@@ -1,4 +1,4 @@
-/* ARGUMENTS 
+/* ARGUMENTS
  *     Input Arguments:
  *          Parameters:
  *         `n`        -         Degree of the B-spline curve in the u-direction.
@@ -7,8 +7,43 @@
  *         `m`        -         Degree of the B-spline curve in the v-direction.
  *         `q`        -         Degree of the B-spline curve in the v-direction.
  *         `V`        -         Knot vector in the v-direction with `(m+1)` knots.
- *  
+ *         `P`        -         Control points of the B-spline surface, typically given as a 2D array.
+ *         `d`        -         Maximum derivative order.
+ *         `r1`,`r2`  -         Index range of control points in the u-direction.
+ *         `s1`,`s2`  -         Index range of control points in the v-direction.
+ * 
  *     Output Arguments:
+ *         PKL:
+ *         Control points of the derivative surface, stored in a 4D array.
+ * 
+ * Steps:
+ *     i. Compute Minimum Derivative Orders:
+ *            `du = min(d, p)`: Compute the minimum of the maximum derivative order `d` and the degree of the B-spline curve in the u-direction `p`.
+ *            
+ *            `dv = min(d, q)`: Compute the minimum of the maximum derivative order `d` and the degree of the B-spline curve in the u-direction `q`.
+ * 
+ *     ii. Compute Control Points of Derivative Surfaces:
+ *             Calculate the difference in index ranges for control points: `r = r2 - r1` and `s = s2 - s1`.
+ *             Iterate over the v-direction control points:
+ *                 Call `CurveDerivCpts` function to compute derivative control points for each curve in the u-direction.
+ *                 
+ *                 Store the computed derivative control points in temporary storage `temp`.
+ *                 
+ *                 Copy the computed control points to the appropriate locations in the `PKL` array.
+ * 
+ *     iii. Compute Derivative Control Points in the u-direction:
+ *              Iterate over the u-direction derivative orders:
+ *                  Iterate over the control points in the u-direction (`r - k` iterations).
+ *                  
+ *                  Call `CurveDerivCpts` function to compute derivative control points for each curve in the v-direction.
+ *                  
+ *                  Store the computed derivative control points in temporary storage `temp`.
+ *                  
+ *                  Copy the computed control points to the appropriate location in the `PKL` array.
+ * Summary:
+ * Algorithm A3.7 calculates the control points of derivative surfaces based on the given B-spline surface and derivative order parameters. It iterates over the control points, computes
+ * derivative control points for each curve in both u and v directions, and stores the results in a multi-dimensional array `PKL`. The algorithm utilizes the CurveDerivCpts function to
+ * compute derivative control points for individual curves.
  * 
  */
 
