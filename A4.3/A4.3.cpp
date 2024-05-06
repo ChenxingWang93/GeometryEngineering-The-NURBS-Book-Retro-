@@ -4,25 +4,24 @@ using namespace std;
 #include "../findSpan.h"
 #include "../BasisFuns.h"
 
-void SurfacePoint(int n, int p, vector<double> U, int m, int q, vector<double> V, vector<vector<double>> Pw, double u, double v, vector<double>& S) {
+void SurfacePoint(int n, int p, double* U, int m, int q, double* V, vector<vector<double>>& Pw, double u, double v, double w, double& S) {
+    /* Variables for storing intermediate results */
     int uspan, vspan;
     vector<double> Nu(p+1);
     vector<double> Nv(q+1);
     vector<double> temp(q+1);
-    double Sw = 0.0;
 
     /* Find span of curve in u-direction 找到弧线 在 u-方向 跨度 */
     uspan = FindSpan(n, p, u, U);
-
     /* Calculate basis functions for u-direction 计算 u-方向 基函数 */
-    BasisFuns(uspan, u, p, U, Nu);
+    BasisFuns(uspan, u, p, U, Nu.data());
 
     /* Find span of curve in v-direction 找到弧线 在 v-方向 跨度 */
     vspan = FindSpan(m, q, v, V);
-
     /* Calculate basis functions for v-direction 计算 v-方向 基函数 */
-    BasisFuns(vspan, v, q, V, Nv);
+    BasisFuns(vspan, v, q, V, Nv.data());
 
+    vector<double> Sw(q+1, 0.0);
     for (int l = 0; l <= q; l++)
     {
         temp[l] = 0.0;
@@ -32,47 +31,34 @@ void SurfacePoint(int n, int p, vector<double> U, int m, int q, vector<double> V
         }
     }
     
+    S = 0.0;
     for (int l = 0; l <= q; l++)
     {
-        Sw += Nv[l] * temp[l];
+        S += Nv[l] * temp[l];
     }
     
-    S.clear();
-    /* Calculate point on the surface 计算曲面上的点 */
-    for (int i = 0; i < Pw[0].size(); i++)
-    {
-        S.push_back(Sw / Pw[uspan-p][vspan-q][Pw[uspan-p].size()-1]);
-    }
+    S /= w;
 }
-
-// int FindSpan() {
-//     /* Implement FindSpan function here */
-//     /* Return index of span */
-// }
-
-// void BasisFuns() {
-//     /* Implement BasisFuns function here */
-//     /* Calculate basis functions and store them in N */
-// }
 
 int main() {
     /* Define inputs 定义输入 */
-    vector<double> U = {0.0, 0.0, 0.0, 1.0, 1.0, 1.0};
-    vector<double> V = {0.0, 0.0, 0.0, 1.0, 1.0, 1.0};
-    vector<vector<double>> Pw = {{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}, {7.0, 8.0, 9.0}};
-    double u = 0.5, v = 0.5;
-    vector<double> S;
+    int n = 5;
+    int p = 2;
+    double U[] = {0, 0, 0, 1, 2, 3, 3, 3};
+    int m = 4;
+    int q = 3;
+    double V[] = {0, 0, 0, 1, 2, 2, 2};
+    vector<vector<double>> Pw = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}, {13, 14, 15}};
+    double u = 1.5; 
+    double v = 1.5;
+    double w = 1.0;
+    double S;
 
     /* Calculate point on the surface 计算曲面上的点 */
-    SurfacePoint(n, p, U, m, q, V, Pw, u, v, S);
+    SurfacePoint(n, p, U, m, q, V, Pw, u, v, w, S);
 
     /* Output the result 输出结果 */
-    cout << "Point on the surface S: ";
-    for (int i = 0; i < S.size(); i++)
-    {
-        cout << S[i] << " ";
-    }
-    cout << endl;
+    cout << "Point on the B-spline surface at (u, v) = (" << u << ", " << v << ") is: " << S << endl;
 
     return 0;
 }
