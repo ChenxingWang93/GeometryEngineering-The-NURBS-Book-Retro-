@@ -43,6 +43,8 @@
  *  
  *                  Copy the computed control points to the appropriate locations in the `PKL` array.
  * 
+ * Algorithm A3.8 for computing surface derivatives on a B-spline surface.
+ * 
  */                 
 
 #include "../findSpan.h"
