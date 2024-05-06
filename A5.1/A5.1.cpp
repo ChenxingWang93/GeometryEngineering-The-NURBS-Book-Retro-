@@ -34,6 +34,8 @@
  */
 
 #include <vector>
+#include <iostream>
+
 using namespace std;
 
 void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double u, int k, int s, int r, int& nq, vector<double>& UQ, vector<double>& Qw) {
@@ -48,6 +50,7 @@ void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double 
     {
         Qw[i] = Pw[i];
     }
+
     for (int i = k - s; i <= np; i++)
     {
         Qw[i + r] = Pw[i];
@@ -78,4 +81,36 @@ void CurveKnotIns(int np, int p, vector<double>& UP, vector<double>& Pw, double 
         /* Load remaining control points 加載剩餘的 控制點 */
         Qw[i] = Rw[i - L];
     }
+}
+
+int main() {
+    int np = 5; /* Number of control points minus one */
+    int p = 2; /* Dgree of the B-spline curve */
+    vector<double> UP = {0, 0, 0, 1, 2, 3, 3, 3}; /* knot vector */
+    vector<double> Pw = {1, 2, 3, 4, 5, 6, 7}; /* Control points with weights */
+    double u = 1.5; /* Parameter value */
+    int k = 3; /* Knot index */
+    int s = 1; /* Multiplicity of the knot */
+    int r = 2; /* Number of times to insert the knot */
+    int nq; /* Output variable for new number of control points */
+    vector<double> UQ(np + r + 1);
+    vector<double> Qw(np + r + 1);
+
+    CurveKnotIns(np, p, UP, Pw, u, k, s, r, nq, UQ, Qw);
+
+    cout << "New knot vector UQ:" << endl;
+    for (int i = 0; i < UQ.size(); i++)
+    {
+        cout << UQ[i] << " ";
+    }
+    cout << endl;
+
+    cout << "New control points Qw:" << endl;
+    for (int i = 0; i < Qw.size(); i++)
+    {
+        cout << Qw[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }

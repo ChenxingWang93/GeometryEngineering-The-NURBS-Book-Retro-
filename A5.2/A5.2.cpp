@@ -19,6 +19,10 @@
 #include <vector>
 using namespace std;
 
+void FindSpanMult(int n, int p, double u, vector<double>& U, int* k, int* s) {
+
+}
+
 void CurvePntByCornerCut(int n, int p, vector<double>& U, vector<double>& Pw, double u, double& C) {
     /* Special case: endpoint 特殊情況： 端點 */
     if (u == U[0])
@@ -34,7 +38,7 @@ void CurvePntByCornerCut(int n, int p, vector<double>& U, vector<double>& Pw, do
 
     /* General case 通用情況 */
     int k, s;
-    FindSpanMult(n, p, u, U, k, s);
+    FindSpanMult(n, p, u, U, &k, &s);
     int r = p - s;
     vector<double> Rw(r + 1);
     

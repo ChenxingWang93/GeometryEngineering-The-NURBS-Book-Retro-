@@ -44,7 +44,7 @@
 #include "../findSpan.h"
 using namespace std;
 
-int FindSpan(int n, int p, double u, std::vector<double>& U) {
+int FindSpan(int n, int p, double x, vector<double>& U) {
     /* Implementation of FindSpan function goes here */
 }
 
@@ -84,8 +84,8 @@ void RefineKnotVectCurve(int n, int p, vector<double>& U, vector<double>& Pw, ve
             k = k - 1;
             i = i - 1;
         }
-        Qw[k - p - 1] = Qw[k - p];
 
+        Qw[k - p - 1] = Qw[k - p];
         for (int l = 1; l <= p; l++)
         {
             int ind = k - p + l;
@@ -97,25 +97,38 @@ void RefineKnotVectCurve(int n, int p, vector<double>& U, vector<double>& Pw, ve
                 Qw[ind - 1] = alfa * Qw[ind - 1] + (1.0 - alfa) * Qw[ind];
             }
         }
+
         Ubar[k] = X[j];
         k = k - 1;
-    }   
+    }
 }
 
 int main() {
     /* Example usage of RefineKnotVectCurve */
-    int n = 4;  /* Number of control points */
+    int n = 5;  /* Number of control points */
     int p = 2;  /* Degree */
     vector<double> U = {0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 3.0, 3.0};  /* knot vector */
-    vector<vector<double>> Pw = {{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}, {7.0, 8.0, 9.0}, {10.0, 11.0, 12.0}, {13.0, 14.0, 15.0}};  /* Control points */
-    vector<double> X = {0.5, 1.5};  /* Knots to be inserted */
+    vector<double> Pw = {1, 2, 3, 4, 5, 6, 7};  /* Control points with weights */
+    vector<double> X = {0.5, 1.5};  /* Knots value to be inserted */
     int r = 2;  /* Number of times to insert the knots */
-
-    int m = n + p + 1 + r;
-    vector<double> Ubar(m + 1);
-    vector<vector<double>> Qw(m - p - 1, vector<double>(Pw[0].size()));
+    vector<double> Ubar(n + p + r + 2); /* Output: New knot vector */
+    vector<double> Qw(n + r + 1); /* Output: New control points with weights */
 
     RefineKnotVectCurve(n, p, U, Pw, X, r, Ubar, Qw);
 
+    cout << "New knot vector Ubar:" << endl;
+    for (double knot : Ubar)
+    {
+        cout << knot << " ";
+    }
+    cout << endl;
+
+    cout << "New control points Qw:" << endl;
+    for (double controlPoint : Qw)
+    {
+        cout << controlPoint << " ";
+    }
+    cout << endl;
+    
     return 0;
 }
