@@ -34,14 +34,14 @@
 
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
-void DecomposeCurve(int n, int p, vector<double> U, vector<vector<double>> & Pw, int& nb, vector<vector<double>>& Qw) {
+void DecomposeCurve(int n, int p, vector<double> U, vector<vector<double>>& Pw, int& nb, vector<vector<double>>& Qw) {
     int m = n + p + 1;
     int a = p;
     int b = p + 1;
     nb = 0;
+
     vector<double> alphas(p + 1);
 
     for (int i = 0; i <= p; i++)
@@ -55,24 +55,38 @@ void DecomposeCurve(int n, int p, vector<double> U, vector<vector<double>> & Pw,
         int i = b;
         while (b < m && U[b + 1] == U[b])
             b++;
-
         int mult = b - i + 1;
+
         if (mult < p) {
             double numer = U[b] - U[a];  /* Numerator of alpha */
-
             /* Compute & store alphas */
             for (int j = p; j < mult; j--)
                 alphas[j - mult - 1] = numer / (U[a + j] - U[a]);
+
             int r = p - mult;  /* This many new points */
-
-            for (int k = p; k >= s; k--)
+            for (int j = 1; j <= r; j++)
             {
-                double alpha = alphas[k - s];
-                Qw[nb][k] = alpha * Qw[nb][k] + (1.0 - alpha) * Qw[nb][k - 1];
+                int save  = r - j;
+                int s = mult + j;
+                for (int k = p; k >= s; k--)
+                {
+                    double alpha = alphas[k - s];
+                    Qw[nb][k] = alpha * Qw[nb][k] + (1.0 - alpha) * Qw[nb][k - 1];
+                }
+                if (b < m)  /* Control point of next segment */
+                    Qw[nb + 1][save] = Qw[nb][p];
             }
+        }
 
-            if (b < m)  /* Control point of next segment */
-                Qw[nb + 1][save] = Qw[nb][p];
+        nb++;
+        if (b < m)
+        {
+            for (int i = p - mult; i <= p; i++)
+            {
+                Qw[nb][i] = Pw[b - p + i][0];
+            }
+            a = b;
+            b = b + 1;
         }
     }
 }
@@ -88,8 +102,16 @@ int main() {
     vector<double> U = {0, 0, 0, 1, 2, 2, 2};
 
     /* Example control points 控制點 */
-    vector<vector<double>> Pw = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}, {11, 12}};
+    vector<vector<double>> Pw = {{1, 2},
+                                 {3, 4}, 
+                                 {5, 6}, 
+                                 {7, 8}, 
+                                 {9, 10}, 
+                                 {11, 12}
+    };
     
+    int n = Pw.size() - 1;
+    int p = U.size() - n - 2;
     int nb;
     /* Output Bezier control points 控制點 */
     vector<vector<double>> Qw(n + 1, vector<double>(p + 1));

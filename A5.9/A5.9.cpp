@@ -1,23 +1,33 @@
+#include <iostream>
+#include <cmath>
+#include <vector>
 using namespace std;
 
-void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, double* Uh, double* Qw) {
+double BinomialCoeff(int n, int k) {
+    if (k == 0 || k == n)
+    {
+        return 1;
+    }
+    return BinomialCoeff(n - 1, k - 1) + BinomialCoeff(n - 1, k);
+}
+
+void DegreeElevateCurve(int n, int p, vector<double>& U, vector<double>& Pw, int t, int& nh, vector<double>& Uh, vector<double>& Qw) {
     int m = n + p + 1;
     int ph = p + t;
     int ph2 = ph / 2;
 
-    double bezalfs[MAX_SIZE][MAX_SIZE];
-    double alfs[MAX_SIZE];
-    double bpts[MAX_SIZE];
-    double Nextbpts[MAX_SIZE];
-    double ebpts[MAX_SIZE];
+    /* Compute Bezier degree elevation coefficients */
+    vector<vector<double>> bezalfs(ph + 1, vector<double>(p + 1, 0.0));
 
     /* Compute Bezier degree elevation coefficients 计算贝塞尔度 评估系数 */
     bezalfs[0][0] = bezalfs[ph][p] = 1.0;
-    for (int i = 1; i < ph2; i++)
+    
+    for (int i = 1; i <= ph2; i++)
     {
-        double inv = 1.0 / Bin(ph, i);
-        int mpi = std::min(p, i);
-        for (int i = std::max(0, i - t); j <= mpi; j++)
+        double inv = 1.0 / BinomialCoeff(ph, i);
+        int mpi = min(p, i);
+
+        for (int j = max(0, i - t); j <= mpi; j++)
         {
             bezalfs[i][j] = bezalfs[ph - i][p - j];
         }
@@ -32,6 +42,11 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
     double ua = U[0];
     Qw[0] = Pw[0];
 
+    vector<double> bpts(ph + 1, 0.0);
+    vector<double> Nextbpts(p + 1, 0.0);
+    vector<double> alfs(p - t, 0.0);
+    vector<double> ebpts(ph + 1, 0.0);
+
     for (int i = 0; i <= ph; i++)
     {
         Uh[i] = ua;
@@ -45,9 +60,10 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
     while (b < m)
     {
         int i = b;
+
         while (b < m && U[b] == U[b + 1])
         {
-            b = b + 1;
+            ++b;
         }
         
         int mul = b - i + 1;
@@ -64,8 +80,11 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
             lbz = 1;
         }
         
+        int rbz = (r > 0) ? ph - (r + 1) / 2 : ph;
+
         if (r > 0)
         {
+
             rbz = ph - (r + 1) / 2;
         } else {
             rbz = ph;
@@ -95,8 +114,8 @@ void DegreeElevateCurve(int n, int p, double* U, double* Pw, int t, int& nh, dou
         for (int i = lbz; i <= ph; i++)
         {
             ebpts[i] = 0.0;
-            int mpi = std::min(p, i);
-            for (int j = std::max(0, i - t); j <= mpi; j++)
+            int mpi = min(p, i);
+            for (int j = max(0, i - t); j <= mpi; j++)
             {
                 ebpts[i] += bezalfs[i][j] * bpts[j];
             }
