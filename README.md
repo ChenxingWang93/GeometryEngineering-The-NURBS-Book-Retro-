@@ -66,25 +66,25 @@
   - 8.6Nonuniform Scaling of Surfaces
   - 8.7A Three-sided Spherical Surface
 - ***Chapter NINE:*** Curve and Surface Fitting ***曲线与曲面拟合***
-  - 9.1Introduction
-  - 9.2Global Interpolation
+  - 9.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A9.1/ALGORITHM%20A9.1.md)
+  - 9.2[Global Interpolation](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A9.2/ALGORITHM%20A9.2.md)
   - 9.2.1Global Curve Interpolation to Point Data
   - 9.2.2Global Curve Interpolation with End Derivatives Specified
   - 9.2.3Cubic Spline Curve Interpolation
   - 9.2.4Global Curve Interpolation with First Derivatives Specified
   - 9.2.5Global Surface Interpolation
-  - 9.3Local Interpolation
+  - 9.3[Local Interpolation](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A9.3/ALGORITHM%20A9.3.md)
   - 9.3.1Local Curve Interpolation Preliminaries
   - 9.3.2Local Parabolic Curve Interpolation
   - 9.3.3Local Rational Quadratic Curve Interpolation
   - 9.3.4Local Cubic Curve Interpolation
   - 9.3.5Local Bicubic Surface Interpolation
-  - 9.4Global Approximation
+  - 9.4[Global Approximation](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A9.4/ALGORITHM%20A9.4.md)
   - 9.4.1Least Squares Curve Approximation
   - 9.4.2Weighted and Constrained Least Squares Curve Fitting
   - 9.4.3Least Squares Surface Approximation
   - 9.4.4Approximation to Within a Specified Accuracy
-  - 9.5Local Approximation
+  - 9.5[Local Approximation](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A9.5/ALGORITHM%20A9.5.md)
   - 9.5.1Local Rational Quadratic Curve Approximation
   - 9.5.2Local Nonrational Cubic Curve Approximation
     - Exercises
