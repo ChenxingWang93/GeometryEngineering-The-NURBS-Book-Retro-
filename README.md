@@ -29,7 +29,7 @@
   - 4.2[Definition and Properties of NURBS Curves](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.2/ALGORITHM%20A4.2.md)
   - 4.3[Derivatives of a NURBS Curve](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.3/ALGORITHM%20A4.3.md)
   - 4.4[Definition and Properties of NURBS Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.4/ALGORITHM%20A4.4.md)
-  - 4.5[Derivatives of a NURBS Surface]()
+  - 4.5Derivatives of a NURBS Surface
     - Exercises
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
   - 5.1Introduction
