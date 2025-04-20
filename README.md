@@ -89,10 +89,10 @@
   - 9.5.2Local Nonrational Cubic Curve Approximation
     - Exercises
 - ***Chapter TEN:*** Advanced Surface Construction Techniques ***高级曲面构造技术***
-  - 10.1Introduction
-  - 10.2Swung Surfaces
-  - 10.3Skinned Surfaces
-  - 10.4Swept Surfaces
+  - 10.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A10.1/ALGORITHM%20A10.1.md)
+  - 10.2[Swung Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A10.2/ALGORITHM%20A10.2.md)
+  - 10.3[Skinned Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A10.3/ALGORITHM%20A10.3.md)
+  - 10.4[Swept Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A10.4/ALGORITHM%20A10.4.md)
   - 10.5Interpolation of a Bidirectional Curve Network
   - 10.6Coons Surfaces
 - ***Chapter ELEVEN:*** Shape Modification Tools ***形态修改/编辑❓工具🔧***
