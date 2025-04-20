@@ -40,8 +40,8 @@
   - 5.6[Degree Reduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.6/ALGORITHM%20A5.6.md)
     - Exercises
 - ***Chapter SIX:*** Advanced Geometric Algorithms ***高级几何算法***
-  - 6.1Point Inversion and Projection for Curves and Surfaces
-  - 6.2Surface Tangent Vector Inversion
+  - 6.1[Point Inversion and Projection for Curves and Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A6.1/ALGORITHM%20A6.1.md)
+  - 6.2[Surface Tangent Vector Inversion](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A6.2/ALGORITHM%20A6.2.md)
   - 6.3Transformations and Projections of Curves and Surfaces
   - 6.4Reparameterization of NURBS Curves and Surfaces
   - 6.5Curve and Surface Reversal
