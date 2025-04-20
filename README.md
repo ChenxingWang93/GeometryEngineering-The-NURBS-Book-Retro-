@@ -96,7 +96,7 @@
   - 10.5Interpolation of a Bidirectional Curve Network
   - 10.6Coons Surfaces
 - ***Chapter ELEVEN:*** Shape Modification Tools ***形态修改/编辑❓工具🔧***
-  - 11.1Introduction
+  - 11.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A11.1/ALGORITHM%20A11.1.md)
   - 11.2Control Point Repositioning
   - 11.3Weight Modification
   - 11.3.1Modification of One Curve Weight
@@ -110,8 +110,8 @@
   - 11.5.1 Constraint-based Curve Modification
   - 11.5.2 Constraint-based Surface Modification
 - ***Chapter TWELVE:*** Standards and Data Exchange ***标准 与 数据交换***
-  - 12.1Introduction
-  - 12.2Knot Vectors
+  - 12.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A12.1/ALGORITHM%20A12.1.md)
+  - 12.2[Knot Vectors](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A12.2/ALGORITHM%20A12.2.md)
   - 12.3Nurbs Within the Standards
   - 12.3.1IGES
   - 12.3.2STEP
