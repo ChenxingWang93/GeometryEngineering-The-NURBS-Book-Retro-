@@ -48,9 +48,9 @@
   - 6.6Conversion Between B-spline and Piecewise Power Basis Forms
     - Exercises
 - ***Chapter SEVEN:*** Conics and Circles ***圆锥曲线与圆***
-  - 7.1Introduction
-  - 7.2Various Forms for Representing Conics
-  - 7.3The Quadratic Rational Bezier Arc
+  - 7.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A7.1/ALGORITHM%20A7.1.md)
+  - 7.2[Various Forms for Representing Conics](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A7.2/ALGORITHM%20A7.2.md)
+  - 7.3[The Quadratic Rational Bezier Arc](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A7.3/ALGORITHM%20A7.3.md)
   - 7.4Infinite Control Points
   - 7.5Construction of Circles
   - 7.6Construction of Conics
