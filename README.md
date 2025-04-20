@@ -25,11 +25,11 @@
   - 3.5[Derivatives of a B-spline Surface](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A3.5/ALGORITHM%20A3.5.md)
     - Exercises
 - ***Chapter FOUR:*** Rational B-spline Curves and Surfaces ***有理B-样条 曲线与曲面***
-  - 4.1Introduction
-  - 4.2Definition and Properties of NURBS Curves
-  - 4.3Derivatives of a NURBS Curve
-  - 4.4Definition and Properties of NURBS Surfaces
-  - 4.5Derivatives of a NURBS Surface
+  - 4.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.1/ALGORITHM%20A4.1.md)
+  - 4.2[Definition and Properties of NURBS Curves](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.2/ALGORITHM%20A4.2.md)
+  - 4.3[Derivatives of a NURBS Curve](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.3/ALGORITHM%20A4.3.md)
+  - 4.4[Definition and Properties of NURBS Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A4.4/ALGORITHM%20A4.4.md)
+  - 4.5[Derivatives of a NURBS Surface]()
     - Exercises
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
   - 5.1Introduction
