@@ -5,11 +5,11 @@
 [《The NURBS Book 2nd Edition》](https://link.springer.com/book/10.1007/978-3-642-97385-7)
 ### TOC 
 - ***Chapter ONE:*** Curve &Surface Basics ***曲线 与 曲面基础***
-  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering/blob/main/A1.1/1.1Implicit%20%26Parametric%20Form.md) 
-  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.2/1.2Power%20Basis%20Form%20of%20a%20Curve.md) 
-  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.3/1.3Bezier%20Curves.md) 
-  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.4/1.4Rational%20Bezier%20Curves.md) 
-  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A1.5/1.5Tensor%20Product%20Surfaces.md) 
+  - 1.1[Implicit & Parametric Forms](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.1/ALGORITHM%20A1.1.md) 
+  - 1.2[Power Basis Form of a Curve](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.2/ALGORITHM%20A1.2.md) 
+  - 1.3[Bezier Curves](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.3/ALGORITHM%20A1.3.md) 
+  - 1.4[Rational Bezier Curves](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.4/ALGORITHM%20A1.4.md) 
+  - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.5/ALGORITHM%20A1.5.md) 
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
   - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) 
