@@ -32,12 +32,12 @@
   - 4.5Derivatives of a NURBS Surface
     - Exercises
 - ***Chapter FIVE:*** Fundamental Geometric Algorithms ***基础几何算法***
-  - 5.1Introduction
-  - 5.2Knot Insertion
-  - 5.3Knot Refinement
-  - 5.4Knot Removal
-  - 5.5Degree Elevation
-  - 5.6Degree Reduction
+  - 5.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.1/ALGORITHM%20A5.1.md)
+  - 5.2[Knot Insertion](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.2/ALGORITHM%20A5.2.md)
+  - 5.3[Knot Refinement](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.3/ALGORITHM%20A5.3.md)
+  - 5.4[Knot Removal](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.4/ALGORITHM%20A5.4.md)
+  - 5.5[Degree Elevation](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.5/ALGORITHM%20A5.5.md)
+  - 5.6[Degree Reduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A5.6/ALGORITHM%20A5.6.md)
     - Exercises
 - ***Chapter SIX:*** Advanced Geometric Algorithms ***高级几何算法***
   - 6.1Point Inversion and Projection for Curves and Surfaces
