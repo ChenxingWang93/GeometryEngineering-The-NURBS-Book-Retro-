@@ -12,11 +12,11 @@
   - 1.5[Tensor Product Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A1.5/ALGORITHM%20A1.5.md) 
     - Exercises
 - ***Chapter TWO:*** B-Spline Basis Functions ***B-样条 基础函数***
-  - 2.1[Introduction](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.1/2.1Introduction.md) 
-  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.2/2.2Definition%20and%20Properties%20of%20B-spline%20Basis%20Functions.md) 
-  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.3/2.3Derivatives%20of%20B-spline%20Basis%20Functions.md) 
-  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.4/2.4Further%20Properties%20of%20the%20Basis%20Functions.md) 
-  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/ComputationalGeometry/blob/main/A2.5/2.5Computational%20Algorithms.md) 
+  - 2.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A2.1/ALGORITHM%20A2.1.md) 
+  - 2.2[Definition and Properties of B-spline Basis Functions](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A2.2/ALGORITHM%20A2.2.md) 
+  - 2.3[Derivatives of B-spline Basis Functions](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A2.3/ALGORITHM%20A2.3.md) 
+  - 2.4[Further Properties of the Basis Functions](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A2.4/ALGORITHM%20A2.4.md) 
+  - 2.5[Computational Algorithms](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A2.5/ALGORITHM%20A2.5.md) 
 - ***Chapter THREE:*** B-Spline Curves and Surfaces ***B-样条 曲线与曲面***
   - 3.1[Introduction]()
   - 3.2[The Definition and Properties of B-spline Curves]() 
