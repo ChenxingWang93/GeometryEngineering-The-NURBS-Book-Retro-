@@ -58,8 +58,8 @@
   - 7.8Higher Order Circles
     - Exercises 
 - ***Chapter EIGHT:*** Construction of Common Surfaces ***共面的构造***
-  - 8.1Introduction
-  - 8.2Bilinear Surfaces
+  - 8.1[Introduction](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A8.1/ALGORITHM%20A8.1.md)
+  - 8.2[Bilinear Surfaces](https://github.com/ChenxingWang93/GeometryEngineering-The-NURBS-Book-Retro-/blob/main/A8.2/ALGORITHM%20A8.2.md)
   - 8.3The General Cylinder
   - 8.4The Ruled Surface
   - 8.5The Surface of Revolution
