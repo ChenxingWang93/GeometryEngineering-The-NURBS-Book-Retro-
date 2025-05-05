@@ -139,20 +139,18 @@ void DersBasisFuns(int i, double u, int p, int n, vector<double> U, vector<vecto
 }
 
 int main() {
-
     /* Sample input values */
     int i = 2;
     double u = 3.0;
     int p = 3;
     int n = 2;
     /* Sample knot vector */
-    double U[]={0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 4.0, 4.0, 4.0};
+    vector<double> U={0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 4.0, 4.0, 4.0};
     /* Allocate memory for storing basis functions and derivatives */
     vector<vector<double>> ders(n + 1, vector<double>(p + 1, 0.0));
 
     /* Call the function to compute basis functions and derivatives */
     DersBasisFuns(i, u, p, n, U, ders);
-
     for (int k = 0; k <= n; k++) {
         for (int j = 0; j <= p; j++) {
             cout << "ders[" << k << "][" << j << "] = " << ders[k * (p + 1) + j].data() << endl;
