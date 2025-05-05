@@ -38,7 +38,7 @@ double Horner1(vector<double>& a, int n, double u0, double& C) {
 
 int main() {
     /* Example input data  */
-    vector<double> coefficients = {1.0, 2.0, 3.0, 4.0};    /* Example coefficients of the power basis curve 冪基曲線係數 */
+    std::vector<double> a = {1.0, 2.0, 3.0, 4.0};    /* Example coefficients of the power basis curve 冪基曲線係數 */
     int n = a.size() - 1;    /* Example degree of the curve 曲線的度 */
     double u0 = 2.5;    /* Parameter value 參數值 */
     double C;    /* Output point on the curve 輸出曲線上的點 */
