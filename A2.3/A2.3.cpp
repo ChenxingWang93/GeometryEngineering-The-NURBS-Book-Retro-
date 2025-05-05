@@ -145,9 +145,13 @@ int main() {
     int p = 3;
     int n = 2;
     /* Sample knot vector */
-    vector<double> U={0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 4.0, 4.0, 4.0};
+    //vector<double> U={0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 4.0, 4.0, 4.0};
+
+    double arr[] = {0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 3.0, 4.0, 4.0, 4.0, 4.0};
+    std::vector<double> U(arr, arr + 11); 
+
     /* Allocate memory for storing basis functions and derivatives */
-    vector<vector<double>> ders(n + 1, vector<double>(p + 1, 0.0));
+    vector<vector<double> > ders(n + 1, vector<double>(p + 1, 0.0));
 
     /* Call the function to compute basis functions and derivatives */
     DersBasisFuns(i, u, p, n, U, ders);
