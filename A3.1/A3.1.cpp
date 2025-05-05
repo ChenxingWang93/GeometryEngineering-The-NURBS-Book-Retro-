@@ -53,14 +53,14 @@ using namespace std;
 
 void CurvePoint(int n, int p, double* U, double* P, double u, double& C);
 
-int FindSpan(int n, int p, double u, double* U) {
+int FindSpan(int n, int p, double u, const vector<double>& U) {
     /* Implementation of FindSpan function */
     /* This function is assumed to be implemented separately */
     /* and is used to find the knot span index */
     return 0; /* Placeholder return value */
 }
 
-void BasisFuns(int span, double u, int p, double* U, double* N) {
+void BasisFuns(int span, double u, int p, const vector<double>& U, vector<double>& N) {
     /* Implementation of BasisFuns function */
     /* This function is assumed to be implemented separately */
     /* and is used to compute the basis functions at a given parameter u */

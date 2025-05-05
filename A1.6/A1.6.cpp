@@ -37,7 +37,7 @@ void Horner1(const vector<double>& a, int n, double u, double& C)
 }
 
 /* Horner2 function to compute a point on a power basis surface */
-void Horner2(const vector<vector<double>>& a, int n, int m, double u0, double v0, double& S) {
+void Horner2(const vector<vector<double> >& a, int n, int m, double u0, double v0, double& S) {
     vector <double> b(n + 1, 0.0);
 
     for (int i = 0; i <= n; i++)
@@ -65,7 +65,12 @@ int main() {
     double S;
 
     /* Example 2D vector representing the coefficients of the power basis surface */
-    vector<vector<double>> a = {{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}, {7.0, 8.0, 9.0}};
+    vector<vector<double> > a;
+    a = {
+        {1.0, 2.0, 3.0},
+        {4.0, 5.0, 6.0},
+        {7.0, 8.0, 9.0}
+    };
 
     /* Call the Horner2 function */
     Horner2(a, n, m, u0, v0, S);
